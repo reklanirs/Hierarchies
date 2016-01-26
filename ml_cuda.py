@@ -88,9 +88,11 @@ def readfile(_file):
 
 def dis2(x,y):
 	return dis(x,y)**2
+	pass
 
 def dis(x,y):
 	return np.linalg.norm(x-y)
+	pass
 
 def makeTree():
 	global root
@@ -144,23 +146,13 @@ def makeTree():
 	pass
 
 
-
 def cost(phi,x,y):
-	D = len(x)
-	v = np.zeros(D)
-	for i in xrange(D):
-		tmp = 0.0
-		for j in xrange(D):
-			tmp += x[j]*phi[j][i]
-		v[i] = tmp
-	return dis2(v,y)
+	return dis2(np.dot(x,phi), y)
+	pass
 
 def costAll(phi,X,Y):
-	ret = 0.
-	n = len(X)
-	for i in xrange(n):
-		ret += cost(phi,X[i],Y[i])
-	return ret/n
+	return dis2(np.dot(X,phi), Y)/len(X)
+	pass
 
 
 def calcEulerDisInClusters(x,y):
@@ -171,7 +163,7 @@ def calcEulerDisInClusters(x,y):
 	mink = -1
 	for i in xrange(kcluster):
 		center = cluster_centers_[i]
-		tmpdis = dis2(difference, center)
+		tmpdis = dis(difference, center)
 		if tmpdis < mindis:
 			mindis = tmpdis
 			mink = i
@@ -185,24 +177,24 @@ def calcPhiSGD(X,Y):
 	eps = 1e-3
 	r = 0.1
 	rt = 0.9965
-	loopnum = 300
+	loopnum = 500
 	for step in xrange(loopnum):
-		# if costAll(phi, X, Y) < eps:
-		# 	print 'Less than eps'
-		# 	break
-		if step%50 == 0:
+		if step%10 == 0:
 			print '\tStep %d %f'%(step,costAll(phi, X, Y))
 		
 		tmp = random.choice(xrange(len(X)))
 		x = X[tmp]
 		y = Y[tmp]
+		Edict = {}
+		for v in xrange(D):
+			tmp = 0.0
+			for k in xrange(D):
+				tmp += x[k]*phi[k][v]
+			Edict[v] = tmp
+
 		for u in xrange(D):
 			for v in xrange(D):
-				jt = 0.0
-				for k in xrange(D):
-					jt += x[k]*phi[k][v]
-				jt = 2.0 * x[u] * (jt - y[v])
-				
+				jt = 2.0 * x[u] * (Edict[v] - y[v])
 				phi[u][v] -= r * jt
 		
 		r *= rt
@@ -245,7 +237,6 @@ def ForTest(related, unrelated, thresholdrate = 0.8, train = []):
 		d,clusternum = calcEulerDisInClusters(x,y)
 		umin = min(umin, d)
 		umax = max(umax, d)
-		# print 'u',d
 
 		if d < thresholdrate * finalcosts[clusternum]:
 			unrelatedpos += 1
@@ -271,16 +262,10 @@ def ForTest(related, unrelated, thresholdrate = 0.8, train = []):
 		else:
 			tneg += 1
 
-	# print '\nrelated\nmin:%f\nmax:%f\n'%(rmin,rmax)
-	# print 'unrelated\nmin:%f\nmax:%f\n'%(umin,umax)
-
 	print '\nThresholdrate: %.2f'%(thresholdrate)
 	print 'Precision: %.6f \tRecall: %.6f \tTrain Precision: %.6f'%( relatedpos*1.0/(relatedpos + unrelatedpos + 1), relatedpos*1.0/(relatedpos + relatedneg + 1), tpos*1.0/(tpos+tneg+1) )
 	pass
 
-
-def __init():
-	pass
 
 
 def __main__():
@@ -375,7 +360,7 @@ def __main__():
 	print 'Test Data Kanliou'
 
 	
-	sys.stdout = open('out.txt','w')
+	# sys.stdout = open('out.txt','w')
 
 		
 	tmpthresholdrate = 0.8
