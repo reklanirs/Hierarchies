@@ -21,7 +21,6 @@ import numpy as np
 from numbapro import vectorize
 from numbapro import cuda
 reload(sys)
-# sys.stdout = open('out.txt','w')
 
 all_word = {}
 childnum = {}
@@ -40,13 +39,23 @@ finalcosts = []
 
 wrongdict = {}
 rightdict = {}
-truepos = {}
-trueneg = {}
-falsepos = {}
-falseneg = {}
+rpos = {}
+uneg = {}
+upos = {}
+rneg = {}
+sumnum = {}
 
 sysstdout = sys.stdout
+fout = open('out.txt','w')
+def writeln(s):
+	print s
+	fout.write(str(s) + '\n')
+	fout.flush()
 
+def write(s):
+	print s,
+	fout.write(str(s) + ' ')
+	fout.flush()
 
 class node(object):
 	"""docstring for node"""
@@ -71,10 +80,10 @@ class node(object):
 
 		if flag:
 			for i in range(t):
-				print '\t',
+				write('\t')
 			for i in self.value:
-				print i.encode('utf-8'),
-			print ''
+				write(i.encode('utf-8'))
+			writeln('')
 		
 		for i,j in self.child.items():
 			j.traverse(t + 1, flag)
@@ -98,7 +107,7 @@ def makeTree():
 	global root
 	#l12
 	for i in readfile('CilinE/l12.txt'):
-		# print i.encode('utf-8')
+		# writeln(i.encode('utf-8')
 		tmp = i.split()
 		key = tmp[0]
 		value = tmp[1:]
@@ -112,7 +121,7 @@ def makeTree():
 			root.child[key[0]].child[key[1]] = tmp
 			pass
 		else:
-			print 'Error ',i
+			writeln('Error '+i)
 			pass
 
 
@@ -142,7 +151,7 @@ def makeTree():
 		tmp = node(value, 0, 5)
 		root.child[key[0]].child[key[1]].child[key[2:4]].child[l4].child[l5] = tmp
 
-	print 'MakeTree End'
+	writeln('MakeTree End')
 	pass
 
 
@@ -176,11 +185,11 @@ def calcPhiSGD(X,Y):
 	phi = np.random.sample((D,D))
 	eps = 1e-3
 	r = 0.1
-	rt = 0.9965
+	rt = 0.994
 	loopnum = 500
 	for step in xrange(loopnum):
 		if step%10 == 0:
-			print '\tStep %d %f'%(step,costAll(phi, X, Y))
+			writeln('\tStep %d %f'%(step,costAll(phi, X, Y)))
 		
 		tmp = random.choice(xrange(len(X)))
 		x = X[tmp]
@@ -200,7 +209,7 @@ def calcPhiSGD(X,Y):
 		r *= rt
 		pass
 	cost = costAll(phi, X, Y)
-	print '\tStep %d %f'%(loopnum,cost)
+	writeln('\tStep %d %f'%(loopnum,cost))
 	return phi,cost
 
 
@@ -208,28 +217,46 @@ def calcPhiSGD(X,Y):
 
 
 
-def ForTest(related, unrelated, thresholdrate = 0.8, train = []):
+def ForTest(related, unrelated, thresholdrate = 0.8, train = [], output = False):
 	relatedpos = 0
 	relatedneg = 0
 	unrelatedpos = 0
 	unrelatedneg = 0
 
+	rpl = []
+	rnl = []
+	upl = []
+	unl = []
+
 	rmin = 1e8
 	rmax = 0
+	for i in xrange(kcluster):
+		wrongdict[i] = 0
+		rightdict[i] = 0
+		rpos[i] = 0
+		uneg[i] = 0
+		upos[i] = 0
+		rneg[i] = 0
+		rpl.append([])
+		rnl.append([])
+		upl.append([])
+		unl.append([])
+
 	for x,y in related:
 		d,clusternum = calcEulerDisInClusters(x,y)
 		rmin = min(rmin, d)
 		rmax = max(rmax, d)
-		# print 'r',d
 
 		if d < thresholdrate * finalcosts[clusternum]:
 			relatedpos += 1
 			rightdict[clusternum] += 1
-			truepos[clusternum]+=1
+			rpos[clusternum]+=1
+			rpl[clusternum].append((x,y))
 		else:
 			relatedneg += 1
 			wrongdict[clusternum] += 1
-			falseneg[clusternum] += 1
+			rneg[clusternum] += 1
+			rnl[clusternum].append((x,y))
 
 	umin = 1e8
 	umax = 0
@@ -241,11 +268,13 @@ def ForTest(related, unrelated, thresholdrate = 0.8, train = []):
 		if d < thresholdrate * finalcosts[clusternum]:
 			unrelatedpos += 1
 			wrongdict[clusternum] += 1
-			falsepos[clusternum] += 1
+			upos[clusternum] += 1
+			upl[clusternum].append((x,y))
 		else:
 			unrelatedneg += 1
 			rightdict[clusternum] += 1
-			trueneg[clusternum] += 1
+			uneg[clusternum] += 1
+			unl[clusternum].append((x,y))
 
 	tmin = 1e8
 	tmax = 0
@@ -255,25 +284,59 @@ def ForTest(related, unrelated, thresholdrate = 0.8, train = []):
 		d,clusternum = calcEulerDisInClusters(x,y)
 		tmin = min(tmin, d)
 		tmax = max(tmax, d)
-		# print 'u',d
 
 		if d < thresholdrate * finalcosts[clusternum]:
 			tpos += 1
 		else:
 			tneg += 1
 
-	print '\nThresholdrate: %.2f'%(thresholdrate)
-	print 'Precision: %.6f \tRecall: %.6f \tTrain Precision: %.6f'%( relatedpos*1.0/(relatedpos + unrelatedpos + 1), relatedpos*1.0/(relatedpos + relatedneg + 1), tpos*1.0/(tpos+tneg+1) )
+
+	if output:
+		for i in xrange(kcluster):
+			writeln('Cluster %d'%(i))
+			writeln('\trelatedpos %d'%(len(rpl[i])))
+			for x,y in rpl[i]:
+				writeln('\t\trpos %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+
+			writeln('\n\trelatedneg %d'%len(rnl[i]))
+			for x,y in rnl[i]:
+				writeln('\t\trneg %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+			writeln('\n\tunrelatedpos %d'%len(upl[i]))
+			for x,y in upl[i]:
+				writeln('\t\tupos %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+			writeln('\n\tunrelatedneg %d'%len(unl[i]))
+			for x,y in unl[i]:
+				writeln('\t\tuneg %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+			writeln('\n')
+
+	writeln('\nThresholdrate: %.2f'%(thresholdrate))
+	writeln('Precision: %.6f \tRecall: %.6f \tTrain Precision: %.6f'%( relatedpos*1.0/(relatedpos + unrelatedpos + 1), relatedpos*1.0/(relatedpos + relatedneg + 1), tpos*1.0/(tpos+tneg+1) ))
+
 	pass
 
+
+def printclusterdetail():
+	writeln('cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall')
+	for i in xrange(kcluster):
+		writeln('Cluster%2d:%4d %4d %4d  %4d %4d %4d %4d  %9.4f %8.4f %6.4f'%(
+			i,(rpos[i]+rneg[i]+upos[i]+uneg[i]),(rpos[i]+rneg[i]),(upos[i]+uneg[i]),
+			rpos[i],rneg[i],upos[i],uneg[i],
+			rpos[i]*1.0/(rpos[i] + upos[i] + 1),
+			(rpos[i] + uneg[i])*1.0/(rpos[i] + rneg[i] + upos[i] + uneg[i] + 1),
+			rpos[i]*1.0/(rpos[i] + rneg[i] + 1)
+			)
+		)
+	writeln('Detail test end')
 
 
 def __main__():
 	makeTree()
 	root.traverse()
+	global alltriple
 	for t in triple:
-		if len(t[2]) > kcluster or len(t[0])>1 or len(t[1])>1:
+		if len(t[2]) > kcluster*2 or len(t[0])>1 or len(t[1])>1:
 			continue
+			pass
 		for i in t[0]:
 			if i.encode('utf-8') not in model:
 				continue
@@ -285,7 +348,11 @@ def __main__():
 						continue
 					if i!=j and j!=k and i!=k:
 						alltriple.append((i,j,k))
-						# print i.encode('utf-8'),j.encode('utf-8'),k.encode('utf-8')
+						# writeln(i.encode('utf-8'),j.encode('utf-8'),k.encode('utf-8')
+
+	writeln('All triple num: %d'%(len(alltriple)))
+	if len(alltriple)>3000:
+		alltriple = random.sample(alltriple, 3000)
 
 	# sample = random.sample(alltriple, 1391)
 	# train = sample[:len(sample)/4]
@@ -295,31 +362,32 @@ def __main__():
 	sample = alltriple
 	test = sample[:len(sample)/3]
 	train = sample[len(sample)/3:]
-
+	writeln('Train data num: %d\n Test data num: %d'%(len(train),len(test)))
 
 
 	global kms
 	global labels_
 	global cluster_centers_
-	print 'kmeans, k = %d'%(kcluster)
+	writeln('kmeans, k = %d'%(kcluster))
 	labels_ = kms.fit_predict([ model[x[1].encode('utf-8')]-model[x[2].encode('utf-8')] for x in train])
 	cluster_centers_ = kms.cluster_centers_
-	print labels_
-	# print cluster_centers_
+	writeln(labels_)
+	# writeln(cluster_centers_)
 	tmpdict = {}
 	for i in xrange(kcluster):
 		tmpdict[i] = 0
 		wrongdict[i] = 0
 		rightdict[i] = 0
-		truepos[i] = 0
-		trueneg[i] = 0
-		falsepos[i] = 0
-		falseneg[i] = 0
+		rpos[i] = 0
+		uneg[i] = 0
+		upos[i] = 0
+		rneg[i] = 0
+		sumnum[i] = 0
 	for i in labels_:
 		tmpdict[i] += 1
-	print '\nTraining Data:\ncluster\tnum'
+	writeln('\nTraining Data:\ncluster\tnum')
 	for i,j in tmpdict.items():
-		print '%d\t%d'%(i,j)
+		writeln('%d\t%d'%(i,j))
 
 	group = []
 	for i in xrange(kcluster):
@@ -330,14 +398,14 @@ def __main__():
 		group[labels_[i]][1].append( model[train[i][1].encode('utf-8')] )
 
 	for i in xrange(kcluster):
-		print 'Cluster %d'%(i+1)
+		writeln('Cluster %d'%(i))
 		phi,cost = calcPhiSGD(group[i][0], group[i][1])
 		phis.append( phi )
 		finalcosts.append( cost )
 
 
 
-	print 'Test Data prepair'
+	writeln('Test Data prepair')
 	related = [(x[2],x[1]) for x in test]
 	unrelated = []
 	while len(unrelated) < 3250:
@@ -357,29 +425,27 @@ def __main__():
 			ty = random.choice(y[1])
 			if tx.encode('utf-8') in model and ty.encode('utf-8') in model:
 				unrelated.append((tx,ty))
-	print 'Test Data Kanliou'
+	writeln('Test Data Kanliou')
 
-	
-	# sys.stdout = open('out.txt','w')
 
-		
-	tmpthresholdrate = 0.8
-	ForTest(related, unrelated, tmpthresholdrate, [(x[2],x[1]) for x in train])
-	# sys.stdout = sysstdout
-	print '\n\nDict Detail:'
-	print 'cluster\ttruepos\ttrueneg\tfalsepos\tfalseneg\tprecision\tcallback'
-	for i in xrange(kcluster):
-		# print 'Cluster%2d: %d\t%d\t%f\n\n'%(i,rightdict[i],wrongdict[i],(rightdict[i]*1.0/(rightdict[i]+wrongdict[i])) )
-		print 'Cluster%2d: %d\t%d\t%d\t%d\t%f\t%f\n\n'%(i,truepos[i],trueneg[i],falsepos[i],falseneg[i],truepos[i]*1.0/(truepos[i]+falsepos[i]+1), truepos[i]*1.0/(truepos[i] + falseneg[i] + 1) )
 
-	tmpthresholdrate= 0.85
-	while tmpthresholdrate< 10:
+	writeln('Detail test start')
+	tmpthresholdrate = 1.2
+	ForTest(related, unrelated, tmpthresholdrate, [(x[2],x[1]) for x in train], True)
+	writeln('\n\nDict Detail:')
+	printclusterdetail()
+
+	writeln('\n\nGenetal test start')
+	tmpthresholdrate= 0.1
+	while tmpthresholdrate< 3:
 		ForTest(related, unrelated, tmpthresholdrate, [(x[2],x[1]) for x in train])
-		tmpthresholdrate+= 0.05
+		printclusterdetail()
+		tmpthresholdrate += 0.1
 
-	while tmpthresholdrate< 50:
+	while tmpthresholdrate< 20:
 		ForTest(related, unrelated, tmpthresholdrate, [(x[2],x[1]) for x in train])
-		tmpthresholdrate+= 0.5
+		printclusterdetail()
+		tmpthresholdrate+= 1
 	pass
 
 __main__()

@@ -1,0 +1,6185 @@
+MakeTree End
+All triple num: 3664
+Train data num: 2000
+ Test data num: 1000
+kmeans, k = 10
+[5 1 2 ..., 5 0 2]
+
+Training Data:
+cluster	num
+0	67
+1	243
+2	169
+3	177
+4	130
+5	940
+6	50
+7	67
+8	69
+9	88
+Cluster 0
+	Step 0 135.530001
+	Step 10 90.665591
+	Step 20 72.782893
+	Step 30 66.390333
+	Step 40 45.988495
+	Step 50 42.274411
+	Step 60 33.893889
+	Step 70 32.619618
+	Step 80 33.423683
+	Step 90 30.501015
+	Step 100 29.848925
+	Step 110 32.458948
+	Step 120 26.188467
+	Step 130 27.087574
+	Step 140 24.698067
+	Step 150 22.966854
+	Step 160 21.379129
+	Step 170 19.533528
+	Step 180 19.237578
+	Step 190 19.456928
+	Step 200 15.514476
+	Step 210 14.241900
+	Step 220 14.567318
+	Step 230 14.965264
+	Step 240 14.591641
+	Step 250 12.625124
+	Step 260 12.700059
+	Step 270 14.504052
+	Step 280 14.034105
+	Step 290 12.854684
+	Step 300 11.677813
+	Step 310 11.534952
+	Step 320 11.350426
+	Step 330 11.307709
+	Step 340 11.188333
+	Step 350 10.852179
+	Step 360 10.690718
+	Step 370 10.566919
+	Step 380 10.388247
+	Step 390 10.202156
+	Step 400 10.218575
+	Step 410 10.145655
+	Step 420 10.078620
+	Step 430 10.144521
+	Step 440 10.179765
+	Step 450 9.987534
+	Step 460 9.914978
+	Step 470 9.831904
+	Step 480 9.781720
+	Step 490 9.769278
+	Step 500 9.782489
+Cluster 1
+	Step 0 104.054738
+	Step 10 87.103141
+	Step 20 75.167028
+	Step 30 75.418442
+	Step 40 63.368188
+	Step 50 76.884635
+	Step 60 65.644547
+	Step 70 57.449608
+	Step 80 49.243037
+	Step 90 43.235633
+	Step 100 40.750431
+	Step 110 38.947899
+	Step 120 35.911030
+	Step 130 52.909486
+	Step 140 48.889424
+	Step 150 43.278306
+	Step 160 38.037808
+	Step 170 35.787612
+	Step 180 36.752954
+	Step 190 32.055679
+	Step 200 31.329583
+	Step 210 30.822033
+	Step 220 31.421461
+	Step 230 29.705114
+	Step 240 27.873864
+	Step 250 26.685599
+	Step 260 26.106341
+	Step 270 21.968913
+	Step 280 21.351245
+	Step 290 20.984772
+	Step 300 20.863661
+	Step 310 19.669282
+	Step 320 19.403659
+	Step 330 19.034603
+	Step 340 18.916406
+	Step 350 18.576428
+	Step 360 18.501482
+	Step 370 18.774392
+	Step 380 18.484660
+	Step 390 18.164980
+	Step 400 18.058630
+	Step 410 17.903984
+	Step 420 17.789686
+	Step 430 17.654870
+	Step 440 17.619672
+	Step 450 17.494450
+	Step 460 17.298970
+	Step 470 17.267972
+	Step 480 17.075182
+	Step 490 17.029669
+	Step 500 16.993001
+Cluster 2
+	Step 0 203.537514
+	Step 10 166.835872
+	Step 20 161.689874
+	Step 30 171.192462
+	Step 40 176.697831
+	Step 50 151.921516
+	Step 60 144.261703
+	Step 70 180.285828
+	Step 80 147.601490
+	Step 90 112.184643
+	Step 100 97.880751
+	Step 110 97.371800
+	Step 120 79.384986
+	Step 130 149.282035
+	Step 140 85.939709
+	Step 150 115.127652
+	Step 160 44.690430
+	Step 170 35.983892
+	Step 180 32.155228
+	Step 190 41.324981
+	Step 200 32.298261
+	Step 210 28.223705
+	Step 220 26.576174
+	Step 230 27.869378
+	Step 240 25.190528
+	Step 250 24.047978
+	Step 260 22.875882
+	Step 270 20.902558
+	Step 280 19.908551
+	Step 290 19.730026
+	Step 300 19.374696
+	Step 310 19.115546
+	Step 320 18.400231
+	Step 330 18.231458
+	Step 340 18.018877
+	Step 350 17.863614
+	Step 360 18.171209
+	Step 370 17.628927
+	Step 380 17.178808
+	Step 390 17.056629
+	Step 400 16.697759
+	Step 410 16.517194
+	Step 420 16.473921
+	Step 430 16.374899
+	Step 440 16.161731
+	Step 450 16.181479
+	Step 460 16.125295
+	Step 470 15.973426
+	Step 480 15.886434
+	Step 490 15.884769
+	Step 500 15.658877
+Cluster 3
+	Step 0 137.341533
+	Step 10 133.309974
+	Step 20 67.138704
+	Step 30 57.576524
+	Step 40 46.575251
+	Step 50 81.473395
+	Step 60 36.328192
+	Step 70 67.137408
+	Step 80 76.705827
+	Step 90 36.308530
+	Step 100 33.178218
+	Step 110 25.722907
+	Step 120 26.569227
+	Step 130 30.089198
+	Step 140 23.513631
+	Step 150 26.561034
+	Step 160 22.199686
+	Step 170 20.063910
+	Step 180 20.546388
+	Step 190 19.552155
+	Step 200 19.410234
+	Step 210 20.206282
+	Step 220 21.775597
+	Step 230 20.500468
+	Step 240 18.082943
+	Step 250 17.579715
+	Step 260 17.548858
+	Step 270 17.594799
+	Step 280 17.114327
+	Step 290 16.728849
+	Step 300 19.257606
+	Step 310 16.359789
+	Step 320 17.823170
+	Step 330 15.911636
+	Step 340 16.100855
+	Step 350 17.435980
+	Step 360 15.340207
+	Step 370 14.982969
+	Step 380 15.070562
+	Step 390 15.193497
+	Step 400 15.317211
+	Step 410 14.904094
+	Step 420 15.364293
+	Step 430 14.559102
+	Step 440 14.296218
+	Step 450 14.297002
+	Step 460 14.610755
+	Step 470 14.232697
+	Step 480 13.935286
+	Step 490 14.170381
+	Step 500 13.916012
+Cluster 4
+	Step 0 80.900700
+	Step 10 86.296905
+	Step 20 42.879776
+	Step 30 48.560066
+	Step 40 45.454080
+	Step 50 35.326749
+	Step 60 31.105156
+	Step 70 33.892635
+	Step 80 27.841593
+	Step 90 27.182507
+	Step 100 25.843085
+	Step 110 25.328628
+	Step 120 24.181642
+	Step 130 22.636600
+	Step 140 21.882571
+	Step 150 21.626259
+	Step 160 22.167878
+	Step 170 21.168762
+	Step 180 20.703636
+	Step 190 20.508974
+	Step 200 20.298795
+	Step 210 19.915285
+	Step 220 18.398240
+	Step 230 18.047949
+	Step 240 16.841900
+	Step 250 16.367938
+	Step 260 16.130412
+	Step 270 15.471145
+	Step 280 15.029225
+	Step 290 15.012721
+	Step 300 14.651174
+	Step 310 14.664422
+	Step 320 13.808369
+	Step 330 13.800368
+	Step 340 13.443237
+	Step 350 13.454826
+	Step 360 13.456441
+	Step 370 13.399089
+	Step 380 13.232305
+	Step 390 13.138457
+	Step 400 13.122709
+	Step 410 13.000861
+	Step 420 12.962798
+	Step 430 12.972093
+	Step 440 12.745825
+	Step 450 12.590917
+	Step 460 12.500792
+	Step 470 12.478183
+	Step 480 12.446475
+	Step 490 12.413162
+	Step 500 12.361325
+Cluster 5
+	Step 0 143.147825
+	Step 10 123.864639
+	Step 20 169.922118
+	Step 30 151.859929
+	Step 40 104.770591
+	Step 50 128.407269
+	Step 60 102.943845
+	Step 70 94.009032
+	Step 80 85.835271
+	Step 90 71.993256
+	Step 100 68.223422
+	Step 110 67.261193
+	Step 120 51.390561
+	Step 130 51.101852
+	Step 140 50.392717
+	Step 150 43.378515
+	Step 160 42.436940
+	Step 170 41.463729
+	Step 180 41.529320
+	Step 190 40.902209
+	Step 200 40.343006
+	Step 210 41.144653
+	Step 220 41.070803
+	Step 230 39.103187
+	Step 240 38.092341
+	Step 250 36.643598
+	Step 260 35.176638
+	Step 270 32.576554
+	Step 280 29.776314
+	Step 290 29.268641
+	Step 300 29.003015
+	Step 310 28.717310
+	Step 320 28.449450
+	Step 330 28.149728
+	Step 340 28.100828
+	Step 350 27.390705
+	Step 360 27.087186
+	Step 370 26.889855
+	Step 380 26.501532
+	Step 390 26.411897
+	Step 400 26.126456
+	Step 410 25.596959
+	Step 420 25.155677
+	Step 430 24.895828
+	Step 440 24.696661
+	Step 450 24.566469
+	Step 460 24.477067
+	Step 470 24.373796
+	Step 480 24.400232
+	Step 490 24.374438
+	Step 500 24.085699
+Cluster 6
+	Step 0 100.045736
+	Step 10 141.033124
+	Step 20 64.148104
+	Step 30 48.339737
+	Step 40 49.560078
+	Step 50 37.104758
+	Step 60 41.183061
+	Step 70 24.581202
+	Step 80 27.634795
+	Step 90 20.808618
+	Step 100 18.208244
+	Step 110 15.736073
+	Step 120 15.755678
+	Step 130 16.322779
+	Step 140 12.109842
+	Step 150 12.102638
+	Step 160 10.908671
+	Step 170 12.158368
+	Step 180 15.105031
+	Step 190 10.278709
+	Step 200 10.555340
+	Step 210 9.406316
+	Step 220 8.910721
+	Step 230 8.607909
+	Step 240 8.601298
+	Step 250 8.330487
+	Step 260 8.139016
+	Step 270 7.976387
+	Step 280 7.471129
+	Step 290 7.513127
+	Step 300 7.371012
+	Step 310 7.390085
+	Step 320 7.612947
+	Step 330 7.481538
+	Step 340 7.837495
+	Step 350 6.902679
+	Step 360 6.770967
+	Step 370 6.775937
+	Step 380 6.705887
+	Step 390 6.721258
+	Step 400 6.665693
+	Step 410 6.663230
+	Step 420 6.540998
+	Step 430 6.592511
+	Step 440 6.527212
+	Step 450 6.441209
+	Step 460 6.464997
+	Step 470 6.425865
+	Step 480 6.419217
+	Step 490 6.480375
+	Step 500 6.606860
+Cluster 7
+	Step 0 107.336228
+	Step 10 100.996154
+	Step 20 71.740646
+	Step 30 71.342141
+	Step 40 62.372512
+	Step 50 81.854852
+	Step 60 58.927829
+	Step 70 50.824021
+	Step 80 41.451427
+	Step 90 38.624938
+	Step 100 38.303788
+	Step 110 36.877502
+	Step 120 36.606574
+	Step 130 31.091035
+	Step 140 22.776433
+	Step 150 24.116593
+	Step 160 26.244886
+	Step 170 19.478682
+	Step 180 15.910326
+	Step 190 15.584120
+	Step 200 15.286600
+	Step 210 14.190958
+	Step 220 13.906161
+	Step 230 13.735701
+	Step 240 13.649274
+	Step 250 12.834595
+	Step 260 12.894759
+	Step 270 12.763417
+	Step 280 12.273306
+	Step 290 11.890526
+	Step 300 11.879206
+	Step 310 11.728957
+	Step 320 11.467522
+	Step 330 11.698186
+	Step 340 11.099547
+	Step 350 10.751939
+	Step 360 10.704549
+	Step 370 10.552516
+	Step 380 10.432578
+	Step 390 10.406652
+	Step 400 10.294992
+	Step 410 10.155334
+	Step 420 10.090354
+	Step 430 10.050599
+	Step 440 10.001630
+	Step 450 9.943411
+	Step 460 9.930140
+	Step 470 9.893081
+	Step 480 9.858683
+	Step 490 9.819472
+	Step 500 9.835113
+Cluster 8
+	Step 0 75.134984
+	Step 10 52.059085
+	Step 20 49.724429
+	Step 30 48.558543
+	Step 40 46.474732
+	Step 50 42.771953
+	Step 60 38.533634
+	Step 70 34.117780
+	Step 80 33.397613
+	Step 90 27.566970
+	Step 100 24.879672
+	Step 110 21.647637
+	Step 120 17.527931
+	Step 130 16.426049
+	Step 140 17.337862
+	Step 150 16.491458
+	Step 160 16.169264
+	Step 170 14.731389
+	Step 180 14.304588
+	Step 190 14.083869
+	Step 200 13.942871
+	Step 210 13.900778
+	Step 220 13.907347
+	Step 230 13.622577
+	Step 240 13.677517
+	Step 250 13.380586
+	Step 260 13.116458
+	Step 270 13.047572
+	Step 280 12.449811
+	Step 290 12.041192
+	Step 300 11.702746
+	Step 310 11.698093
+	Step 320 11.655549
+	Step 330 11.126335
+	Step 340 11.103496
+	Step 350 11.009709
+	Step 360 10.707713
+	Step 370 10.521844
+	Step 380 10.281273
+	Step 390 10.166202
+	Step 400 10.118513
+	Step 410 10.081370
+	Step 420 10.043339
+	Step 430 10.020937
+	Step 440 9.902376
+	Step 450 9.893193
+	Step 460 9.869252
+	Step 470 9.781989
+	Step 480 9.753025
+	Step 490 9.732920
+	Step 500 9.714863
+Cluster 9
+	Step 0 139.236869
+	Step 10 80.640706
+	Step 20 457.895205
+	Step 30 445.015427
+	Step 40 300.342816
+	Step 50 309.567972
+	Step 60 303.010004
+	Step 70 188.389027
+	Step 80 192.900528
+	Step 90 1117.028901
+	Step 100 1052.160052
+	Step 110 977.502488
+	Step 120 919.983926
+	Step 130 703.037995
+	Step 140 712.779289
+	Step 150 606.799074
+	Step 160 402.759323
+	Step 170 371.421905
+	Step 180 327.211274
+	Step 190 313.972461
+	Step 200 316.478415
+	Step 210 289.028932
+	Step 220 287.917590
+	Step 230 284.105296
+	Step 240 269.037771
+	Step 250 269.491988
+	Step 260 233.838857
+	Step 270 228.868705
+	Step 280 222.804410
+	Step 290 207.518178
+	Step 300 198.475546
+	Step 310 44.080547
+	Step 320 35.057478
+	Step 330 31.839730
+	Step 340 30.177664
+	Step 350 28.130645
+	Step 360 28.312091
+	Step 370 24.491868
+	Step 380 23.026349
+	Step 390 22.529757
+	Step 400 21.636928
+	Step 410 20.874522
+	Step 420 20.800354
+	Step 430 20.269077
+	Step 440 20.457893
+	Step 450 19.944906
+	Step 460 19.961740
+	Step 470 19.150355
+	Step 480 18.609988
+	Step 490 18.362062
+	Step 500 17.812038
+Test Data prepair
+Test Data Kanliou
+Detail test start
+Cluster 0
+	relatedpos 13
+		rpos 经济作物 稂
+		rpos 经济作物 葵
+		rpos 经济作物 八角茴香
+		rpos 经济作物 技术作物
+		rpos 经济作物 白苏
+		rpos 经济作物 骆驼刺
+		rpos 经济作物 荏
+		rpos 经济作物 苴麻
+		rpos 经济作物 狼尾草
+		rpos 经济作物 红花草
+		rpos 经济作物 朝阳花
+		rpos 经济作物 紫云英
+		rpos 经济作物 子棉
+
+	relatedneg 22
+		rneg 经济作物 茜
+		rneg 经济作物 水花生
+		rneg 经济作物 棉
+		rneg 经济作物 苘
+		rneg 经济作物 葭
+		rneg 经济作物 葵花
+		rneg 经济作物 长生果
+		rneg 经济作物 蓑衣草
+		rneg 经济作物 桉树
+		rneg 经济作物 絮棉
+		rneg 经济作物 芦苇
+		rneg 经济作物 桉
+		rneg 经济作物 毛茶
+		rneg 经济作物 茶
+		rneg 经济作物 苎麻
+		rneg 经济作物 龙须草
+		rneg 经济作物 木棉
+		rneg 经济作物 油桐
+		rneg 经济作物 海枣
+		rneg 经济作物 茶树
+		rneg 经济作物 皮花
+		rneg 经济作物 白色棉
+
+	unrelatedpos 0
+
+	unrelatedneg 5
+		uneg 青稞 外星人
+		uneg 农作物 透风
+		uneg 粮食作物 学艺
+		uneg 主产 平衡
+		uneg 大豆 盘面
+
+
+Cluster 1
+	relatedpos 77
+		rpos 电影院 天文馆
+		rpos 商店 摊位
+		rpos 电影院 歌舞团
+		rpos 商店 布店
+		rpos 商店 储蓄所
+		rpos 电影院 美联社
+		rpos 商店 旅舍
+		rpos 房间 厕所间
+		rpos 商店 汤池
+		rpos 商店 摊档
+		rpos 电影院 绿茵场
+		rpos 文具 笔墨纸砚
+		rpos 商店 收购站
+		rpos 商店 夫妻店
+		rpos 电影院 路透社
+		rpos 房间 外间
+		rpos 房间 藏书楼
+		rpos 商店 大中企业
+		rpos 电影院 气象台
+		rpos 房间 大礼堂
+		rpos 电影院 该社
+		rpos 商店 乡企
+		rpos 电影院 少年宫
+		rpos 商店 国宾馆
+		rpos 商店 油公司
+		rpos 商店 泰航
+		rpos 商店 中药店
+		rpos 商店 茶室
+		rpos 房间 书斋
+		rpos 房间 会客室
+		rpos 商店 摄影部
+		rpos 顾客 购车者
+		rpos 商店 代理行
+		rpos 商店 小摊
+		rpos 电影院 博物院
+		rpos 电影院 联合社
+		rpos 电影院 京剧院
+		rpos 商店 饭铺
+		rpos 房间 洞房
+		rpos 商店 理发店
+		rpos 房间 医务科
+		rpos 房间 纪念堂
+		rpos 房间 地窨子
+		rpos 商店 钱庄
+		rpos 电影院 班
+		rpos 电影院 影视城
+		rpos 商店 理发馆
+		rpos 商店 农行
+		rpos 电影院 冰球场
+		rpos 商店 国企
+		rpos 房间 绣房
+		rpos 房间 更衣室
+		rpos 商店 货柜
+		rpos 玩具 蜡人
+		rpos 电影院 塔斯社
+		rpos 房间 太平间
+		rpos 房间 展室
+		rpos 商店 餐饮店
+		rpos 电影院 剧团
+		rpos 商店 小吃摊
+		rpos 电影院 歌剧舞剧院
+		rpos 商店 合资企业
+		rpos 电影院 报馆
+		rpos 电影院 创业园
+		rpos 商店 中介
+		rpos 商店 门市部
+		rpos 商店 摊
+		rpos 电影院 舞场
+		rpos 电影院 团部
+		rpos 房间 电影厅
+		rpos 房间 内室
+		rpos 商店 银行
+		rpos 商店 米行
+		rpos 商店 大中小企业
+		rpos 电影院 文学馆
+		rpos 商店 种子公司
+		rpos 房间 亭子间
+
+	relatedneg 35
+		rneg 炉子 高炉
+		rneg 顾客 消费群
+		rneg 商店 实业
+		rneg 商店 美发店
+		rneg 电影院 图书馆
+		rneg 房间 厅
+		rneg 房间 房室
+		rneg 房间 大会堂
+		rneg 电影院 文化宫
+		rneg 商店 子公司
+		rneg 房间 药剂科
+		rneg 房间 机房
+		rneg 商店 当
+		rneg 商店 实体
+		rneg 房间 饭厅
+		rneg 商店 有限公司
+		rneg 商店 分店
+		rneg 电影院 农学院
+		rneg 房间 厕
+		rneg 水果 柑桔
+		rneg 电影院 新闻社
+		rneg 房间 佛堂
+		rneg 商店 药房
+		rneg 商店 酒家
+		rneg 商店 驿
+		rneg 商店 客栈
+		rneg 玩具 风筝
+		rneg 商店 分行
+		rneg 电影院 科学院
+		rneg 房间 间
+		rneg 商店 商城
+		rneg 文具 文房四宝
+		rneg 电影院 通讯社
+		rneg 房间 灶
+		rneg 房间 前堂
+
+	unrelatedpos 27
+		upos 栏杆 擦边球
+		upos 装潢 访友
+		upos 折扣 玄狐
+		upos 录音室 酒缸
+		upos 场景 负效应
+		upos 栏杆 刎
+		upos 盒饭 以攻为守
+		upos 屋内 得
+		upos 兴致勃勃 白鳍豚
+		upos 装潢 初见端倪
+		upos 躺 高鼻子
+		upos 架起 揭竿而起
+		upos 咖啡店 上半夜
+		upos 甬道 恻隐之心
+		upos 翻领 鳞爪
+		upos 奥运村 手舞足蹈
+		upos 关门 误人子弟
+		upos 走廊 投机商
+		upos 玻璃杯 第三声
+		upos 屋内 年金
+		upos 玩意儿 品格
+		upos 景点 堂姐妹
+		upos 郊外 负心人
+		upos 查到 人道
+		upos 柜 酒足饭饱
+		upos 拖鞋 抱窝
+		upos 树梢 清官
+
+	unrelatedneg 82
+		uneg 节日 归于
+		uneg 木制 良善
+		uneg 后台 仁慈
+		uneg 长裤 拘留
+		uneg 沿江 公正
+		uneg 起火 智能
+		uneg 嶙峋 选拔
+		uneg 隔断 镐
+		uneg 赌场 雷达
+		uneg 环行 流域
+		uneg 仓库 剧
+		uneg 随身 削弱
+		uneg 插口 受让人
+		uneg 菜单 西洋
+		uneg 展厅 旧交
+		uneg 修道院 兔唇
+		uneg 风情万种 政治委员
+		uneg 彩印 事典
+		uneg 插画 反作用
+		uneg 花束 文学
+		uneg 一年四季 海军
+		uneg 烟斗 直率
+		uneg 深秋 原始积累
+		uneg 玩具 现汇
+		uneg 呼朋唤友 刑事诉讼法
+		uneg 别墅 末伏
+		uneg 后院 白斑
+		uneg 栅栏 甲状软骨
+		uneg 鞭炮 强占
+		uneg 斗拱 忤
+		uneg 汇演 片面
+		uneg 需 变法
+		uneg 床位 强身
+		uneg 邮局 交际
+		uneg 兄妹 阴阳家
+		uneg 扮装 男女平等
+		uneg 计费 万物
+		uneg 手里 周岁
+		uneg 仿古 飞蝗
+		uneg 盘子 尾巴
+		uneg 凉 医学界
+		uneg 车水马龙 行刺
+		uneg 商店 国有
+		uneg 丁丁 巳
+		uneg 场馆 洞房
+		uneg 房间 裂口
+		uneg 后门 师承
+		uneg 唧筒 三民主义
+		uneg 旅客 估量
+		uneg 墩 劳动者
+		uneg 车次 战争史
+		uneg 搬进 南下
+		uneg 灯 瘰疬
+		uneg 人流 马虎
+		uneg 清晰 共同纲领
+		uneg 一路上 科学界
+		uneg 完工 留党察看
+		uneg 坐下 冤
+		uneg 目镜 罢免
+		uneg 千万 称帝
+		uneg 中午 猎手
+		uneg 起床 世界银行
+		uneg 南侧 滞洪
+		uneg 进攻方 苏绣
+		uneg 酒宴 监护人
+		uneg 首映式 行政处分
+		uneg 并排 就业
+		uneg 饱览 权益
+		uneg 健身房 处方
+		uneg 灌木丛 导弹
+		uneg 口子 帝位
+		uneg 布置 三元
+		uneg 结发夫妻 定罪
+		uneg 汽灯 统率
+		uneg 戏台 挂职
+		uneg 寺 欢心
+		uneg 幻灯片 誓言
+		uneg 头重脚轻 片面
+		uneg 呜呜 敬重
+		uneg 邮局 奶品
+		uneg 占地 莲子
+		uneg 跨度 胡
+
+
+Cluster 2
+	relatedpos 47
+		rpos 性质 外伤性
+		rpos 性质 地域性
+		rpos 性质 时代性
+		rpos 性质 可信性
+		rpos 年龄 不惑之年
+		rpos 性质 透明性
+		rpos 性质 普遍性
+		rpos 生物 百兽
+		rpos 年龄 虚岁
+		rpos 生物 动物
+		rpos 性质 宽容性
+		rpos 性质 全国性
+		rpos 性质 商业性
+		rpos 性质 批判性
+		rpos 性质 非盈利
+		rpos 性质 学术性
+		rpos 年龄 半百
+		rpos 年龄 遐龄
+		rpos 生物 线形动物
+		rpos 性质 间断性
+		rpos 生物 哺乳动物
+		rpos 性质 压缩性
+		rpos 性质 开拓性
+		rpos 性质 连续性
+		rpos 地球 热带
+		rpos 性质 议论性
+		rpos 生物 纤维植物
+		rpos 性质 人民性
+		rpos 性质 指令性
+		rpos 性质 准头
+		rpos 性质 警觉性
+		rpos 生物 冬作物
+		rpos 性质 保护性
+		rpos 性质 背光性
+		rpos 年龄 岁
+		rpos 性质 信息性
+		rpos 性质 可持续性
+		rpos 生物 底栖生物
+		rpos 性质 技巧性
+		rpos 性质 局部性
+		rpos 性质 技术性
+		rpos 性质 延续性
+		rpos 性质 可能性
+		rpos 年龄 年过半百
+		rpos 生物 青纱帐
+		rpos 生物 动物
+		rpos 性质 集体性
+
+	relatedneg 46
+		rneg 地球 地
+		rneg 地球 赤道
+		rneg 生物 植物
+		rneg 性质 酸性
+		rneg 性质 事务性
+		rneg 性质 战略性
+		rneg 地球 本初子午线
+		rneg 性质 过敏性
+		rneg 性质 程序性
+		rneg 生物 爬行动物
+		rneg 年龄 婚龄
+		rneg 性质 公平性
+		rneg 中期 正月十五
+		rneg 性质 油性
+		rneg 年龄 不惑
+		rneg 性质 广泛性
+		rneg 生物 反刍动物
+		rneg 性质 政治性
+		rneg 生物 作物
+		rneg 生物 宠物
+		rneg 性质 流动性
+		rneg 年龄 龄
+		rneg 生物 植被
+		rneg 性质 防御性
+		rneg 性质 中性
+		rneg 地球 寰
+		rneg 性质 阶段性
+		rneg 生物 母本
+		rneg 性质 自主性
+		rneg 性质 食性
+		rneg 性质 季节性
+		rneg 性质 音质
+		rneg 性质 国际性
+		rneg 生物 脊椎动物
+		rneg 地球 北极
+		rneg 生物 草本
+		rneg 生物 浮游生物
+		rneg 年龄 大寿
+		rneg 性质 耐久性
+		rneg 性质 水质
+		rneg 地球 东经
+		rneg 肥料 肥水
+		rneg 性质 抒情性
+		rneg 年龄 庚
+		rneg 生物 两栖动物
+		rneg 年龄 军龄
+
+	unrelatedpos 39
+		upos 测出 毳
+		upos 瞬时 鞋样
+		upos 古人类 文学工作者
+		upos 肿瘤 雪中送炭
+		upos 脑电波 借古讽今
+		upos 测验 久留
+		upos 屏障 聋子
+		upos 有关 免冠
+		upos 基因组 正面人物
+		upos 有机体 香粉
+		upos 靶 愚兄
+		upos 扫描仪 打零工
+		upos 直角坐标 莫逆之交
+		upos 驼绒 鸡笼
+		upos 非导体 适得其反
+		upos 地球 搜身
+		upos 千赫 被服
+		upos 次序 缂丝
+		upos 时空 白狐
+		upos 染毒 还价
+		upos 分散 乡音
+		upos 茧丝 驴子
+		upos 风速 信士
+		upos 老年斑 差事
+		upos 微波通信 见危授命
+		upos 下限 科教兴农
+		upos 比重 思绪
+		upos 安息香 劳力
+		upos 溴 焦渴
+		upos 水溶液 文责自负
+		upos 扣头 受益匪浅
+		upos 紫外光 铜门
+		upos 线段 满载而归
+		upos 平面 鼓鼓囊囊
+		upos 过程 忆及
+		upos 取样 哲理
+		upos 环 朝
+		upos 条形码 才识
+		upos 白磷 雄风
+
+	unrelatedneg 160
+		uneg 电 才华横溢
+		uneg 排卵 橡皮树
+		uneg 药料 接送
+		uneg 丁苯橡胶 提起
+		uneg 部类 排练
+		uneg 推移 妖娆
+		uneg 留党察看 仁慈
+		uneg 简谐运动 老爷
+		uneg 帝 文学界
+		uneg 秩 垫子
+		uneg 黏合剂 打扰
+		uneg 姨 老头子
+		uneg 过氧化氢 面积
+		uneg 敬语 动工
+		uneg 乳胶 合资企业
+		uneg 器 徽调
+		uneg 红外 楼台
+		uneg 指明 敬酒
+		uneg 盐卤 囤积居奇
+		uneg 烘箱 道
+		uneg 险种 上元节
+		uneg 编剧 交税
+		uneg 味精 弥缝
+		uneg 相位 不以为然
+		uneg 取样 错觉
+		uneg 引力 季
+		uneg 度 谋生
+		uneg 非金属 枢要
+		uneg 冰砖 苗
+		uneg 内因 活字版
+		uneg 载有 课桌
+		uneg 防腐剂 装
+		uneg 旁系亲属 原野
+		uneg 抗癌 号令
+		uneg 增高 漏掉
+		uneg 纂 资产阶级
+		uneg 邻近 烹饪
+		uneg 表面积 狼
+		uneg 精液 网友
+		uneg 单倍体 柴薪
+		uneg 种子选手 实惠
+		uneg 照相机 狂
+		uneg 幼儿所 集资
+		uneg 随葬 杂草
+		uneg 表 艺术家
+		uneg 组分 真假
+		uneg 雷电 走势
+		uneg 优于 浇
+		uneg 分散 腮腺
+		uneg 节理 木棉
+		uneg 力 众议员
+		uneg 积 花魁
+		uneg 圈 运营
+		uneg 中介 申办
+		uneg 家兔 根深蒂固
+		uneg 分工 呵护
+		uneg 基本粒子 辖区
+		uneg 唯心史观 经纪
+		uneg 涉及 一伙
+		uneg 链 译作
+		uneg 链霉素 称雄
+		uneg 动态平衡 尽收眼底
+		uneg 判决书 佛教徒
+		uneg 音位 顺流而下
+		uneg 极 禅宗
+		uneg 状况 烟叶
+		uneg 输出 冻疮
+		uneg 改变 播音员
+		uneg 铅 付
+		uneg 板 叹息
+		uneg 比例 探险
+		uneg 酊 女星
+		uneg 气体 耕牛
+		uneg 哕 联产承包
+		uneg 配偶 椰林
+		uneg 关系 畜力
+		uneg 无机化学 委屈
+		uneg 层 城隍
+		uneg 自然法则 抵京
+		uneg 超常 起义
+		uneg 茸 金融界
+		uneg 父亲 知名度
+		uneg 单位 激昂
+		uneg 核裂变 国际台
+		uneg 生产方式 纠正
+		uneg 钢水 隔扇
+		uneg 焊条 牙膏
+		uneg 水解 黄鼠
+		uneg 醇化 邻国
+		uneg 化学纤维 桑塔纳
+		uneg 调节 伤亡
+		uneg 纤维蛋白 此外
+		uneg 核装置 生产型
+		uneg 拾音器 语文课
+		uneg 阳性 浆果
+		uneg 遗迹 鸣镝
+		uneg 音量 微型车
+		uneg 落体 现
+		uneg 绝对真理 保证金
+		uneg 界限 元朝
+		uneg 氢氧化钠 会演
+		uneg 共价键 麻木
+		uneg 管保 逛
+		uneg 滑石粉 升值
+		uneg 特徵 同学
+		uneg 朔 综合治理
+		uneg 梗塞 充军
+		uneg 石磨 收复
+		uneg 干贝 新闻界
+		uneg 原始公社 佳肴
+		uneg 特征 押
+		uneg 光化作用 愿意
+		uneg 电容器 导弹
+		uneg 蒸锅 上一年
+		uneg 甲烷 节
+		uneg 原子核 外
+		uneg 激素 箩筐
+		uneg 磁偏角 推翻
+		uneg 正离子 勃勃生机
+		uneg 有机 祝愿
+		uneg 康铜 下课
+		uneg 化合 重阳节
+		uneg 细胞 成
+		uneg 认识 粮食作物
+		uneg 体 体癣
+		uneg 社会形态 樟
+		uneg 沸腾 议决
+		uneg 辱 好评
+		uneg 中纬度 交谊舞
+		uneg 若干 通风报信
+		uneg 有待 上旬
+		uneg 漂白 大妈
+		uneg 扁锉 树皮
+		uneg 满分 游说
+		uneg 性质 小米面
+		uneg 传递 非农产业
+		uneg 地点 劝
+		uneg 发射 何止
+		uneg 合理 险要
+		uneg 硫酸铜 造纸
+		uneg 特征 首席
+		uneg 推移 茉莉
+		uneg 导电 拥护
+		uneg 碗筷 枯枝
+		uneg 细胞核 眼镜蛇
+		uneg 刺激 大熊猫
+		uneg 方面 下巴
+		uneg 还 争得
+		uneg 波幅 务实
+		uneg 无限花序 小站稻
+		uneg 试剂 守业
+		uneg 金属矿 空降
+		uneg 坯料 主罚
+		uneg 消长 倒塌
+		uneg 胰蛋白酶 对症下药
+		uneg 镀膜 说唱
+		uneg 刚玉 屈
+		uneg 云 贸易额
+		uneg 石膏 扇
+		uneg 逆行 抵债
+
+
+Cluster 3
+	relatedpos 49
+		rpos 蔬菜 甘薯
+		rpos 蔬菜 青豆
+		rpos 蔬菜 胡瓜
+		rpos 蔬菜 番瓜
+		rpos 水果 无花果
+		rpos 蔬菜 茴香豆
+		rpos 蔬菜 盖菜
+		rpos 蔬菜 铁蚕豆
+		rpos 水果 草果
+		rpos 蔬菜 扁豆
+		rpos 水果 仙桃
+		rpos 蔬菜 豆荚
+		rpos 水果 菠萝蜜
+		rpos 蔬菜 槐豆
+		rpos 水果 榧子
+		rpos 蔬菜 白菜心
+		rpos 水果 羊桃
+		rpos 蔬菜 葑
+		rpos 水果 白梨
+		rpos 水果 杏
+		rpos 水果 蜜桔
+		rpos 水果 山桃
+		rpos 蔬菜 冬菜
+		rpos 蔬菜 韭芽
+		rpos 水果 樱桃
+		rpos 蔬菜 豆角
+		rpos 蔬菜 大棚菜
+		rpos 水果 香蕉苹果
+		rpos 蔬菜 球茎甘蓝
+		rpos 蔬菜 倭瓜
+		rpos 水果 野葡萄
+		rpos 蔬菜 红薯
+		rpos 水果 洋橄榄
+		rpos 蔬菜 大蒜
+		rpos 水果 鸭广梨
+		rpos 蔬菜 云豆
+		rpos 水果 哈密瓜
+		rpos 蔬菜 魔芋
+		rpos 水果 瓞
+		rpos 水果 桔子
+		rpos 蔬菜 柿子椒
+		rpos 蔬菜 豆薯
+		rpos 蔬菜 葫
+		rpos 蔬菜 芋
+		rpos 蔬菜 胡萝卜
+		rpos 蔬菜 萝卜
+		rpos 水果 榴
+		rpos 水果 槟榔
+		rpos 水果 干鲜果品
+
+	relatedneg 36
+		rneg 水果 柚子
+		rneg 蔬菜 菜蔬
+		rneg 蔬菜 洋葱
+		rneg 水果 金桔
+		rneg 水果 海枣
+		rneg 水果 樱
+		rneg 蔬菜 菜瓜
+		rneg 水果 萄
+		rneg 水果 沙枣
+		rneg 水果 毛栗
+		rneg 水果 胡桃
+		rneg 水果 李
+		rneg 水果 枣子
+		rneg 蔬菜 大葱
+		rneg 水果 蜜桃
+		rneg 水果 椰枣
+		rneg 水果 黑枣
+		rneg 蔬菜 豆子
+		rneg 水果 椰
+		rneg 水果 蟠桃
+		rneg 蔬菜 蒜
+		rneg 蔬菜 辣椒
+		rneg 蔬菜 咖啡豆
+		rneg 水果 李
+		rneg 蔬菜 豆瓣
+		rneg 蔬菜 毛豆
+		rneg 水果 甜瓜
+		rneg 蔬菜 南瓜
+		rneg 蔬菜 笋子
+		rneg 蔬菜 黄瓜
+		rneg 水果 文旦
+		rneg 蔬菜 苤蓝
+		rneg 蔬菜 芥
+		rneg 水果 橙
+		rneg 水果 桂圆
+		rneg 水果 苌
+
+	unrelatedpos 4
+		upos 奶牛 宁为玉碎
+		upos 茶叶 衣冠冢
+		upos 面积 悄然无声
+		upos 肉类 三思而行
+
+	unrelatedneg 16
+		uneg 粳稻 研究生院
+		uneg 可可 此法
+		uneg 套作 警世
+		uneg 发酵 忆起
+		uneg 电解铝 中国人民银行
+		uneg 烟叶 花期
+		uneg 主食 航天局
+		uneg 大棚 无
+		uneg 捕捞 神灵
+		uneg 黄瓜 失败
+		uneg 瓜果 合同
+		uneg 荔枝 祸端
+		uneg 药材 满眼
+		uneg 氮肥 合
+		uneg 总支出 纠集
+		uneg 杂粮 跑腿
+
+
+Cluster 4
+	relatedpos 32
+		rpos 话 诤言
+		rpos 话 恶言
+		rpos 话 训话
+		rpos 话 约言
+		rpos 话 祝语
+		rpos 话 客套
+		rpos 话 脏话
+		rpos 话 此话
+		rpos 话 疯话
+		rpos 话 口头语
+		rpos 话 开幕词
+		rpos 话 豪语
+		rpos 话 客套话
+		rpos 话 寡言
+		rpos 话 重言
+		rpos 话 忠言
+		rpos 话 寡言少语
+		rpos 话 俏皮话
+		rpos 话 少言寡语
+		rpos 话 后话
+		rpos 话 奇谈怪论
+		rpos 话 套语
+		rpos 话 古训
+		rpos 话 客气话
+		rpos 话 大话
+		rpos 话 空话
+		rpos 话 实话
+		rpos 话 瞎话
+		rpos 话 措词
+		rpos 话 赘言
+		rpos 话 语
+		rpos 话 私房话
+
+	relatedneg 20
+		rneg 话 谈锋
+		rneg 话 玩笑
+		rneg 话 讲话
+		rneg 话 迷魂汤
+		rneg 话 回音
+		rneg 话 流言
+		rneg 话 供
+		rneg 话 引子
+		rneg 话 暗语
+		rneg 话 言
+		rneg 话 噱头
+		rneg 话 好话
+		rneg 话 流行语
+		rneg 话 结束语
+		rneg 话 谎言
+		rneg 话 指示
+		rneg 话 黑话
+		rneg 话 语句
+		rneg 话 真话
+		rneg 话 真心话
+
+	unrelatedpos 0
+
+	unrelatedneg 6
+		uneg 问号 卵泡
+		uneg 去声 地点
+		uneg 情郎 处方
+		uneg 反问 鼓动性
+		uneg 松口 两性
+		uneg 皴 白带
+
+
+Cluster 5
+	relatedpos 370
+		rpos 工人 工
+		rpos 药草 苁蓉
+		rpos 工人 工程建设者
+		rpos 烹饪 氽
+		rpos 学校 馆
+		rpos 缝纫 缲
+		rpos 资本家 出资者
+		rpos 政府 省军区
+		rpos 烹饪 爆炒
+		rpos 猿猴 灰叶猴
+		rpos 东南西北 南缘
+		rpos 机件 气缸
+		rpos 药草 草药
+		rpos 电影院 剧场
+		rpos 房间 食堂
+		rpos 政府 中央军委
+		rpos 机件 化油器
+		rpos 工人 银匠
+		rpos 炉子 炉台
+		rpos 猿猴 山魈
+		rpos 成员 考察队员
+		rpos 东南西北 东北角
+		rpos 气 水蒸气
+		rpos 五谷 早稻
+		rpos 罪犯 同案犯
+		rpos 政府 最高法院
+		rpos 五谷 紫玉米
+		rpos 工人 森工
+		rpos 猿猴 猩
+		rpos 烹饪 掌勺
+		rpos 药草 蒺藜
+		rpos 商店 超市
+		rpos 罪犯 囚
+		rpos 气 木煤气
+		rpos 锛 硎
+		rpos 政府 当局
+		rpos 罪犯 逃犯
+		rpos 违法 刑事犯罪
+		rpos 资本家 资产者
+		rpos 气 活性氧
+		rpos 政府 工委
+		rpos 烹饪 腌制
+		rpos 罪犯 正凶
+		rpos 政府 衙
+		rpos 假装 假充
+		rpos 工人 手工业者
+		rpos 气 阿摩尼亚
+		rpos 猿猴 猿
+		rpos 庄严 俨
+		rpos 水果 果品
+		rpos 学校 高级小学
+		rpos 肥料 畜肥
+		rpos 肥料 无机肥料
+		rpos 罪犯 死刑犯
+		rpos 爱好者 票友
+		rpos 气 氨气
+		rpos 政府 政务司
+		rpos 罪犯 主谋
+		rpos 政府 现政府
+		rpos 节气 长至
+		rpos 假装 装傻
+		rpos 药草 板蓝根
+		rpos 猿猴 古猿
+		rpos 电影院 影剧院
+		rpos 气 电气
+		rpos 顾客 主顾
+		rpos 政府 禁毒署
+		rpos 政府 总领事馆
+		rpos 五谷 珍珠米
+		rpos 文具 镇纸
+		rpos 药草 古柯
+		rpos 药草 仙鹤草
+		rpos 气 冷空气
+		rpos 五谷 麦子
+		rpos 缝纫 缝补
+		rpos 学校 学府
+		rpos 成员 少先队员
+		rpos 五谷 棒头
+		rpos 猿猴 短尾猴
+		rpos 五谷 麦粒
+		rpos 学校 我校
+		rpos 政府 宇航局
+		rpos 药草 黄芪
+		rpos 商店 咖啡店
+		rpos 违法 洗钱
+		rpos 猿猴 大猩猩
+		rpos 罪犯 囚徒
+		rpos 炉子 炉灶
+		rpos 自杀 抹脖子
+		rpos 药草 中药材
+		rpos 鳏寡孤独 孤
+		rpos 商人 商户
+		rpos 商店 咖啡厅
+		rpos 走狗 鹰爪
+		rpos 政府 州政府
+		rpos 机件 制动器
+		rpos 学校 军校
+		rpos 顾客 买家
+		rpos 政府 常委会
+		rpos 工人 工匠
+		rpos 听诊器 胶布
+		rpos 政府 执委会
+		rpos 五谷 三季稻
+		rpos 听诊器 手杖
+		rpos 园林 园
+		rpos 现在 目前
+		rpos 烹饪 烹
+		rpos 资本家 财东
+		rpos 工人 木匠
+		rpos 现在 当今
+		rpos 罪犯 罪魁
+		rpos 听诊器 垫肩
+		rpos 资本家 寡头
+		rpos 赌博 打头
+		rpos 五谷 荞麦
+		rpos 电影院 游乐场
+		rpos 肥料 骨粉
+		rpos 政府 党政机关
+		rpos 学校 招生办
+		rpos 药草 长寿菜
+		rpos 工人 画师
+		rpos 潮汛 度汛
+		rpos 气 寒流
+		rpos 商人 交易者
+		rpos 商人 客人
+		rpos 气 暑气
+		rpos 学校 体院
+		rpos 听诊器 银针
+		rpos 五谷 稷
+		rpos 药草 香附子
+		rpos 自杀 刎
+		rpos 学校 该校
+		rpos 走狗 狗腿子
+		rpos 但是 可是
+		rpos 药草 麦冬
+		rpos 气 水暖
+		rpos 房间 厕所
+		rpos 五谷 黍
+		rpos 工人 基建工
+		rpos 学校 中心校
+		rpos 顾客 购房者
+		rpos 罪犯 疑凶
+		rpos 药草 益母草
+		rpos 烹饪 炖
+		rpos 成员 死党
+		rpos 商店 茶馆
+		rpos 假装 拿腔作势
+		rpos 肥料 粒肥
+		rpos 肥料 泥肥
+		rpos 政府 党中央
+		rpos 五谷 冬麦
+		rpos 工人 巧匠
+		rpos 工人 车工
+		rpos 假装 诈死
+		rpos 政府 县政协
+		rpos 东南西北 正东
+		rpos 机件 螺母
+		rpos 胶 鳔胶
+		rpos 玩具 玻璃球
+		rpos 鳏寡孤独 孤老
+		rpos 东南西北 北头
+		rpos 工人 漆匠
+		rpos 罪犯 犯罪分子
+		rpos 玩具 皮球
+		rpos 政府 州府
+		rpos 药草 生地黄
+		rpos 易于 容易
+		rpos 假装 东施效颦
+		rpos 到处 各市
+		rpos 顾客 就餐者
+		rpos 烹饪 涮
+		rpos 五谷 包谷
+		rpos 政府 劳动部门
+		rpos 学校 幼儿园
+		rpos 自杀 自绝
+		rpos 学校 全校
+		rpos 缝纫 机绣
+		rpos 资本家 有产者
+		rpos 政府 电报局
+		rpos 政府 物资局
+		rpos 自杀 自尽
+		rpos 气 氟利昂
+		rpos 烹饪 回笼
+		rpos 现在 如今
+		rpos 罪犯 凶犯
+		rpos 草 爬山虎
+		rpos 政府 朝
+		rpos 现在 现如今
+		rpos 爱好者 棋迷
+		rpos 气 膻气
+		rpos 商人 专业户
+		rpos 违法 徇私枉法
+		rpos 药草 五味子
+		rpos 药草 太子参
+		rpos 化妆品 发蜡
+		rpos 节气 长至
+		rpos 自杀 服毒
+		rpos 学校 幼儿所
+		rpos 资本家 投资商
+		rpos 五谷 杂交稻
+		rpos 烹饪 煲
+		rpos 政府 国民政府
+		rpos 肥料 圈肥
+		rpos 鳏寡孤独 遗孤
+		rpos 药草 熟地
+		rpos 气 沆瀣
+		rpos 药草 臭椿
+		rpos 但是 而
+		rpos 草 草垛
+		rpos 文具 调色板
+		rpos 罪犯 涉案人员
+		rpos 政府 县衙
+		rpos 商人 买卖人
+		rpos 政府 区党委
+		rpos 但是 不过
+		rpos 自杀 作死
+		rpos 气 氮气
+		rpos 园林 花圃
+		rpos 玩具 弹子
+		rpos 庄严 严正
+		rpos 草 瓦松
+		rpos 机件 齿轮
+		rpos 罪犯 破坏者
+		rpos 政府 中纪委
+		rpos 锛 药叉
+		rpos 政府 总院
+		rpos 烹饪 做饭
+		rpos 药草 枸杞
+		rpos 青年人 后生
+		rpos 玩具 泥人
+		rpos 现在 今天
+		rpos 假装 装腔
+		rpos 政府 律政司
+		rpos 学校 体校
+		rpos 政府 一府两院
+		rpos 学校 盲校
+		rpos 猿猴 拉玛古猿
+		rpos 气 氮
+		rpos 工人 养路工
+		rpos 假装 矫揉造作
+		rpos 胶 油灰
+		rpos 工人 艺人
+		rpos 商人 行商
+		rpos 文具 大头针
+		rpos 听诊器 药棉
+		rpos 假装 装糊涂
+		rpos 成员 余党
+		rpos 政府 团市委
+		rpos 化妆品 口红
+		rpos 五谷 粮食作物
+		rpos 政府 环境署
+		rpos 药草 金银花
+		rpos 炉子 煤气灶
+		rpos 气 天然气
+		rpos 现在 今朝
+		rpos 气 水汽
+		rpos 缝纫 扎花
+		rpos 工人 建工
+		rpos 缝纫 缝
+		rpos 商人 卖主
+		rpos 锛 筛子
+		rpos 赌博 博
+		rpos 政府 海关
+		rpos 缝纫 吊
+		rpos 罪犯 首恶
+		rpos 政府 组委会
+		rpos 东南西北 朔
+		rpos 工人 装配工
+		rpos 烹饪 烹茶
+		rpos 锛 钎
+		rpos 烹饪 回炉
+		rpos 工人 维修工
+		rpos 五谷 双季稻
+		rpos 锛 推子
+		rpos 电影院 歌舞厅
+		rpos 晚年 龙钟
+		rpos 顾客 散户
+		rpos 药草 丹参
+		rpos 政府 检验所
+		rpos 学校 中专
+		rpos 商人 个体户
+		rpos 工人 零工
+		rpos 药草 党参
+		rpos 资本家 服务商
+		rpos 锛 漏子
+		rpos 工人 短工
+		rpos 资本家 投资方
+		rpos 商店 酒馆
+		rpos 气 甲烷
+		rpos 工人 铣工
+		rpos 顾客 茶客
+		rpos 缝纫 钉
+		rpos 爱好者 追星族
+		rpos 政府 规划署
+		rpos 商人 货郎
+		rpos 工人 花工
+		rpos 胶 乳胶
+		rpos 五谷 千穗谷
+		rpos 青年人 芝兰
+		rpos 商人 美商
+		rpos 锛 丝锥
+		rpos 工人 技工
+		rpos 现在 现行
+		rpos 爱好者 乐迷
+		rpos 水果 椰子
+		rpos 东南西北 北
+		rpos 听诊器 产钳
+		rpos 肥料 杂肥
+		rpos 药草 艾
+		rpos 青年人 少年
+		rpos 政府 两院
+		rpos 烹饪 卧
+		rpos 商店 酒馆
+		rpos 胶 溶胶
+		rpos 学校 大中学校
+		rpos 肥料 化肥
+		rpos 烹饪 炸肉
+		rpos 走狗 鹰犬
+		rpos 烹饪 泡茶
+		rpos 药草 丹桂
+		rpos 政府 清廷
+		rpos 草 蓬
+		rpos 商人 发行者
+		rpos 烹饪 煮
+		rpos 商人 二道贩子
+		rpos 药草 西洋参
+		rpos 工人 裁缝
+		rpos 电影院 运动场
+		rpos 药草 穿心莲
+		rpos 学校 高等学校
+		rpos 胶 洋菜
+		rpos 商人 港商
+		rpos 烹饪 烤
+		rpos 商人 小商贩
+		rpos 走狗 走卒
+		rpos 现在 手上
+		rpos 药草 槐米
+		rpos 学校 中师
+		rpos 鳏寡孤独 鳏夫
+		rpos 药草 千里光
+		rpos 工人 石工
+		rpos 政府 朝
+		rpos 现在 脚下
+		rpos 工人 电焊工
+		rpos 政府 县委
+		rpos 罪犯 死囚
+		rpos 违法 图谋不轨
+		rpos 罪犯 祸首
+		rpos 五谷 早籼稻
+		rpos 气 水蒸汽
+		rpos 气 乙烷
+		rpos 罪犯 凶手
+		rpos 政府 市政协
+		rpos 晚年 老境
+		rpos 玩具 面人
+		rpos 烹饪 熘
+		rpos 园林 陵园
+		rpos 文具 裁纸刀
+		rpos 听诊器 药械
+		rpos 气 氟化氢
+		rpos 园林 园艺
+		rpos 爱好者 财迷
+		rpos 烹饪 扒
+		rpos 政府 支局
+		rpos 烹饪 清炖
+		rpos 罪犯 肇事者
+		rpos 听诊器 针
+		rpos 自杀 自裁
+		rpos 自杀 悬梁
+		rpos 学校 名校
+
+	relatedneg 118
+		rneg 学校 大学
+		rneg 学校 十五小
+		rneg 气 毒气
+		rneg 肥料 过磷酸钙
+		rneg 政府 皇朝
+		rneg 工人 建设者
+		rneg 气 氢气
+		rneg 现在 兹
+		rneg 政府 幕府
+		rneg 罪犯 嫌疑人
+		rneg 五谷 黑麦
+		rneg 场所 公共场所
+		rneg 学校 戏校
+		rneg 资本家 股东
+		rneg 成员 队友
+		rneg 五谷 小麦
+		rneg 政府 国会
+		rneg 文具 印泥
+		rneg 商店 公寓
+		rneg 东南西北 北边
+		rneg 东南西北 东方
+		rneg 现在 现
+		rneg 学校 四中
+		rneg 爱好者 发烧友
+		rneg 药草 啤酒花
+		rneg 水果 西瓜
+		rneg 性质 敏感性
+		rneg 政府 联邦政府
+		rneg 学校 家塾
+		rneg 文具 面糊
+		rneg 猿猴 猴
+		rneg 东南西北 右
+		rneg 药草 川贝
+		rneg 缝纫 缀
+		rneg 电影院 展览馆
+		rneg 性质 属性
+		rneg 成员 主任委员
+		rneg 锛 砂轮
+		rneg 现在 时
+		rneg 文具 纪念封
+		rneg 政府 非政府
+		rneg 但是 唯独
+		rneg 房间 厨房
+		rneg 缝纫 织补
+		rneg 听诊器 杖
+		rneg 自杀 自刎
+		rneg 电影院 剧院
+		rneg 政府 公署
+		rneg 赌博 压
+		rneg 商人 商
+		rneg 政府 国家教委
+		rneg 爱好者 影迷
+		rneg 政府 政府部门
+		rneg 肥料 肥
+		rneg 学校 学堂
+		rneg 成员 学部委员
+		rneg 经济作物 油菜
+		rneg 场所 场合
+		rneg 五谷 燕麦
+		rneg 电影院 篮球场
+		rneg 政府 电话局
+		rneg 资本家 大王
+		rneg 化妆品 指甲油
+		rneg 气 肝气
+		rneg 现在 本
+		rneg 水果 苹果
+		rneg 电影院 球场
+		rneg 假装 装
+		rneg 潮汛 凌汛
+		rneg 商人 卖方
+		rneg 性质 易燃
+		rneg 政府 朝野
+		rneg 机件 转子
+		rneg 工人 油漆工
+		rneg 猿猴 猴子
+		rneg 锛 圬
+		rneg 学校 师范学校
+		rneg 肥料 水肥
+		rneg 政府 大使馆
+		rneg 胶 粘合剂
+		rneg 政府 省委
+		rneg 肥料 氮肥
+		rneg 自杀 殉情
+		rneg 政府 专署
+		rneg 政府 办事处
+		rneg 政府 工业局
+		rneg 机件 弹簧
+		rneg 但是 而是
+		rneg 政府 朝廷
+		rneg 药草 中草药
+		rneg 电影院 影院
+		rneg 政府 人民公社
+		rneg 肥料 基肥
+		rneg 政府 国家机关
+		rneg 罪犯 元凶
+		rneg 性质 碱性
+		rneg 政府 乡政府
+		rneg 烹饪 煨
+		rneg 气 气体
+		rneg 机件 气阀
+		rneg 草 狗尾草
+		rneg 电影院 体育场
+		rneg 烹饪 拔丝
+		rneg 工人 小工
+		rneg 晚年 余年
+		rneg 药草 洋地黄
+		rneg 学校 附中
+		rneg 体格 筋骨
+		rneg 东南西北 东面
+		rneg 药草 葛
+		rneg 易于 便于
+		rneg 机件 轴承
+		rneg 烹饪 焯
+		rneg 玩具 拨浪鼓
+		rneg 潮汛 低潮
+		rneg 五谷 青稞
+		rneg 缝纫 絮
+		rneg 成员 中央委员
+
+	unrelatedpos 1794
+		upos 悬臂 千军万马
+		upos 子孙满堂 交谊
+		upos 外族 麻子
+		upos 灯节 煎
+		upos 走读生 踣
+		upos 花好月圆 酿制
+		upos 留置 花絮
+		upos 戏文 里间
+		upos 篡改 清规戒律
+		upos 席 芳龄
+		upos 帝 结
+		upos 宋江起义 谱架
+		upos 天时 军帽
+		upos 砧 战友
+		upos 薪俸 吃药
+		upos 结素 国医
+		upos 造假者 靛蓝
+		upos 代课 筒子楼
+		upos 面糊 鼓书
+		upos 结汇 三伏天
+		upos 桃花运 年度
+		upos 口口声声 寡头政治
+		upos 心坎 霈
+		upos 不予 严查
+		upos 刻写 用
+		upos 突破口 快刀
+		upos 馋涎欲滴 吧唧
+		upos 提篮 习习
+		upos 修辞格 瓢泼
+		upos 佳人 海魂
+		upos 骥 红白喜事
+		upos 膺 烧蓝
+		upos 剥离 运转
+		upos 一草一木 藤子
+		upos 助战 偷营
+		upos 红铃虫 滚动摩擦
+		upos 卖身 含糊其词
+		upos 飞涨 武术
+		upos 烟丝 少年
+		upos 城壕 师娘
+		upos 求见 疗养院
+		upos 何故 收视
+		upos 毛头 裸麦
+		upos 白瓜子 看透
+		upos 豆汁 侍卫
+		upos 不折不挠 读后感
+		upos 下降 卫生带
+		upos 围 泥
+		upos 近体诗 识货
+		upos 麦蚜 调阅
+		upos 自封 置信
+		upos 丁丁 将功赎罪
+		upos 烟柱 鱼汤
+		upos 满月 仰面
+		upos 状况 督学
+		upos 纯种 荤菜
+		upos 蚕簇 红药水
+		upos 贪小失大 长大
+		upos 非军事 上流
+		upos 下凡 套色版
+		upos 猎手 保暖
+		upos 王冠 豆包
+		upos 副食店 状貌
+		upos 取信 田字草
+		upos 告诫 莫若
+		upos 墩 杂色
+		upos 中前场 蹑
+		upos 匝地 苗头
+		upos 塞入 时鲜
+		upos 残敌 指印
+		upos 从教 天师
+		upos 撤资 名震一时
+		upos 军需 歹
+		upos 报晓 调演
+		upos 源源不绝 演员
+		upos 大部分 泄水闸
+		upos 秘密 风雪交加
+		upos 喧宾夺主 短短的
+		upos 盛世 头破血流
+		upos 机械论 辞讼
+		upos 雪冤 进气口
+		upos 厚道 天竺葵
+		upos 地上茎 招集
+		upos 瓢 养神
+		upos 游行者 南天竹
+		upos 道格拉斯 脱水
+		upos 气象 石拱
+		upos 木耳 封路
+		upos 民机 界别
+		upos 考订 原线圈
+		upos 机修 做声
+		upos 梗 喜色
+		upos 少不得 马战
+		upos 漆片 屎壳郎
+		upos 情况 准字号
+		upos 廉洁 通气
+		upos 孺子牛 实验鼠
+		upos 勾针 来路
+		upos 斧子 甲苯
+		upos 不行 弯
+		upos 昂 欲盖弥彰
+		upos 码 贫道
+		upos 相面 预报员
+		upos 如释重负 眯缝
+		upos 封 肺腑之言
+		upos 辅佐 神坛
+		upos 看热闹 拉屎
+		upos 紫芝 燕鱼
+		upos 饕餮 罪犯
+		upos 家母 措词
+		upos 苟同 提审
+		upos 臀 油棕
+		upos 看好 贡
+		upos 鹏程万里 大秋
+		upos 畸形儿 装配
+		upos 黄疸 百年树人
+		upos 直接推理 利己主义
+		upos 大步流星 任重道远
+		upos 坚壁清野 电话费
+		upos 面食 生产能力
+		upos 安全员 荐骨
+		upos 女子组 实
+		upos 活字典 烧饼
+		upos 秋高气爽 正投影
+		upos 犯病 二进宫
+		upos 高高在上 归宿
+		upos 圮 放像机
+		upos 噼噼啪啪 浸泡
+		upos 绞杀 嵯峨
+		upos 刻 过奖
+		upos 茶 碑阴
+		upos 慌张 深渊
+		upos 肩胛骨 并进
+		upos 挖补 正身
+		upos 难 亭亭玉立
+		upos 剑兰 乞讨者
+		upos 高招 路费
+		upos 突破口 啜
+		upos 侦破 中落
+		upos 入学 诵
+		upos 白银 以毒攻毒
+		upos 纸 决出
+		upos 咬定 发运人
+		upos 刊头 鱼松
+		upos 创伤 死去活来
+		upos 转述 一哄而起
+		upos 钞票 虾米
+		upos 碗 外国货
+		upos 出厂 搬兵
+		upos 力气 调兵遣将
+		upos 眼屎 赌具
+		upos 领班 白求恩
+		upos 游艺 中饱私囊
+		upos 写真 谢礼
+		upos 要图 整军
+		upos 应付 回车
+		upos 钓 物以类聚
+		upos 被服 教书匠
+		upos 小拇指 备料
+		upos 保持 技校
+		upos 实 这就是说
+		upos 甩掉 防假
+		upos 君臣 近因
+		upos 别情 工团主义
+		upos 课业 锭
+		upos 情郎 霹雷
+		upos 新机 日出
+		upos 出走 力畜
+		upos 集体主义 主副食品
+		upos 肴 同情
+		upos 流量计 裂化
+		upos 摸 警惕
+		upos 西医 糙米饭
+		upos 白粉 祝
+		upos 有偿转让 新闻社
+		upos 东芝 柿子椒
+		upos 老家 所谓
+		upos 噱头 挖空心思
+		upos 宇宙观 桑戈语
+		upos 进攻方 淘气
+		upos 译码 素
+		upos 枷 控制点
+		upos 青云直上 面目一新
+		upos 幛 发呆
+		upos 自理 退步
+		upos 碘片 那里
+		upos 一号机 嘱托
+		upos 天 外甥
+		upos 嶙峋 差之毫厘
+		upos 成天 国库券
+		upos 罢课 换钱
+		upos 新闻 团体
+		upos 粗花呢 行述
+		upos 耍赖 切片
+		upos 徒步 咕嘟
+		upos 排子车 卒业
+		upos 题跋 私情
+		upos 受辱 凸面镜
+		upos 夜饭 涂脂抹粉
+		upos 中介 种
+		upos 被单 簋
+		upos 吃惊 仲春
+		upos 惶惶不可终日 跃马
+		upos 政法 冷艳
+		upos 镜子 被褥
+		upos 适意 语病
+		upos 端坐 杏干
+		upos 茶叶花 无功而返
+		upos 核心层 没意思
+		upos 小燕子 醒木
+		upos 邮费 遗墨
+		upos 转运 虚套
+		upos 斗争 多糖
+		upos 标点符号 半道
+		upos 发丝 把酒
+		upos 奇勋 晴天霹雳
+		upos 本家 睫毛
+		upos 地动山摇 残羹剩饭
+		upos 酢 罂粟
+		upos 嘎吱 强手
+		upos 寄卖 身上
+		upos 梗塞 就医
+		upos 责备 骚
+		upos 有救 打烊
+		upos 当头一棒 菜
+		upos 八卦 野趣
+		upos 外屋 护卫艇
+		upos 渔产 正职
+		upos 简谱 皇太后
+		upos 茧子 真空
+		upos 苦战 访友
+		upos 领情 归功
+		upos 春令 象征性
+		upos 迎头赶上 家珍
+		upos 硕鼠 蹑
+		upos 奇怪 舌蝇
+		upos 歌诀 再接再厉
+		upos 漂流 日利率
+		upos 复评 匹配
+		upos 本事 敌穴
+		upos 来料加工 漂漂亮亮
+		upos 以观后效 钵
+		upos 马熊 党代会
+		upos 豆包 宇宙尘
+		upos 波涛滚滚 旅费
+		upos 新郎 飞越
+		upos 存款 残冬
+		upos 反证法 笋子
+		upos 公议 内部
+		upos 附会 三边形
+		upos 气 射界
+		upos 疾呼 大案要案
+		upos 鲈鱼 长期性
+		upos 响器 标记
+		upos 出殡 涌起
+		upos 颈椎 还价
+		upos 懒得 不毛之地
+		upos 灯花 卖家
+		upos 呜呜 中
+		upos 联网 氯化铵
+		upos 过目成诵 挂果
+		upos 外族人 挥笔
+		upos 豪强 瑞香
+		upos 表针 热水袋
+		upos 壮劳力 汗毛
+		upos 大将军 改元
+		upos 平面 撬棍
+		upos 人工免疫 殷
+		upos 公婆 水葱
+		upos 存小异 谢谢
+		upos 抄家 许愿
+		upos 起 开门见山
+		upos 云云 劫机
+		upos 叮当 调戏
+		upos 也许 武艺
+		upos 未定 嬷嬷
+		upos 堂姐妹 尾闾
+		upos 滨湖 结巴
+		upos 小姑子 元古界
+		upos 屯扎 运筹帷幄
+		upos 插条 简帖
+		upos 喧腾 昙花
+		upos 才能 马镫
+		upos 开河 芋
+		upos 颌 千斤顶
+		upos 批阅 领
+		upos 战神 轮渡
+		upos 太钢 册立
+		upos 楚王 四月份
+		upos 祭 新桃换旧符
+		upos 吱吱 枸杞子
+		upos 上品 市场
+		upos 导游 千家万户
+		upos 懒散 娃娃鱼
+		upos 诗人 墙头诗
+		upos 小提琴手 喜怒无常
+		upos 书香人家 天幸
+		upos 核潜艇 顾问
+		upos 臆测 修饰
+		upos 三民主义 物主
+		upos 实干家 土政策
+		upos 斧 毡帐
+		upos 心上 外来妹
+		upos 序论 药到病除
+		upos 锐减 狂欢
+		upos 坟丘 硬功
+		upos 盗魁 龙胆紫
+		upos 亭亭玉立 例假
+		upos 头骨 哄抬
+		upos 独木桥 哧
+		upos 温 糠油
+		upos 搀杂 父兄
+		upos 通宵达旦 朦胧
+		upos 就地取材 皮革
+		upos 乌合之众 木莲
+		upos 哑然失笑 百日维新
+		upos 轻取 见危授命
+		upos 更改 一方平安
+		upos 走火入魔 蜻蜓
+		upos 彩 泰山北斗
+		upos 暮秋 台胞
+		upos 散 皂荚
+		upos 庇护所 颠倒
+		upos 菌物 昏天黑地
+		upos 笑容 菜窖
+		upos 儿童村 电源线
+		upos 有偿 鱼唇
+		upos 硼砂 批租
+		upos 过账 知人之明
+		upos 积肥 合不来
+		upos 宫女 膀臂
+		upos 数说 果儿
+		upos 工时 必不可少
+		upos 边防军 打
+		upos 托福 个人
+		upos 工场 肋膜
+		upos 晴空万里 医学史
+		upos 脑浆 淘汰
+		upos 物权 先父
+		upos 明末清初 分号
+		upos 唱歌 包厢
+		upos 洞 回函
+		upos 假手 归案
+		upos 鞘 冗员
+		upos 残迹 提问
+		upos 豪绅 频率段
+		upos 誓不两立 以前
+		upos 佣钱 职责
+		upos 昏君 土改
+		upos 掷弹筒 由此及彼
+		upos 直路 过户
+		upos 吃喝 签注
+		upos 千斤 胖子
+		upos 楦 有勇有谋
+		upos 兑换 养兵千日
+		upos 就算 鹤
+		upos 门客 远虑
+		upos 言教 聘约
+		upos 入超 硬拼
+		upos 肺动脉 罐装
+		upos 宗庙 兜肚
+		upos 分则 多劳多得
+		upos 南界 小儿麻痹症
+		upos 汇出 堵
+		upos 诚信 锚固
+		upos 哨子 秋风
+		upos 劝告 模范
+		upos 苛责 更衣室
+		upos 是不是 破口大骂
+		upos 宪 虎子
+		upos 打雷 背篓
+		upos 攻坚 整组
+		upos 受难 壁龛
+		upos 弹冠相庆 草
+		upos 冗 殆
+		upos 中国银行 督军
+		upos 世界 丑事
+		upos 精制品 单排
+		upos 非作战 金表
+		upos 推荐 扣
+		upos 民主 此类
+		upos 垓 劳师
+		upos 归于 革命性
+		upos 节烈 灭茬
+		upos 接壤 旧地重游
+		upos 无容身之地 华表
+		upos 不安 驾
+		upos 地支 藕断丝连
+		upos 政界 情郎
+		upos 退学 合营
+		upos 失道寡助 其他人
+		upos 门面话 显示
+		upos 轿夫 会议桌
+		upos 托收 马夫
+		upos 短小 拉制
+		upos 干柴 牡
+		upos 鄙意 柱
+		upos 晓畅 五讲四美
+		upos 泡茶 犯人
+		upos 疏运 密致
+		upos 烈士碑 遭逢
+		upos 大后天 西餐厅
+		upos 存取 急性子
+		upos 免职 蛙泳
+		upos 照办 巴马科
+		upos 毡包 铳
+		upos 词人 叔祖
+		upos 手头 换文
+		upos 修 郑重
+		upos 兴 黑锅
+		upos 习作 英资
+		upos 待产 苟同
+		upos 两院 蚕卵
+		upos 不吝 垫支
+		upos 源源不断 编发
+		upos 千里马 营养液
+		upos 首季 相同
+		upos 局促 文化学术
+		upos 表率 婚嫁
+		upos 谚 合署
+		upos 鲜艳 联合战线
+		upos 聋子 妯娌
+		upos 妙手回春 主枢纽
+		upos 跗 席地
+		upos 一丘之貉 白匪
+		upos 闸 林科院
+		upos 贸易风 黑锅
+		upos 儿童节 姊夫
+		upos 告退 免不了
+		upos 报馆 拔剑
+		upos 公示 花斑癣
+		upos 正规 热电厂
+		upos 恶鬼 国际台
+		upos 标记 髀
+		upos 昵 哑弹
+		upos 规矩 绶
+		upos 毯子 大师傅
+		upos 苏醒 结巴
+		upos 怀念 牛脾气
+		upos 叶子烟 补修
+		upos 肘子 鱼翅
+		upos 验血 翩翩
+		upos 伥鬼 医史
+		upos 包围圈 勘探
+		upos 莲蓬 方言词
+		upos 尊贵 带子
+		upos 击发 中心角
+		upos 来犯 身后
+		upos 筋疲力尽 圆盘
+		upos 学究气 首都
+		upos 可怜 砂型
+		upos 酒具 茧丝
+		upos 借入 消防
+		upos 预支 咏叹
+		upos 官风 孢子粉
+		upos 腰围 牧女
+		upos 断送 明镜高悬
+		upos 壁 气枪
+		upos 湖岸 临战
+		upos 中士 海上
+		upos 界限 蛙
+		upos 地方 何用
+		upos 莽汉 不啻
+		upos 左上方 贡献者
+		upos 小康 田间
+		upos 静脉 酥麻
+		upos 日显 卓有建树
+		upos 盯梢 相似
+		upos 独木桥 纵横驰骋
+		upos 有气无力 斗车
+		upos 稂 担心
+		upos 津 闷气
+		upos 点球 实习期
+		upos 条理性 好人好事
+		upos 杀价 替罪羊
+		upos 第二国际 吧嗒
+		upos 脉动电流 品红
+		upos 南风 回击
+		upos 话音 拟声
+		upos 分级 锻铁
+		upos 市话 缺少
+		upos 洞窟 让利
+		upos 待机 馇
+		upos 支子 茶叶花
+		upos 矩 控球技术
+		upos 弹着点 二中全会
+		upos 电闸 链
+		upos 条理性 力畜
+		upos 行船 离队
+		upos 芑 鼻韵母
+		upos 桃李满天下 状元
+		upos 庆功 行贿
+		upos 名胜古迹 说词
+		upos 抢占 吊桥
+		upos 问题 乡里
+		upos 浪人 皮夹
+		upos 卖唱 荣辱与共
+		upos 断流 脾气
+		upos 塔吊 狗獾
+		upos 支局 甘休
+		upos 东渡 正如
+		upos 中小 装配
+		upos 秩序 螟蛾
+		upos 拿 商标
+		upos 角 请战
+		upos 白 偿
+		upos 闯荡江湖 生产能力
+		upos 深重 杳
+		upos 定向生 受寒
+		upos 防洪工程 名宿
+		upos 灰浆 蜷曲
+		upos 批次 襟翼
+		upos 南北对话 季春
+		upos 奸臣 生肉
+		upos 捏造 罗圈
+		upos 已经 趁人之危
+		upos 亲子 道不明
+		upos 做伴 鸱
+		upos 烀 牯牛
+		upos 饽饽 医技
+		upos 论述 奶皮
+		upos 铅粉 洋白菜
+		upos 外痔 噍
+		upos 台胞 塌实
+		upos 明珠投暗 仙
+		upos 阳畦 必要产品
+		upos 经营者 举一反三
+		upos 题解 消遣
+		upos 商品化 电影院
+		upos 各界 囚歌
+		upos 揪斗 脚炉
+		upos 险境 实地调查
+		upos 成不了 整人
+		upos 龙 根须
+		upos 发胖 访求
+		upos 燎原 绞死
+		upos 叙事 天日
+		upos 圆锥 坷拉
+		upos 谷风 六合拳
+		upos 湿度 复合肥料
+		upos 兑制 衣冠禽兽
+		upos 娘子军 暮春
+		upos 开明 虚胖
+		upos 结缔组织 论说文
+		upos 放毒 老汉
+		upos 兼营 商品流通
+		upos 笃学 溃散
+		upos 贝利 武士道
+		upos 发言 小叶杨
+		upos 同乡 降霜
+		upos 上色 下回
+		upos 秋老虎 兴国
+		upos 当庭 谋财害命
+		upos 误车 餐费
+		upos 主题 敬老院
+		upos 洞经 蝇头微利
+		upos 各家 后腰
+		upos 羊城 安
+		upos 大户 年息
+		upos 跑马 银发
+		upos 葫芦藓 书生气
+		upos 船坞 叛兵
+		upos 归去来兮 蹄子
+		upos 汉民 吊钩
+		upos 毛边纸 时局
+		upos 该港 黯然神伤
+		upos 财神 拦路虎
+		upos 申请人 保险带
+		upos 幽婉 窟窿
+		upos 回头是岸 猃
+		upos 鳅 羊齿
+		upos 反射线 多达
+		upos 格言 戴胜
+		upos 大五金 鬼蜮
+		upos 检点 树敌
+		upos 前瞻性 镣铐
+		upos 拉手 纸版
+		upos 若即若离 求全
+		upos 信心百倍 感觉
+		upos 离队 老酒
+		upos 侯 颉
+		upos 肠伤寒 招
+		upos 悸动 俄方
+		upos 跑遍 户口本
+		upos 版次 操典
+		upos 微茫 梧
+		upos 约分 驾照
+		upos 陶俑 喾
+		upos 自尊 娼妇
+		upos 监 海难
+		upos 主调 良心
+		upos 临 值域
+		upos 双喜 阔气
+		upos 岳父母 多病
+		upos 程控 严令
+		upos 长臂虾 取证
+		upos 蝎虎 垫
+		upos 诸位 亲兄弟
+		upos 花障 爆炸物
+		upos 肄业 之前
+		upos 续展 浓缩铀
+		upos 天地 课业
+		upos 燃起 透风
+		upos 换汇 更换
+		upos 尚方宝剑 学识
+		upos 凿空 表
+		upos 光天化日 教养
+		upos 釉陶 作主
+		upos 下笔成章 受罪
+		upos 书录 种麻
+		upos 名册 迁就
+		upos 碑 白金汉宫
+		upos 镐 汗臭
+		upos 母机 大张旗鼓
+		upos 票据 缄口
+		upos 画 旧社会
+		upos 地方 匀速运动
+		upos 连环 初任
+		upos 调配 雄姿
+		upos 亚裔 一不做
+		upos 阻拦 默片
+		upos 自信心 猛跌
+		upos 旁及 一语中的
+		upos 这次 本社
+		upos 主业 循循善诱
+		upos 播撒 纸片
+		upos 腠 航渡
+		upos 乡镇企业 童男
+		upos 有气无力 能文能武
+		upos 丑化 操作员
+		upos 纤夫 围
+		upos 抬肩 衣冠不整
+		upos 致辞 酌定
+		upos 缩回 悼词
+		upos 分流 值勤
+		upos 冷荤 继母
+		upos 传阅 发粉
+		upos 原告 势
+		upos 咕咕 日珥
+		upos 拉纤 入乡随俗
+		upos 少年宫 严师
+		upos 筋疲力尽 掉包
+		upos 积极向上 肉桂
+		upos 不变资本 背水一战
+		upos 决裂 三色堇
+		upos 藏龙卧虎 堕胎
+		upos 得陇望蜀 选拔
+		upos 森 正体
+		upos 奴隶 跳越
+		upos 漂浮物 筘
+		upos 寸阴 婴儿
+		upos 祸胎 针线
+		upos 叫声 晚宴
+		upos 食杂店 滑石粉
+		upos 剔 定滑轮
+		upos 治愈 鼠药
+		upos 四书 不足道
+		upos 综述 宠儿
+		upos 庆幸 同母兄弟
+		upos 打赌 莫逆之交
+		upos 枷 睁眼瞎
+		upos 老娘 迎春
+		upos 徇 月台
+		upos 降级 挑夫
+		upos 婆媳 活计
+		upos 铧 风钻
+		upos 轮船 吞吞吐吐
+		upos 傀儡戏 望而止步
+		upos 创纪录 芦笋
+		upos 信件 发痧
+		upos 徽记 便条
+		upos 传播 偏光镜
+		upos 满堂喝彩 弟妇
+		upos 垦殖 妙诀
+		upos 仔细 公案
+		upos 入学 砘
+		upos 猛烈 五指山区
+		upos 道统 红柳
+		upos 版心 耻笑
+		upos 行政部门 密件
+		upos 稀饭 复写
+		upos 童真 忧惧
+		upos 秋水 徒工
+		upos 分寸 递嬗
+		upos 太庙 敬请
+		upos 通知 言传
+		upos 流浪汉 忠义
+		upos 接受者 虾米
+		upos 每时每刻 后顾之忧
+		upos 窜 声威
+		upos 苑 悉数
+		upos 花布 闹剧
+		upos 眼神 经文
+		upos 条形码 初露锋芒
+		upos 敌军 婚丧嫁娶
+		upos 返销 章鱼
+		upos 精虫 不堪重负
+		upos 诉冤 花斑癣
+		upos 一决雌雄 马队
+		upos 复辟 心软
+		upos 糜 蚕宝宝
+		upos 指甲花 飞黄腾达
+		upos 覆盖面 膏
+		upos 大珠小珠落玉盘 星斗
+		upos 迫降 配有
+		upos 与会者 穷
+		upos 忧惧 沤肥
+		upos 旌旗招展 娇痴
+		upos 天元战 纽扣
+		upos 实现 志愿者
+		upos 下拨 家累
+		upos 申请人 曲径通幽
+		upos 织 俊男靓女
+		upos 臣服 酒令
+		upos 贫矿 大牙
+		upos 阙如 坐
+		upos 乡企 花生仁
+		upos 犯罪感 髌
+		upos 宽宏大量 观众
+		upos 多难兴邦 揩油
+		upos 贫民区 洪量
+		upos 匾牌 轧钢
+		upos 公诉人 幕
+		upos 弹琴 悸动
+		upos 白眼珠 唇膏
+		upos 书林 草根
+		upos 配系 月薪
+		upos 白口铁 全貌
+		upos 服务 孤魂
+		upos 称兄道弟 挨冻
+		upos 老毛病 殉
+		upos 始业 受事
+		upos 黑暗 词章
+		upos 猪粪 椰
+		upos 血泡 夜叉
+		upos 咔嚓 休整
+		upos 离合悲欢 历历在目
+		upos 杀戮 码
+		upos 祝贺 水乡
+		upos 小打小闹 叠
+		upos 清醒 分内事
+		upos 工青妇 非议
+		upos 缴存 黎明
+		upos 姑且 贡
+		upos 破袭战 五中全会
+		upos 合久必分 挨整
+		upos 对立 也
+		upos 牛 议政
+		upos 乡镇企业 老一套
+		upos 办事 痛斥
+		upos 大哥大 那里
+		upos 肺炎 笔芯
+		upos 猎手 贫困乡
+		upos 支解 中辍
+		upos 深表 油迹
+		upos 翻脸 沉香
+		upos 鳏寡孤独 方便之门
+		upos 侈谈 泡泡纱
+		upos 体味 淘气
+		upos 腹背受敌 辜
+		upos 锋芒 红盘
+		upos 失宠 尽管
+		upos 决不会 沤肥
+		upos 配属 铆
+		upos 白头偕老 面陈
+		upos 阵子 降息
+		upos 通条 谋私
+		upos 掌上明珠 西方
+		upos 暗娼 物
+		upos 不见 枣椰
+		upos 交朋友 气割
+		upos 洋气 礼俗
+		upos 风挡 膏
+		upos 党章 险境
+		upos 工棚 卓见
+		upos 遍地 植树
+		upos 禁绝 该厂
+		upos 唇舌 军备
+		upos 居高不下 儋
+		upos 启明 油毡
+		upos 剔除 奢侈浪费
+		upos 紧急状态 跑马卖解
+		upos 后空翻 遗孀
+		upos 发现 揭露
+		upos 踪 桀纣
+		upos 私奔 体弱多病
+		upos 急如星火 人工免疫
+		upos 空儿 悍将
+		upos 祖先 震害
+		upos 电表 楼龄
+		upos 研读 道
+		upos 甲骨文 善策
+		upos 默 市侩
+		upos 过目 学究
+		upos 春 弹冠相庆
+		upos 祭 妹
+		upos 学无止境 电动
+		upos 窘态 顾及
+		upos 不行 零花
+		upos 三缄其口 旁听席
+		upos 回头路 枞树
+		upos 惹不起 魔王
+		upos 围脖儿 额角
+		upos 方丈 用人
+		upos 伸缩性 铺叙
+		upos 伤愈 断肢
+		upos 茅草 泥水匠
+		upos 兵学 鼓劲
+		upos 宝贵 消极怠工
+		upos 柳丝 尺蠖
+		upos 大刑 压缩空气
+		upos 各行其道 罪行
+		upos 兴 调解
+		upos 晴好 剂
+		upos 原线圈 联合社
+		upos 奸 待定
+		upos 小照 汤剂
+		upos 斧 游伴
+		upos 不成材 齐天
+		upos 祭拜 高寿
+		upos 下臣 造福一方
+		upos 题为 烽火台
+		upos 当局 有奖销售
+		upos 木头 理
+		upos 拉丝 水葬
+		upos 二炮 下半旗
+		upos 下情 有利可图
+		upos 头面 讹传
+		upos 消遣 刺客
+		upos 安卧 一展身手
+		upos 年华 请帖
+		upos 瓷盘 胡蜂
+		upos 陷阱 校内
+		upos 接待厅 合办
+		upos 奖券 怎么办
+		upos 领教 引以为荣
+		upos 主 李四光
+		upos 大家族 集中制
+		upos 招认 微型机
+		upos 耳孔 书眉
+		upos 狂犬病 膝头
+		upos 待岗 饺
+		upos 关税壁垒 鱼鹰
+		upos 火印 松
+		upos 药 酸溜溜
+		upos 大案要案 敌我
+		upos 抬杠 生气勃勃
+		upos 邮递员 嫦娥
+		upos 升华 边地
+		upos 制 耢
+		upos 外甥女 血泡
+		upos 文教 叙旧
+		upos 来电 好处
+		upos 盆子 掏
+		upos 急刹车 秋种
+		upos 三班倒 总协定
+		upos 毫毛 闹剧
+		upos 石棉瓦 狂风暴雨
+		upos 水泥钉 一动
+		upos 空口无凭 奸臣
+		upos 头功 时令
+		upos 折 不畏强暴
+		upos 福气 暗娼
+		upos 眷属 自以为是
+		upos 糖人 莲座
+		upos 叫好 抽丝
+		upos 说到做到 首创者
+		upos 一下 休会
+		upos 水晶体 唱酬
+		upos 临盆 应试
+		upos 江豚 统购统销
+		upos 忽闪 安卧
+		upos 对牛弹琴 登陆
+		upos 转干 晶莹
+		upos 私生子 敷衍
+		upos 红肿 绞盘
+		upos 能愿 花鼓舞
+		upos 之所以 手写
+		upos 批次 力畜
+		upos 复读 差之毫厘
+		upos 寿木 融化
+		upos 涨 不可名状
+		upos 开戒 经史子集
+		upos 少年宫 指挥所
+		upos 近体诗 颁证
+		upos 公益金 山丹
+		upos 世传 鬼哭神嚎
+		upos 治军 公函
+		upos 扭转 围盘
+		upos 破案 手艺人
+		upos 跑腿 汽灯
+		upos 借机 搬运工
+		upos 白鸽 贫乏
+		upos 未尝 评点
+		upos 后天 帱
+		upos 长文 沿边
+		upos 流弹 巨人
+		upos 年检 条码
+		upos 有理有据 轧
+		upos 卡通 模压
+		upos 追随者 俳
+		upos 讲排场 水鹿
+		upos 乌发 错怪
+		upos 氛 功在千秋
+		upos 大头 矗起
+		upos 王八 自养
+		upos 唱高调 职分
+		upos 高位 夕照
+		upos 经营 修明
+		upos 踊跃 口哨
+		upos 野性 被服
+		upos 垂 远涉重洋
+		upos 说词 夹
+		upos 安排 顿然
+		upos 坯子 剔出
+		upos 昏迷 泊车
+		upos 师德 杀头
+		upos 士绅 有事
+		upos 再会 政治局
+		upos 一路上 打江山
+		upos 户政 狗仗人势
+		upos 单科 如饥似渴
+		upos 表情 拆洗
+		upos 暗含 生长
+		upos 缴付 收殓
+		upos 搜查 改口
+		upos 宫 安息香
+		upos 早市 荡妇
+		upos 菖蒲 预装
+		upos 铁棒 突破口
+		upos 官倒 烽火台
+		upos 逼良为娼 务使
+		upos 雪团 二月
+		upos 教研组 镀金
+		upos 非公经济 嘈杂
+		upos 学习者 梗
+		upos 达到 洋铁
+		upos 凉 装货
+		upos 挂名 飞人
+		upos 肝蛭 段子
+		upos 脯 簏
+		upos 奖惩制度 小户
+		upos 癣 葬送
+		upos 择友 天赐良机
+		upos 鸩 鸲鹆
+		upos 日利率 放电影
+		upos 排版 驳运
+		upos 自备 谢意
+		upos 办案 介绍
+		upos 香 煤海
+		upos 软梯 甲亢病
+		upos 英烈 海
+		upos 此行 阅读
+		upos 继之 槐叶
+		upos 烫发 升序
+		upos 岂敢 热流
+		upos 兵操 携家带口
+		upos 滑稽戏 打药
+		upos 储蓄 私
+		upos 重症 耍花样
+		upos 玻璃球 坚壁
+		upos 时期 燃起
+		upos 含饴弄孙 补救
+		upos 橛子 货畅其流
+		upos 训 贫道
+		upos 柳眉 浓眉
+		upos 倒置 千家万户
+		upos 纯利 台胞
+		upos 门联 外人
+		upos 言过其实 重读
+		upos 棒 此话
+		upos 瓦楞 指标
+		upos 先祖 切割
+		upos 篝火 汤池
+		upos 芳龄 鸡杂
+		upos 厚道 烟丝
+		upos 花 活计
+		upos 营垒 青苗
+		upos 滩 急切
+		upos 习焉不察 礼拜一
+		upos 高见 钥匙
+		upos 辩论会 双姓
+		upos 幌子 商品猪
+		upos 玉版宣 新年
+		upos 作废 营房
+		upos 古代史 情有可原
+		upos 衣片 贰臣
+		upos 穷根 拿大顶
+		upos 妻舅 终结符
+		upos 传真机 放毒
+		upos 讥嘲 行包
+		upos 猎奇 糖葫芦
+		upos 浣熊 引语
+		upos 组队 劫持
+		upos 事关全局 剂
+		upos 铁桶 阳
+		upos 全家福 销声匿迹
+		upos 老五 余数
+		upos 打球 钱粮
+		upos 西方 隔日
+		upos 爵位 上
+		upos 拍戏 陪审制
+		upos 象素 消除
+		upos 闰日 反哺
+		upos 并举 裙带关系
+		upos 五味 内焰
+		upos 同时代 无性
+		upos 坌 顺流而下
+		upos 补税 弃婴
+		upos 蓓蕾 地面
+		upos 痼疾 发粉
+		upos 漆皮 拷打
+		upos 目的 团中央
+		upos 恭谨 打场
+		upos 泛称 三班倒
+		upos 期中 邮递员
+		upos 同性恋者 因为
+		upos 艳 无言
+		upos 莴笋 箪食壶浆
+		upos 行政区 尖峰
+		upos 罪名 竞争力
+		upos 巡查 白条
+		upos 各抒己见 多难兴邦
+		upos 婶婶 中山狼
+		upos 订婚 售后服务
+		upos 莫须有 徐悲鸿
+		upos 下凡 奔走
+		upos 维护者 作响
+		upos 觚 单晶硅
+		upos 轻骑 川芎
+		upos 蜡虫 抬价
+		upos 测验 做
+		upos 工作狂 委以重任
+		upos 危机 烟斗
+		upos 小帽 一下
+		upos 租售 白领
+		upos 墙脚 各取所需
+		upos 忧国忧民 萍水相逢
+		upos 歇后语 狗尾续貂
+		upos 人际关系 秋景
+		upos 东正教 销售一空
+		upos 表达 公证员
+		upos 粗茶淡饭 镂花
+		upos 绝大多数 伯祖母
+		upos 雕虫小技 骨头架子
+		upos 寺观 笔战
+		upos 瓮 归案
+		upos 道士 镇委
+		upos 磨子 信件
+		upos 影 授奖
+		upos 邮品 施治
+		upos 官兵 烹
+		upos 奖罚分明 三不管
+		upos 击毁 屠夫
+		upos 风鸟 商品猪
+		upos 酥 不出所料
+		upos 保重 钻谋
+		upos 直 会
+		upos 必然王国 题海战术
+		upos 大写字母 革除
+		upos 彩绸 秋风
+		upos 偏僻 台钻
+		upos 青出于蓝而胜于蓝 武火
+		upos 自虐 同温层
+		upos 偷逃税 熊
+		upos 小子 提成
+		upos 电船 门市
+		upos 封装 低耗
+		upos 亿 光耀
+		upos 潜滋暗长 乌
+		upos 束手束脚 形不成
+		upos 八卦 受洗
+		upos 回炉 船
+		upos 给予 装璜
+		upos 新罕布什尔 略微
+		upos 名数 嫩草
+		upos 付出 星相
+		upos 阶梯 出于
+		upos 酱坊 车钩
+		upos 鱼鹰 大白菜
+		upos 生光 叔祖母
+		upos 庹 别提
+		upos 谋生 方向盘
+		upos 区段 女将
+		upos 涝 冠
+		upos 尤物 温泉
+		upos 海扇 水龙头
+		upos 演讲者 装璜
+		upos 打颤 杂居
+		upos 母 叙写
+		upos 被上诉人 绒衣
+		upos 覆盖面 鸥
+		upos 获救 怨偶
+		upos 多于 求雨
+		upos 松萝 万水千山
+		upos 正身 舒坦
+		upos 日利率 此致
+		upos 告 废弛
+		upos 火力网 自找
+		upos 悟 傧相
+		upos 疙瘩 婴
+		upos 计时员 胡瓜
+		upos 金针 敌舰
+		upos 害人不浅 可想而知
+		upos 榜上无名 扑打
+		upos 报章 互帮互助
+		upos 举报者 装箱
+		upos 二奶 变色
+		upos 傀儡 起先
+		upos 新机 得空
+		upos 翻案 出典
+		upos 领头人 鹿茸
+		upos 重言 娓娓而谈
+		upos 外快 千变万化
+		upos 评论性 紧
+		upos 老毛病 帽徽
+		upos 阡陌 发梢
+		upos 付之东流 功勋
+		upos 闪 青年
+		upos 契 殿后
+		upos 相沿成习 跌进
+		upos 腊月 非军事
+		upos 空文 初时
+		upos 过来 遁入空门
+		upos 搬进 她们
+		upos 易于 半夜三更
+		upos 男女老幼 肆无忌惮
+		upos 鼓吹者 宦途
+		upos 戴盆望天 宁可
+		upos 高根 簇新
+		upos 寄语 土窑
+		upos 裙带关系 留人
+		upos 伛偻 分配
+		upos 安身之地 门
+		upos 栲栳 如果
+		upos 做事 木屐
+		upos 准备 风花雪月
+		upos 坐地分赃 确实
+		upos 丫头 磁体
+		upos 连环画 传帮带
+		upos 落子 千言万语
+		upos 集合 罹难者
+		upos 仆 假
+		upos 二五眼 盛景
+		upos 脸子 拱手
+		upos 念头 累活
+		upos 以远 凿
+		upos 海岭 家族式
+		upos 安生 门坎
+		upos 修辞格 娃娃鱼
+		upos 怠工 老牌子
+		upos 虞 导电性
+		upos 不假思索 挡路
+		upos 一府两院 落体
+		upos 受辱 好歹
+		upos 活 霖
+		upos 信任投票 数九寒冬
+		upos 瘟疫 洗劫
+		upos 众人 实施者
+		upos 还原焰 带班
+		upos 销赃 拆封
+		upos 润笔 曲子
+		upos 野炊 品
+		upos 唯心史观 条条框框
+		upos 滑石粉 鸭嘴龙
+		upos 条几 血淋淋
+		upos 调戏 荒沙
+		upos 询 罐装
+		upos 规例 朝令夕改
+		upos 百日 获奖者
+		upos 大是大非 靡靡之音
+		upos 赴难 灰鼠
+		upos 同龄 养鱼池
+		upos 舞者 小记
+		upos 朗诵 戒尺
+		upos 次女 诠注
+		upos 执业 花鼓舞
+		upos 镜台 臂腕
+		upos 跳棋 海豚
+		upos 三角恋爱 碳黑
+		upos 俊美 饶有兴致
+		upos 注入 执掌
+		upos 作茧自缚 点收
+		upos 染指 障蔽
+		upos 火树银花 合计
+		upos 粮源 粉扑
+		upos 伯爵 缟
+		upos 季节 鸿篇巨制
+		upos 沼液 先贤
+		upos 潜滋暗长 气割
+		upos 帽 贮存
+		upos 设防 民力
+		upos 中介人 哈哈镜
+		upos 社论 留名
+		upos 素净 麦子
+		upos 思想 树荫
+		upos 体现 货畅其流
+		upos 钻 戒赌
+		upos 大腹皮 练就
+		upos 愤怒 掺水
+		upos 断言 师承
+		upos 昆曲 女杰
+		upos 旅程 日利率
+		upos 柠檬桉 书香
+		upos 特徵 一息尚存
+		upos 龟背 烟熏火燎
+		upos 威势 接踵
+		upos 糖醋鱼 晁
+		upos 苎麻 拆息
+		upos 强人所难 荡涤
+		upos 毛地黄 鳏寡孤独
+		upos 干 夤缘
+		upos 邻邦 嘘寒问暖
+		upos 领带夹 灵通
+		upos 运往 共命运
+		upos 小区 标明
+		upos 锅灶 选登
+		upos 朋友 投机倒把
+		upos 滴水 拗
+		upos 淘气 政治局
+		upos 省直 无庸置疑
+		upos 汗水 婉言
+		upos 亏待 原装
+		upos 服毒 砸锅卖铁
+		upos 分发 酸溜溜
+		upos 深厚 老大妈
+		upos 颈椎 寒士
+		upos 挂账 吹牛
+		upos 抵抗 依赖
+		upos 地沥青 车把
+		upos 引航 作对
+		upos 薪资 渗
+		upos 旗 假根
+		upos 葫 生花妙笔
+		upos 经脉 摇旗呐喊
+		upos 上边 走读
+		upos 人山人海 拖垮
+		upos 午睡 把门
+		upos 欲望 帅位
+		upos 银 有机肥料
+		upos 渐进 房地
+		upos 宽厚 走读
+		upos 干 飞吻
+		upos 退休金 逸闻
+		upos 脚印 生角
+		upos 革除 喊冤
+		upos 牵线 御花园
+		upos 避孕片 草籽
+		upos 无线电台 鸣放
+		upos 情敌 细工
+		upos 籼稻 月相
+		upos 武戏 乐趣
+		upos 白话文 灵性
+		upos 嫩 试演
+		upos 病榻 睫
+		upos 大行其道 银河
+		upos 百花争艳 就业
+		upos 上议院 开球
+		upos 双刃剑 擀杖
+		upos 服务商 咔嚓
+		upos 慢慢来 行经
+		upos 象样 繁文缛节
+		upos 功臣 木刻水印
+		upos 语体文 嘉靖
+		upos 战神 枢机主教
+		upos 烧化 轮渡
+		upos 冷场 工程建设者
+		upos 民间 震撼力
+		upos 鹅蛋脸 链子
+		upos 脱脂 锒铛
+		upos 赛季 裁纸刀
+		upos 吹塑 月息
+		upos 玖 饱览
+		upos 多情 嘟嘟
+		upos 叛党 全托
+		upos 痛经 蔓儿
+		upos 大宴宾客 苦劳
+		upos 劳动部门 国药
+		upos 露 之外
+		upos 夯 组织者
+		upos 交接班 主战场
+		upos 女警 官房长官
+		upos 文革 本期
+		upos 侄外孙 湖绿
+		upos 吐泻 得势
+		upos 提灌 偎
+		upos 醒狮 桌椅板凳
+		upos 直拍 核电机组
+		upos 潮头 茶余饭后
+		upos 阴魂 混入
+		upos 皮肤 妒贤嫉能
+		upos 幻灯片 营业厅
+		upos 方 霹雳
+		upos 逗哏 课征
+		upos 包袱 能够
+		upos 羹 松子
+		upos 词曲 凿
+		upos 承袭 穷根
+		upos 爱好者 荒凉
+		upos 送行 只说不做
+		upos 互通 停车费
+		upos 餐 渡头
+		upos 有功 挑子
+		upos 太平 书眉
+		upos 牟 复生
+		upos 青白 名落孙山
+		upos 习作 油盐
+		upos 锚 侧视图
+		upos 营寨 忧愤
+		upos 伸腰 另选
+		upos 云山雾罩 姨
+		upos 通信 凡
+		upos 草窝 饮水
+		upos 青 奶名
+		upos 复写 饮
+		upos 一如既往 并行不悖
+		upos 使 卧
+		upos 嵌 油轮
+		upos 祁红 军权
+		upos 圆子 破天荒
+		upos 父爱 归公
+		upos 八一建军节 工作者
+		upos 尝新 栓
+		upos 副肾 功罪
+		upos 发胖 源
+		upos 评级 幽美
+		upos 嚓 回生
+		upos 专场 灯罩
+		upos 政教 驮子
+		upos 拜把子 猿猴
+		upos 不然 裂痕
+		upos 厌世 女婿
+		upos 雕刻 多彩多姿
+		upos 神 笔架
+		upos 灶神 训话
+		upos 天赐良机 支柱
+		upos 数学课 佛殿
+		upos 舸 岂敢
+		upos 夺取 相提并论
+		upos 倍 朱槿
+		upos 捞饭 一饱眼福
+		upos 拿大顶 大力神
+		upos 舍亲 磨耗
+		upos 轻重 核装置
+		upos 叔侄 小鞋
+		upos 风致 场次
+		upos 私 胁肩谄笑
+		upos 腾 书信体
+		upos 挨整 粉
+		upos 怒吼 扼守
+		upos 车主 把柄
+		upos 豪气 拜师
+		upos 松杉 符合条件者
+		upos 酒浆 抵扣
+		upos 回暖 近况
+		upos 配电盘 失足者
+		upos 开垦 国度
+		upos 骗子 蓄须
+		upos 有备无患 长夜
+		upos 球 出口导向型
+		upos 激 沙浆
+		upos 倒退 观众
+		upos 三禁 提箱
+		upos 揽活 电子
+		upos 辞 商战
+		upos 战斗机 试金石
+		upos 团工委 嘟嘟
+		upos 敲山震虎 型
+		upos 冻 坚壁
+		upos 公关部 痛骂
+		upos 连襟 球裤
+		upos 设想 令弟
+		upos 罐头盒 学法
+		upos 事过境迁 第三国际
+		upos 情况 课业
+		upos 食欲 庶
+		upos 小衣 查缴
+		upos 孱头 重整旗鼓
+		upos 魔王 配
+		upos 另选 知趣
+		upos 生前 身份
+		upos 远 行市
+		upos 关门 格格不入
+		upos 侄女 个位
+		upos 博学 奇货可居
+		upos 食油 染毒
+		upos 各执一词 摆渡
+		upos 干湿 乐府
+		upos 法令 晴雨表
+		upos 撇嘴 残酷无情
+		upos 洋橄榄 图章
+		upos 勤恳 几维鸟
+		upos 犬子 蝴蝶花
+		upos 以牙还牙 钟点工
+		upos 受访者 春夏秋冬
+		upos 体育运动 清君侧
+		upos 俚语 秋景
+		upos 人丛 正道
+		upos 亭亭玉立 地区性
+		upos 荡妇 掌印
+		upos 转世灵童 起稿
+		upos 运往 骗税
+		upos 自愿 防水表
+		upos 解约 拙作
+		upos 来电 皮具
+		upos 分厂 肉桂
+		upos 醒 到头
+		upos 英语角 对象
+		upos 马桩 将来
+		upos 颊囊 震波
+		upos 遗 龙肝凤髓
+		upos 巳 马日事变
+		upos 黍 说动
+		upos 服务 拔
+		upos 包机 如履平地
+		upos 理解 油
+		upos 烽火山 草荐
+		upos 碌碡 多面手
+		upos 鳅 旁观
+		upos 分拨 当家做主
+		upos 谋划 二中全会
+		upos 韧 日积月累
+		upos 熏风 一举多得
+		upos 雕刻 扫帚
+		upos 年少 名演员
+		upos 压服 挑唆
+		upos 稍候 猩
+		upos 战略部署 城市贫民
+		upos 罂粟 线头
+		upos 合股 新桃换旧符
+		upos 垂爱 姻
+		upos 瑶寨 水上居民
+		upos 财势 后手
+		upos 可怜虫 鹿死谁手
+		upos 眼罩 贳
+		upos 背 山水相连
+		upos 试飞 时隔
+		upos 举世无双 黑脸
+		upos 民主 笔路
+		upos 亲手 私房
+		upos 汁 西移
+		upos 没收 我校
+		upos 赛季 未能免俗
+		upos 租金 物议
+		upos 憩 修道
+		upos 迟 谦让
+		upos 假扮 有功者
+		upos 对偶 便览
+		upos 勋爵 涕泣
+		upos 北风 正线
+		upos 诗人 客
+		upos 大同江 西南角
+		upos 道教徒 释典
+		upos 朝拜 冬
+		upos 食积 口诛笔伐
+		upos 梓 花名册
+		upos 歼击机 除此而外
+		upos 提供 自相残杀
+		upos 下基层 陶
+		upos 涤棉 办发
+		upos 心安 露底
+		upos 生津止渴 佛教界
+		upos 躺椅 针
+		upos 姐 兵荒马乱
+		upos 外国人 烧火
+		upos 后脑 收文
+		upos 集邮 破袭战
+		upos 被窝 担子
+		upos 出航 笑意
+		upos 拗口令 要求
+		upos 对口相声 砖头
+		upos 手记 偷眼
+		upos 鼻尖 不可靠性
+		upos 退休金 搜罗
+		upos 三七开 五合板
+		upos 椹 填
+		upos 秋风 请战
+		upos 婚期 干枝
+		upos 股 总汇
+		upos 高产田 大姐
+		upos 匀整 掩体
+		upos 雄才大略 听筒
+		upos 撒手锏 钢尺
+		upos 值班员 支委
+		upos 刨花 小量
+		upos 乌龟 夜战
+		upos 立 清明
+		upos 热水袋 蹲点
+		upos 马虎 望闻问切
+		upos 争光 爆破筒
+		upos 刹 军心
+		upos 富民 居者
+		upos 异同 玉米面
+		upos 水泥钉 修浚
+		upos 仪态 面授机宜
+		upos 洗洗 紫花地丁
+		upos 晚节 汩汩
+		upos 县志 狂轰滥炸
+		upos 点头 倒伏
+		upos 领章 过场
+		upos 失笑 暂居
+		upos 知识分子 教育史
+		upos 煤气表 耕作
+		upos 弓箭 抓耳挠腮
+		upos 鸾 研究生班
+		upos 地 动物纤维
+		upos 毒品 浇水
+		upos 勃兰登堡州 恶性循环
+		upos 刀笔 原型
+		upos 源流 赔笑
+		upos 狂奔 繁文缛节
+		upos 图说 攀谈
+		upos 卷 匀细
+		upos 春试 露天矿
+		upos 捧 付梓
+		upos 同性恋者 攀扯
+		upos 力求 两性人
+		upos 出手 兄长
+		upos 聪明才智 马掌
+		upos 峻 销毁
+		upos 可变 亲代
+		upos 毁誉参半 电渣炉
+		upos 克复 奴役
+		upos 乏善可陈 伴游
+		upos 衍变 陪送
+		upos 渔产 爪子
+		upos 优弧 弃婴
+		upos 火狐 吱吱
+		upos 一清二白 烟花
+		upos 杖 正身
+		upos 明码 性骚扰
+		upos 凄风苦雨 骑马
+		upos 官办 芦席
+		upos 循序渐进 焦土
+		upos 痊愈 累
+		upos 锡箔 尖脐
+		upos 共享 粮秣
+		upos 大炮 下床
+		upos 盟 系念
+		upos 胎发 盖碗茶
+		upos 主观性 色盲
+		upos 两用 爱才如命
+		upos 程序性 徒工
+		upos 价格 土牛
+		upos 蛇行 不可言传
+		upos 爆 当家
+		upos 通信连 挂冠
+		upos 短期 结婚
+		upos 海阔天空 刺
+		upos 神 爱鸟周
+		upos 立体电影 坚壁清野
+		upos 浅色 狗尾续貂
+		upos 舞场 暗处
+		upos 炷 推而广之
+		upos 梁上君子 起笔
+		upos 残匪 洋姜
+		upos 白雪公主 贰臣
+		upos 说 指要
+		upos 恻隐之心 倒立
+		upos 职业 慰
+		upos 早餐 烤炉
+		upos 虐 挂怀
+		upos 栽培植物 条鳎
+		upos 开办 轰隆
+		upos 瞳 政工
+		upos 乡镇企业 初冬
+		upos 寓所 工商企业界
+		upos 积肥 尖利
+		upos 圹 改天换地
+		upos 猪倌 出车
+		upos 丝弦 蜡人
+		upos 模范 商业界
+		upos 杂记 丁丁
+		upos 成年组 旧币
+		upos 甲组 黑发
+		upos 投资 鱼白
+		upos 才能 核威慑
+		upos 腻烦 文物
+		upos 租金 诉诸武力
+		upos 膂力 立时
+		upos 满面笑容 胸脯
+		upos 袖珍本 生人
+		upos 简记 外路
+		upos 马匹 知识分子
+		upos 集子 邪念
+		upos 药皂 永恒性
+		upos 寄予 烟枪
+		upos 旧迹 勾销
+		upos 急症 耍钱
+		upos 守灵 连续性
+		upos 风尚 风流
+		upos 爪子 通例
+		upos 李时珍 名曲
+		upos 瘢 保驾
+		upos 男家 测控
+		upos 小帽 自费
+		upos 牛肉面 决不会
+		upos 货币地租 酒壶
+		upos 白癣 挥霍
+		upos 齐心合力 孩儿
+		upos 去年末 东侧
+		upos 点石成金 扳倒
+		upos 目击者 捞油水
+		upos 公路 落照
+		upos 破袭战 撕毁
+		upos 综治 指东说西
+		upos 会 出师
+		upos 表层 巡诊
+		upos 餐饮部 超重
+		upos 核军备 攀
+		upos 倡言 算卦
+		upos 接踵 懒汉
+		upos 绝育 盛年
+		upos 弄权 休庭
+		upos 新闻 深湛
+		upos 比画 矸石
+		upos 藉 无偿
+		upos 猪苓 小记
+		upos 河岸 念叨
+		upos 来头 内存储器
+		upos 錾子 照护
+		upos 谜 何用
+		upos 习武 黄梅
+		upos 牙口 卖俏
+		upos 山庄 印象
+		upos 投篮 明治维新
+		upos 散开 倒打一耙
+		upos 老练 云朵
+		upos 婚嫁 清高
+		upos 嫩草 若非
+		upos 堤岸 密封圈
+		upos 退堂 心潮澎湃
+		upos 双月 私房
+		upos 传 眉心
+		upos 检点 新词
+		upos 白匪 大刑
+		upos 收揽 水滴石穿
+		upos 填空 易燃物
+		upos 流质 芝
+		upos 删 清洁
+		upos 大智大慧 液化
+		upos 匕首 初小
+		upos 暗影 简要
+		upos 皇位 错爱
+		upos 晚秋 飞檐走壁
+		upos 抽样 俯身
+		upos 其父 加薪
+		upos 哄 垂涎欲滴
+		upos 夏锄 面
+		upos 直到 隶字
+		upos 总督府 号手
+		upos 削平 屠夫
+		upos 深交 沙棘
+		upos 拱圈 只不过
+		upos 建都 中常会
+		upos 输油管道 自嘲
+		upos 十字 违章
+		upos 鏖兵 第四声
+		upos 义 初露锋芒
+		upos 形不成 晓之以理
+		upos 内外有别 坏账
+		upos 跃马 国难
+		upos 煤城 武二花
+		upos 冤 依山傍水
+		upos 过度 完全
+		upos 哥 熬
+		upos 没什么 车马费
+		upos 骗子 可靠
+		upos 非军事 保密
+		upos 范例 绝口
+		upos 应聘 怜爱
+		upos 重阳 黑霉
+		upos 拼接 插叙
+		upos 琴 中小城市
+		upos 威严 过问
+		upos 故友 风雪交加
+		upos 跑 道歉
+		upos 领班 贿赂
+		upos 成份 合页
+		upos 手提箱 助战
+		upos 胡须 梦话
+		upos 舌尖 受不了
+		upos 缓减 涌动
+		upos 家燕 月台
+		upos 乡镇企业 外间
+		upos 回忆录 浮艳
+		upos 偏向 屎壳郎
+		upos 京二胡 接见
+		upos 自讨苦吃 比肩而立
+		upos 四肢 旧国
+		upos 长凳 门坎
+		upos 穗 作响
+		upos 桐油树 师母
+		upos 大秋 天赋人权
+		upos 精装 白布
+		upos 离群索居 掉换
+		upos 联合体 枸杞
+		upos 纷争 粮饷
+		upos 煤烟 拼刺刀
+		upos 席草 械
+		upos 小尾寒羊 残局
+		upos 出租人 柴扉
+		upos 精装本 耶和华
+		upos 唾手可得 抢劫案
+		upos 关头 寄送
+		upos 标点 旨意
+		upos 瓜片 极左
+		upos 浮土 土
+		upos 夜猫子 鼢鼠
+		upos 可爱 声韵学
+		upos 直言 征调
+		upos 积习 装糊涂
+		upos 喜酒 名宿
+		upos 触动 山里红
+		upos 检讨书 缰
+		upos 生丝 雨水管
+		upos 单极 此理
+		upos 轻易 激扬
+		upos 帝 沙暴
+		upos 膏粱子弟 旧作
+		upos 牛黄 废塑料
+		upos 干渴 离队
+		upos 猥贱 表尺
+		upos 一见钟情 迎来
+		upos 发扬 长年累月
+		upos 关停 居民
+		upos 亢奋 沙金
+		upos 打头 眉头
+		upos 砂布 应战
+		upos 以诚相待 骨架
+		upos 易学 牡丹花
+		upos 白矾 无言以对
+		upos 注文 美丑
+		upos 呼吁 鱼口
+		upos 腰斩 灼
+		upos 贪官污吏 旧诗
+		upos 如履平地 说笑话
+		upos 寿星 敌我矛盾
+		upos 活动桥 干粮
+		upos 暗红 唧唧
+		upos 偻 怅惘
+		upos 电刑 大红大紫
+		upos 调防 同伙
+		upos 南下 越境
+		upos 充饥 蠢动
+		upos 打蜡 摇曳多姿
+		upos 垫子 哟
+		upos 为数 许
+		upos 转学 着火
+		upos 扒 训练部
+		upos 讲排场 卷扬机
+		upos 商战 自
+		upos 老夫子 催奶
+		upos 魔芋 打蜡
+		upos 横生 营房
+		upos 锅灶 版刻
+		upos 克汀病 空间
+		upos 阴历 椴树
+		upos 串讲 受罚
+		upos 开源 夏令营
+		upos 坦克 公安军
+		upos 脱钩 卑怯
+		upos 除了 乎
+		upos 留 好客
+		upos 颈项 粮草
+		upos 亏待 散曲
+		upos 身不由己 境况
+		upos 轰动一时 学棍
+		upos 执掌 破天荒
+		upos 犹太人 于是
+		upos 潇湘 逃出
+		upos 喷漆 带
+		upos 脱手 茶树
+		upos 空闲 活鸡
+		upos 党八股 发酵
+		upos 戏言 易燃物
+		upos 私邸 枕木
+		upos 图录 花苗
+		upos 过堂 总的来说
+		upos 省内 火井
+		upos 东方人 誊录
+		upos 论理 自己
+		upos 纸 小白菜
+		upos 厚道 红人
+		upos 闭 猿猴
+		upos 奇缺 咨文
+		upos 短小 名胜古迹
+		upos 欺骗 斜眼
+		upos 光明 烤肉
+		upos 人鱼 缺吃少穿
+		upos 急症 头一回
+		upos 呜咽 雪中送炭
+		upos 磐 风和日暖
+		upos 照着 包容
+
+	unrelatedneg 966
+		uneg 实际上 鲜艳
+		uneg 花消 冰峰
+		uneg 危旧房 结冰
+		uneg 监听 青衣
+		uneg 食谱 西医
+		uneg 股骨头 不可抗力
+		uneg 尘肺 关联
+		uneg 头球 铁路网
+		uneg 活门 痛快
+		uneg 吞 冲锋枪
+		uneg 纺织 高炉
+		uneg 环靶 演奏者
+		uneg 肉果 现象
+		uneg 八方 印刷
+		uneg 活结 一番话
+		uneg 科举 奉命
+		uneg 拾荒 断奶
+		uneg 不足 生姜
+		uneg 叔婆 供给
+		uneg 给 砂砾
+		uneg 阴阳历 把戏
+		uneg 指要 上坟
+		uneg 杀 阳性
+		uneg 理财 平纹
+		uneg 此外 活佛
+		uneg 债务 度
+		uneg 挂职 追缴
+		uneg 水利枢纽 做菜
+		uneg 充军 史事
+		uneg 古称 汗斑
+		uneg 汇费 轩昂
+		uneg 土黄色 托起
+		uneg 荷叶 终末
+		uneg 洞穴 图钉
+		uneg 通俗 水果
+		uneg 异体字 家伙
+		uneg 不便 大功
+		uneg 承包 图籍
+		uneg 坚定 里头
+		uneg 产业 青白
+		uneg 习字 现状
+		uneg 清 克隆人
+		uneg 海豚泳 左方
+		uneg 撵 辣
+		uneg 堡垒 静脉
+		uneg 试问 上体
+		uneg 荤菜 顺序
+		uneg 符 菜色
+		uneg 群众运动 叶绿体
+		uneg 上半身 死胎
+		uneg 背 切面
+		uneg 晚育 祝愿
+		uneg 百衲衣 浇筑
+		uneg 酒意 洛阳市
+		uneg 锋刃 器
+		uneg 革新 痔
+		uneg 迷魂药 指南
+		uneg 留有余地 主食
+		uneg 减速板 润泽
+		uneg 唱机 交接
+		uneg 叙事文 柴油机
+		uneg 此处 艳
+		uneg 海扇 编订
+		uneg 贸易战 转口
+		uneg 配备 星期
+		uneg 姑奶奶 变奏
+		uneg 说明文 标点
+		uneg 改朝换代 大年初一
+		uneg 损失 搞垮
+		uneg 虎视眈眈 私立
+		uneg 诏 约
+		uneg 争当 厚重
+		uneg 经济学说 气
+		uneg 拒绝 可变
+		uneg 毁弃 蚊香
+		uneg 暗锁 烟草
+		uneg 龟奴 原本
+		uneg 倒买倒卖 误认为
+		uneg 兄妹 看似
+		uneg 意象 官能团
+		uneg 几乎 容器
+		uneg 苇席 冷色
+		uneg 预言 收发
+		uneg 促请 吞吐
+		uneg 养鸡 查封
+		uneg 捉刀 有机化学
+		uneg 狮子舞 姓名
+		uneg 已婚 杂草
+		uneg 票 之一
+		uneg 短距离 北疆
+		uneg 开 鼠疫
+		uneg 暂时 营养
+		uneg 逼供 河网
+		uneg 夫妻 绵羊
+		uneg 动手 曲
+		uneg 照 社会分工
+		uneg 约见 转给
+		uneg 讨厌 糨糊
+		uneg 虽然 调节
+		uneg 抹脖子 圬
+		uneg 洼地 飞
+		uneg 免责 计费
+		uneg 催生 耳屏
+		uneg 参事 水军
+		uneg 王爷 转调
+		uneg 影 胞
+		uneg 厨 引
+		uneg 赛事 阶段
+		uneg 占优势 前身
+		uneg 丧父 阉割
+		uneg 分厘卡 捕捉
+		uneg 漆黑 鱼鳔
+		uneg 妯娌 世青赛
+		uneg 大伯 人称
+		uneg 暖房 班车
+		uneg 再嫁 肢体
+		uneg 权力 喷泉
+		uneg 出将入相 资助
+		uneg 支子 低下
+		uneg 此理 褥子
+		uneg 途次 原先
+		uneg 五更 主编
+		uneg 气味 脏器
+		uneg 鬣 电子元件
+		uneg 货郎 死刑犯
+		uneg 古刹 灼热
+		uneg 网篮 撤销
+		uneg 脆弱性 上皮组织
+		uneg 党魁 酷暑
+		uneg 上下级 阴极
+		uneg 顺脚 激战
+		uneg 拉关系 志趣
+		uneg 快照 卸货
+		uneg 工商界 筒状花
+		uneg 不 弱碱
+		uneg 讲座 香火
+		uneg 报端 公元前
+		uneg 菌落 体貌
+		uneg 治安 饕餮
+		uneg 住持 瓦匠
+		uneg 三宝 倒塌
+		uneg 归宿 增生
+		uneg 女性 诉讼
+		uneg 单亲 紧握
+		uneg 英俊 收发
+		uneg 稳固 色彩斑斓
+		uneg 车把 股骨
+		uneg 其 子弹
+		uneg 连珠 狂想曲
+		uneg 果实 自身
+		uneg 管教 礁石
+		uneg 盲动 精血
+		uneg 门神 香蕉
+		uneg 生业 配乐
+		uneg 不利 同归于尽
+		uneg 成风 通往
+		uneg 当地人 李
+		uneg 掷弹筒 分批
+		uneg 表嫂 规则
+		uneg 青春 吐
+		uneg 保证金 考验
+		uneg 尾 流放
+		uneg 调味 治疗
+		uneg 坐地分赃 偶
+		uneg 耗油 硅藻
+		uneg 沅 批语
+		uneg 省府 自给
+		uneg 逃犯 铁画
+		uneg 头皮屑 鬣
+		uneg 眼跳 吨
+		uneg 旱烟袋 武昌鱼
+		uneg 贿赂 精益求精
+		uneg 烧锅 岩溶
+		uneg 台地 短剑
+		uneg 老牌 胶片
+		uneg 水上居民 松紧
+		uneg 胡来 形式逻辑
+		uneg 生产基金 哲学史
+		uneg 幕府 地
+		uneg 遗祸 煤
+		uneg 传略 资本家
+		uneg 歪曲 弹丸
+		uneg 海蟹 无不
+		uneg 米粒 张力
+		uneg 蓬 有线广播
+		uneg 结拜 织布
+		uneg 彩色片 反转
+		uneg 出谋划策 河岸
+		uneg 表嫂 增高
+		uneg 回禀 汇编语言
+		uneg 老调重弹 舵手
+		uneg 待援 芥
+		uneg 盛宴 赭
+		uneg 每时每刻 核销
+		uneg 传入神经 环氧树脂
+		uneg 白色恐怖 文献
+		uneg 体液 熔断
+		uneg 双喜 吃亏
+		uneg 狂风暴雨 车站
+		uneg 怀孕 接轨
+		uneg 爱子 四重奏
+		uneg 悲鸣 供述
+		uneg 汇费 传动
+		uneg 相去甚远 道情
+		uneg 炼 核电站
+		uneg 价 悬而未决
+		uneg 航海 山药
+		uneg 万事通 内蕴
+		uneg 蒂 氧化物
+		uneg 川资 摇摆
+		uneg 雪碧 供求
+		uneg 清闲 规则
+		uneg 闷 壁
+		uneg 冲 对
+		uneg 家 青果
+		uneg 公车 文艺
+		uneg 判决书 求得
+		uneg 围网 非金属
+		uneg 骨病 家塾
+		uneg 露面 赋
+		uneg 节日 文具
+		uneg 镖 共和国
+		uneg 缠 政府
+		uneg 国际性 肉丸
+		uneg 最低点 慌张
+		uneg 依附 米糠
+		uneg 救国 四世同堂
+		uneg 聋子 上旬
+		uneg 单人 郁结
+		uneg 地动山摇 染
+		uneg 未能免俗 荷载
+		uneg 胃口 嘴
+		uneg 继嗣 收留
+		uneg 人民性 虫
+		uneg 神汉 配搭
+		uneg 消受 棕榈
+		uneg 快班 坠
+		uneg 人意 天地
+		uneg 破土 书
+		uneg 呢绒 体重
+		uneg 出其不意 念佛
+		uneg 纵步 朱雀
+		uneg 开会 花托
+		uneg 自尊心 罢工
+		uneg 目镜 雷达
+		uneg 纱 舍利
+		uneg 邦国 礁
+		uneg 走弯路 堵塞
+		uneg 出车 空前
+		uneg 标点符号 孙女
+		uneg 参议 句号
+		uneg 帅气 期间
+		uneg 三角洲 疝气
+		uneg 硬功夫 蒙太奇
+		uneg 互信 说
+		uneg 后继乏人 倾覆
+		uneg 牙膏 万有引力
+		uneg 议程 雨天
+		uneg 坦克 登记
+		uneg 旗帜 腿
+		uneg 激素 釉质
+		uneg 流域 万有引力
+		uneg 联系人 唱名
+		uneg 规定 中风
+		uneg 对外贸易 立功
+		uneg 然后 不均
+		uneg 辞岁 椒
+		uneg 暴跌 每季
+		uneg 党员 签定
+		uneg 丝绸 量
+		uneg 畜力 伤残
+		uneg 索取 电视机
+		uneg 惹不起 统称
+		uneg 前茅 负极
+		uneg 为辅 存在
+		uneg 小淘气 化
+		uneg 傲气 滑轮
+		uneg 开市 带到
+		uneg 机关 受热
+		uneg 右上方 纸张
+		uneg 燃起 部级
+		uneg 铆接 肘部
+		uneg 深奥 少将
+		uneg 文学语言 正当防卫
+		uneg 洗劫 话筒
+		uneg 功底 某种
+		uneg 刺 铠甲
+		uneg 不再 道格拉斯
+		uneg 羊痘 哈萨克族
+		uneg 睹 主峰
+		uneg 贤内助 深入人心
+		uneg 约法 传染性
+		uneg 烟袋锅 发表
+		uneg 万能 体癣
+		uneg 划拨 朝贡
+		uneg 内资 他人
+		uneg 误人子弟 嘉奖
+		uneg 鼻儿 椰枣
+		uneg 鳞爪 刻骨铭心
+		uneg 确信 忌日
+		uneg 以弱胜强 尽力
+		uneg 良苦用心 克隆人
+		uneg 渚 卵
+		uneg 补助费 万物
+		uneg 不甘 椅
+		uneg 吸毒 梁
+		uneg 品脱 黑子
+		uneg 鼻翼 反面人物
+		uneg 皮具 大雄宝殿
+		uneg 肄业 日伪
+		uneg 增长极 销账
+		uneg 捐资 判决
+		uneg 受洗 症
+		uneg 胰 洞穴
+		uneg 枯叶 首脑
+		uneg 庄严 装订
+		uneg 阴 脉络
+		uneg 设点 发
+		uneg 屈就 法器
+		uneg 市场 饱满
+		uneg 友邻 国耻
+		uneg 科研所 夺得
+		uneg 播种 被害人
+		uneg 同母兄弟 变性
+		uneg 麟 管家
+		uneg 质问 飓风
+		uneg 旱路 中午
+		uneg 论资排辈 早晨
+		uneg 勾当 野炊
+		uneg 打倒 竖立
+		uneg 俗套 亲疏
+		uneg 配用 少不了
+		uneg 年终 理会
+		uneg 断裂带 里子
+		uneg 妄语 受益人
+		uneg 匪 交相辉映
+		uneg 面 储蓄
+		uneg 柬 填满
+		uneg 回击 膜
+		uneg 检察署 欣赏
+		uneg 黑土 律己
+		uneg 立等可取 大中小型
+		uneg 长枪 力偶
+		uneg 弑 外差
+		uneg 牵挂 旱獭
+		uneg 说 十方
+		uneg 押 冰挂
+		uneg 嚎啕 道场
+		uneg 浅露 局部
+		uneg 鱼肚 红糖
+		uneg 军队 形
+		uneg 津津乐道 浸湿
+		uneg 轨辙 空地
+		uneg 白 神经病
+		uneg 筵席 统称
+		uneg 木化石 机密
+		uneg 全身 记
+		uneg 大网 线
+		uneg 企事业 访华
+		uneg 狐狸精 墓碑
+		uneg 每日 中纬度
+		uneg 哑弹 行
+		uneg 巡诊 脑颅
+		uneg 断臂 自主神经
+		uneg 联想 首创
+		uneg 野生虎 忍痛
+		uneg 自卫 勾画
+		uneg 叹惜 差使
+		uneg 上规模 长短
+		uneg 机时 札记
+		uneg 萧萧 入围
+		uneg 乐 钉鞋
+		uneg 出钱 单眼皮
+		uneg 警告 受让人
+		uneg 手提式 活疫苗
+		uneg 动眼神经 姊妹
+		uneg 良宵 增强
+		uneg 遗落 退
+		uneg 那末 附加刑
+		uneg 眼病 幻灯片
+		uneg 流 文职
+		uneg 恒量 自杀
+		uneg 环靶 山体
+		uneg 醒 肉猪
+		uneg 萌 古铜色
+		uneg 连成一片 梅毒
+		uneg 二期 白质
+		uneg 殿试 正要
+		uneg 牙牙学语 库存
+		uneg 灭茬 分子
+		uneg 古柯 运往
+		uneg 一饱眼福 着陆
+		uneg 卷 电码
+		uneg 文玩 泉水
+		uneg 淋病 判刑
+		uneg 钻 混蛋
+		uneg 男 儿子
+		uneg 改弦易辙 动脉弓
+		uneg 皮带 片
+		uneg 止住 一代人
+		uneg 男 条理
+		uneg 到期 后半夜
+		uneg 诤臣 防洪
+		uneg 大辩论 枳
+		uneg 语气 指明
+		uneg 弋 开户
+		uneg 冲锋枪 不适
+		uneg 圣婴 深浅
+		uneg 古字 推举
+		uneg 红铃虫 马锣
+		uneg 芹 回春
+		uneg 职权 闰日
+		uneg 境内 难于
+		uneg 吃药 撰著
+		uneg 玉宇 蜿蜒
+		uneg 子 内障
+		uneg 踢球 翳
+		uneg 冻疮 私心
+		uneg 该州 减免税
+		uneg 亲家公 身形
+		uneg 土温 受胎
+		uneg 信义 地下室
+		uneg 戏台 尿布
+		uneg 必然王国 发胀
+		uneg 神鹿 衰落
+		uneg 尚方剑 装卸
+		uneg 约数 周岁
+		uneg 动人 狠狠
+		uneg 征讨 不再
+		uneg 改天换地 招安
+		uneg 中前场 轮唱
+		uneg 倦怠 秀雅
+		uneg 欠 泗
+		uneg 高徒 满足
+		uneg 铁锈 雷击
+		uneg 翻盖 祭拜
+		uneg 不日 毛细血管
+		uneg 指挥 棘
+		uneg 短文 旦
+		uneg 劫机者 黄褐色
+		uneg 开场 虎口
+		uneg 云锣 摇篮曲
+		uneg 芦根 握
+		uneg 国宝 柳琴
+		uneg 起风 龙灯
+		uneg 巫术 小黄鱼
+		uneg 滩头 豆子
+		uneg 红藤 奶瓶
+		uneg 渔网 鼎
+		uneg 伴 铝
+		uneg 非金融 呜呼
+		uneg 姐妹 公文
+		uneg 五年期 不再
+		uneg 重罚 派别
+		uneg 天时 美术系
+		uneg 荒地 生产过剩
+		uneg 估量 协约
+		uneg 布局 梅花鹿
+		uneg 油香 天意
+		uneg 牙科 谷类
+		uneg 起死回生 指引
+		uneg 房租 卧床
+		uneg 手腕 和平共处
+		uneg 电文 该社
+		uneg 核威胁 新约
+		uneg 望月 建议
+		uneg 报刊 桂皮
+		uneg 浇洒 调
+		uneg 老虎 宗亲
+		uneg 拾音器 种族隔离
+		uneg 庵 豚鼠
+		uneg 表 程序性
+		uneg 变心 皮下组织
+		uneg 堂姐妹 晾
+		uneg 预防性 河南坠子
+		uneg 铁器 列
+		uneg 木床 合资企业
+		uneg 眼光 逸
+		uneg 包场 衰减
+		uneg 朝露 承袭
+		uneg 徒步走 孕前
+		uneg 生产基金 考试
+		uneg 民间 低音提琴
+		uneg 丰功伟绩 况且
+		uneg 评戏 帖
+		uneg 依依惜别 告密
+		uneg 兼容 造句
+		uneg 葛藤 成年
+		uneg 冥器 独自
+		uneg 借故 低压
+		uneg 装机 分期付款
+		uneg 圭 添置
+		uneg 高三 来电
+		uneg 暴徒 追踪
+		uneg 叶腋 舞女
+		uneg 笑脸 文案
+		uneg 闪 木栓层
+		uneg 历 伯爵
+		uneg 那些 分歧
+		uneg 坎坷不平 官署
+		uneg 迷魂药 宅基地
+		uneg 身外之物 硫胺素
+		uneg 膀 邮递
+		uneg 冈 中考
+		uneg 冰糖葫芦 翰林院
+		uneg 值得 倾
+		uneg 留声机 羊群
+		uneg 绍兴酒 教徒
+		uneg 国债 捏造
+		uneg 人心所向 助兴
+		uneg 卸货 尿
+		uneg 内障 企事业
+		uneg 创业者 会谈
+		uneg 府上 年份
+		uneg 扁锉 吗
+		uneg 记述 外场
+		uneg 喜宴 贴息
+		uneg 解困 出示
+		uneg 梳头 偏远
+		uneg 安塞 五指
+		uneg 试探 意义
+		uneg 换算 几率
+		uneg 糟糕 股骨
+		uneg 昂 递送
+		uneg 轻取 羊皮鼓
+		uneg 眶 来历
+		uneg 白鳝 玩意
+		uneg 懒觉 安居房
+		uneg 强人所难 里程碑
+		uneg 基本矛盾 亲吻
+		uneg 公馆 烧伤
+		uneg 巡风 背
+		uneg 终究 全天
+		uneg 迷迷糊糊 气
+		uneg 需 僧
+		uneg 晾干 鸟巢
+		uneg 交费 标题
+		uneg 沙尘暴 钓
+		uneg 季春 香火
+		uneg 初期 汗
+		uneg 体育运动 地球
+		uneg 劲敌 浸剂
+		uneg 出车 展厅
+		uneg 忍耐 前嫌
+		uneg 踺子 说
+		uneg 鉴赏力 刑事
+		uneg 开 难题
+		uneg 对抗 功过
+		uneg 蒙古人种 讲习
+		uneg 夜鹰 对襟
+		uneg 放 零下
+		uneg 无籽西瓜 场馆
+		uneg 大小写 波束
+		uneg 对本 褪色
+		uneg 规划者 意识形态
+		uneg 黄 风景画
+		uneg 翻腾 仙子
+		uneg 辜负 伸出
+		uneg 敷药 大节
+		uneg 飞龙 定律
+		uneg 体癣 箧
+		uneg 鱼钩 预付
+		uneg 姐弟 前嫌
+		uneg 自给 补苗
+		uneg 痛痹 叶子
+		uneg 坐骑 席子
+		uneg 薏米 耐寒
+		uneg 调人 皮毛
+		uneg 选举 种子
+		uneg 陶马 额
+		uneg 让位 编纂
+		uneg 锅巴 油腻
+		uneg 否定 一视同仁
+		uneg 鸡心 角
+		uneg 筹划 键
+		uneg 家父 历书
+		uneg 轻巧 银河系
+		uneg 正反方 小心
+		uneg 歪 动不动
+		uneg 天日 开会
+		uneg 纠察 丝弦
+		uneg 田头 师
+		uneg 初三 地主
+		uneg 拖把 大雅之堂
+		uneg 堑壕 脂
+		uneg 乏善可陈 杀机
+		uneg 常言道 衡量
+		uneg 正果 渺小
+		uneg 花红 阉割
+		uneg 报纸 冲床
+		uneg 木料 一厢情愿
+		uneg 上方宝剑 编目
+		uneg 鸡皮疙瘩 二簧
+		uneg 大料 引文
+		uneg 小引 式样
+		uneg 新生 签到
+		uneg 佳期 革命
+		uneg 历法 外感
+		uneg 玉兔 航天局
+		uneg 专题 食指
+		uneg 冒险主义 类风湿
+		uneg 杂记 换位
+		uneg 出使 桶
+		uneg 保守党政府 种植
+		uneg 淮海戏 扁桃体
+		uneg 复 动脉弓
+		uneg 基数 野炊
+		uneg 罄竹难书 后脑
+		uneg 东风 导管
+		uneg 节气 疡
+		uneg 白发苍苍 普法
+		uneg 银苗 厕
+		uneg 期间 发送
+		uneg 旧有 捕食
+		uneg 红柳 题目
+		uneg 嚓 分别
+		uneg 排定 甩手
+		uneg 二重奏 点钟
+		uneg 织成 买进
+		uneg 悔恨 惊醒
+		uneg 烧香 头
+		uneg 刀柄 不以为然
+		uneg 纪实 血腥
+		uneg 在 羊皮鼓
+		uneg 金箔 炮火
+		uneg 气息 花梗
+		uneg 残阳 核试验
+		uneg 皮球 犯规
+		uneg 神经官能症 教学点
+		uneg 试验性 一经
+		uneg 半侧 马锣
+		uneg 白报纸 中介
+		uneg 黯然神伤 翼展
+		uneg 他们 到达
+		uneg 形骸 小队
+		uneg 晚班 签定
+		uneg 轰动 印制
+		uneg 入乡随俗 混交林
+		uneg 传回 管线
+		uneg 西南风 衰弱
+		uneg 半壁江山 可读性
+		uneg 零活 赡养
+		uneg 贫瘠 内地
+		uneg 上古 显像管
+		uneg 后脑 冒烟
+		uneg 择善而从 泉水
+		uneg 碰壁 神道碑
+		uneg 坟墓 纺丝
+		uneg 今晚 铭
+		uneg 小时 搁置
+		uneg 辩论会 模范县
+		uneg 宋体 圆子
+		uneg 烙印 平整
+		uneg 岳父母 免疫
+		uneg 海狸鼠 奠基
+		uneg 涂 埋伏
+		uneg 成就 深邃
+		uneg 祭灶 自尊
+		uneg 艺术类 种族隔离
+		uneg 村容 执法
+		uneg 转制 条款
+		uneg 面市 航天器
+		uneg 比量 百家姓
+		uneg 老八路 调频
+		uneg 压条 设伏
+		uneg 佛 借机
+		uneg 高个儿 评审
+		uneg 孩子 牙
+		uneg 门子 出院
+		uneg 破击 扦插
+		uneg 举人 衍生
+		uneg 红光满面 跌
+		uneg 无穷 篡夺
+		uneg 契文 红线
+		uneg 锁 走动
+		uneg 豺狼 种植
+		uneg 斧头 考场
+		uneg 苛性钾 山海经
+		uneg 更加 祝福
+		uneg 当啷 附属物
+		uneg 拔尖 滴水
+		uneg 同仁 性病
+		uneg 舵轮 脉冲
+		uneg 爆炸力 粮票
+		uneg 孝子 耀斑
+		uneg 唳 书籍
+		uneg 佃农 血样
+		uneg 构思 文书
+		uneg 草根 实惠
+		uneg 葱花 钻
+		uneg 切花 家事
+		uneg 板油 黑钨矿
+		uneg 纸捻 抗灾
+		uneg 色盲 款项
+		uneg 竖起 铜管
+		uneg 查处 衍变
+		uneg 操作性 玩忽职守
+		uneg 辅导 放行
+		uneg 袜筒 保险公司
+		uneg 知法 暗河
+		uneg 风光一时 闪击战
+		uneg 回击 相握
+		uneg 道德 博物院
+		uneg 求人 风俗
+		uneg 赎回 接吻
+		uneg 致残 合十
+		uneg 中介 纠错
+		uneg 燎 在意
+		uneg 卅 相对湿度
+		uneg 商品生产 裂谷
+		uneg 慈心 雪糕
+		uneg 发证 咳
+		uneg 无须 页码
+		uneg 绑匪 挡
+		uneg 少白头 佚名
+		uneg 定都 惩罚
+		uneg 提倡 正义
+		uneg 节约 物件
+		uneg 角子 月末
+		uneg 打诨 清风
+		uneg 立像 鲢
+		uneg 抽搐 涩
+		uneg 矍铄 录像
+		uneg 沙包 锻炼
+		uneg 大安 塌方
+		uneg 拳曲 不锈钢
+		uneg 棉籽 约见
+		uneg 灯谜 入画
+		uneg 记大过 会务
+		uneg 横财 选矿
+		uneg 辩才 点心
+		uneg 入睡 髯
+		uneg 樟 随机
+		uneg 女警 矿产
+		uneg 不平 合唱
+		uneg 售 有人
+		uneg 一举多得 访华
+		uneg 禁不住 耳孔
+		uneg 电视机 中介
+		uneg 劣迹 危险
+		uneg 国家机器 节日
+		uneg 算术级数 青瓷
+		uneg 参观者 热带
+		uneg 互联网 萱
+		uneg 吧唧 派别
+		uneg 憎恨 劲头
+		uneg 甲癣 还
+		uneg 洱 区级
+		uneg 斗智 哔叽
+		uneg 漂 仪态
+		uneg 误区 滑行道
+		uneg 看见 埋设
+		uneg 政客 狂犬病
+		uneg 血红 旗杆
+		uneg 创新者 回乡
+		uneg 杀人 时
+		uneg 奇遇 约束
+		uneg 糖馅 萌
+		uneg 肥田 北美
+		uneg 瓜 试飞
+		uneg 屠夫 壶
+		uneg 传球 制衡
+		uneg 第一线 毕
+		uneg 有求必应 杀机
+		uneg 民意测验 自给
+		uneg 拖斗 腺
+		uneg 呢帽 德才
+		uneg 雇工 突破
+		uneg 燕窝 双杠
+		uneg 相辅而行 古拙
+		uneg 球拍 度
+		uneg 路 朋友
+		uneg 银发 爱国
+		uneg 阿姨 猫
+		uneg 陶马 部族
+		uneg 乳腺 掩埋
+		uneg 灶 规定
+		uneg 暖湿气流 高贵
+		uneg 而已 青瓷
+		uneg 长辈 复眼
+		uneg 保卫科 失真
+		uneg 草 妇女病
+		uneg 日记簿 神经
+		uneg 暖 体力劳动
+		uneg 尖兵 人民警察
+		uneg 简易师范 韵味
+		uneg 有碍于 飞弹
+		uneg 白狐 射影
+		uneg 串讲 发明者
+		uneg 木结构 休眠期
+		uneg 领奖 越冬
+		uneg 宣判 计策
+		uneg 染缸 转机
+		uneg 倾斜 首发
+		uneg 一度 登载
+		uneg 条条框框 伊
+		uneg 警卫 对比
+		uneg 挥发油 候选
+		uneg 唱反调 美军
+		uneg 东家 语气助词
+		uneg 相持 书目
+		uneg 包围圈 纸牌
+		uneg 五味子 名义
+		uneg 又 飞弹
+		uneg 体谅 评剧团
+		uneg 容器 时
+		uneg 认领 通性
+		uneg 摊牌 皮衣
+		uneg 存储 幻灯片
+		uneg 走火 音译
+		uneg 令人担忧 尾声
+		uneg 血管 当庭
+		uneg 催命 耀斑
+		uneg 老处女 引力
+		uneg 到期 太阴历
+		uneg 堆 击节
+		uneg 死不瞑目 剪
+		uneg 司令官 大肠
+		uneg 胆管 沾染
+		uneg 狐狸 禁忌
+		uneg 实为 肋骨
+		uneg 表兄弟 死刑犯
+		uneg 单干 鲫鱼
+		uneg 补习 流量计
+		uneg 乡土文学 车体
+		uneg 充放电 起飞
+		uneg 霜 天衣无缝
+		uneg 渺 高涨
+		uneg 报端 轰炸机
+		uneg 闾 抑或
+		uneg 大扫除 滤波
+		uneg 偿命 连动
+		uneg 猎鹰 连动
+		uneg 抗战 丑
+		uneg 叉 滑稽戏
+		uneg 阿摩尼亚 斑斓
+		uneg 授权 两旁
+		uneg 墨绿 设定
+		uneg 电唱机 对质
+		uneg 乾 拖拉机
+		uneg 云锣 枪法
+		uneg 果枝 芰
+		uneg 上下游 生人
+		uneg 指定 木叶
+		uneg 勇救 伯劳
+		uneg 驻外 体检
+		uneg 艾 耐用
+		uneg 升华 失禁
+		uneg 褒扬 挂果
+		uneg 法院 老练
+		uneg 屡试不爽 酒窖
+		uneg 份额 广博
+		uneg 水渠 频率
+		uneg 残破 胃肠
+		uneg 薪俸 劳动力
+		uneg 本 微波炉
+		uneg 关系网 高技术
+		uneg 铁索 更名
+		uneg 杨梅 行政院
+		uneg 反弹 夜间
+		uneg 物候 变废为宝
+		uneg 驸马 做功
+		uneg 我校 洪水位
+		uneg 泡桐 势能
+		uneg 信条 抬头
+		uneg 多极 乳鸽
+		uneg 山茱萸 洗染
+		uneg 经手 骶骨
+		uneg 自相矛盾 焚风
+		uneg 休战 变形
+		uneg 气 移调
+		uneg 叫喊 二重奏
+		uneg 朴 浮子
+		uneg 酸痛 官能团
+		uneg 以来 羊膜
+		uneg 神女 爱惜
+		uneg 用人 豆花
+		uneg 绝地 催促
+		uneg 年历 白果
+		uneg 防身 急忙
+		uneg 低空 思想
+		uneg 发粉 卫生站
+		uneg 戈 水
+		uneg 化解 借入
+		uneg 立誓 湿疹
+		uneg 秋波 作品
+		uneg 摄政王 班
+		uneg 祝颂 文职
+		uneg 出车 次子
+		uneg 残缺不全 纳入
+		uneg 过虑 萧萧
+		uneg 妻 描摹
+		uneg 势在必行 拍板
+		uneg 倾斜 面授
+		uneg 燃起 航炮
+		uneg 外感 闭幕
+		uneg 余韵 孝道
+		uneg 个人所得税 塬
+		uneg 呆傻 叶酸
+		uneg 册 赃物
+		uneg 复种 一同
+		uneg 据实 上颌
+		uneg 书摊 彩
+		uneg 赭 鸡肉
+		uneg 骂娘 剂型
+		uneg 中介人 状元
+		uneg 央求 奶油色
+		uneg 脑力劳动者 形形色色
+		uneg 入手 脚底
+		uneg 粗疏 雌激素
+		uneg 姨娘 行营
+		uneg 中期 皇子
+		uneg 十年浩劫 浅水
+		uneg 练武 明媚
+		uneg 严加 嘛
+		uneg 神鹿 憔悴
+		uneg 少年宫 西瓜
+		uneg 捣 天师
+		uneg 井 声母
+		uneg 条凳 浓艳
+		uneg 监票人 官职
+		uneg 到访 泥鳅
+		uneg 表妹 反之亦然
+		uneg 柔嫩 鲜艳
+		uneg 殳 字
+		uneg 断肢 伸
+		uneg 鹿 胚胎
+		uneg 蓝靛 悬空寺
+		uneg 下雪 家
+		uneg 伞兵 火鸡
+		uneg 平服 违宪
+		uneg 曲 奴隶社会
+		uneg 大 细腻
+		uneg 主理 撤
+		uneg 出口业 移动
+		uneg 推翻 围
+		uneg 木枕 响度
+		uneg 节烈 逃离
+		uneg 纹饰 最底层
+		uneg 肝吸虫 瘦肉
+		uneg 唐菖蒲 登载
+		uneg 做 叩头虫
+		uneg 镇压 拦网
+		uneg 伯祖 守恒
+		uneg 锰矿 书眉
+		uneg 党代表大会 采编
+		uneg 顺流而下 极乐鸟
+		uneg 造次 清脆
+		uneg 纪念物 炮
+		uneg 粉 免冠
+		uneg 茭白 中生代
+		uneg 嫡派 病势
+		uneg 顶子 减
+		uneg 活路 横波
+		uneg 熨 殊死
+		uneg 航次 爱人
+		uneg 俱乐部 飘移
+		uneg 掭 质变
+		uneg 卧具 酸中毒
+		uneg 响应 政权
+		uneg 漏光 音响效果
+		uneg 跑遍 疏忽
+		uneg 土炕 液
+		uneg 拉延 岛屿
+		uneg 风雨交加 初五
+		uneg 烟具 代理人
+
+
+Cluster 6
+	relatedpos 5
+		rpos 昆虫 土鳖
+		rpos 昆虫 刀螂
+		rpos 昆虫 钱串子
+		rpos 昆虫 蠹虫
+		rpos 昆虫 蛭
+
+	relatedneg 14
+		rneg 昆虫 蝎
+		rneg 昆虫 蛤蚧
+		rneg 生物 青
+		rneg 昆虫 蛀
+		rneg 昆虫 蜩
+		rneg 昆虫 肺吸虫
+		rneg 昆虫 蚰蜒
+		rneg 昆虫 蜈蚣
+		rneg 昆虫 蟋蟀
+		rneg 昆虫 叩头虫
+		rneg 昆虫 蜻蜓
+		rneg 昆虫 棉铃虫
+		rneg 昆虫 寄生虫
+		rneg 昆虫 蝼
+
+	unrelatedpos 3
+		upos 伯劳 封路
+		upos 褐马鸡 助纣为虐
+		upos 巢穴 搔头弄姿
+
+	unrelatedneg 31
+		uneg 脊索 掩目捕雀
+		uneg 蚕 兼程
+		uneg 大鸨 施肥
+		uneg 豺 亲家
+		uneg 鳍 花絮
+		uneg 蚜虫 幻术
+		uneg 猫头鹰 恩将仇报
+		uneg 蚊 须
+		uneg 雌雄同体 香
+		uneg 蜜源 真心话
+		uneg 褐马鸡 感
+		uneg 绵羊 游击队员
+		uneg 维管束 送
+		uneg 野兽 奸党
+		uneg 昆虫 后
+		uneg 蛞蝓 巫师
+		uneg 无性 聋哑人
+		uneg 次生 雕刻
+		uneg 腹面 误事
+		uneg 动物 梨园
+		uneg 竹节虫 麻绳
+		uneg 趋光性 上行
+		uneg 韧皮部 留言
+		uneg 动物 供养
+		uneg 白蚁 锭
+		uneg 共生 犁
+		uneg 臭虫 肥料
+		uneg 啄木鸟 统一战线
+		uneg 感觉器官 洋铁
+		uneg 蜥蜴 茶余饭后
+		uneg 褐马鸡 界定
+
+
+Cluster 7
+	relatedpos 13
+		rpos 机件 开口销
+		rpos 机件 汽化器
+		rpos 机件 蒸汽锤
+		rpos 机件 螺丝帽
+		rpos 机件 滚柱轴承
+		rpos 机件 门锁
+		rpos 机件 转轴
+		rpos 机件 风挡
+		rpos 机件 锁头
+		rpos 机件 挂锁
+		rpos 机件 电子器件
+		rpos 机件 撞针
+		rpos 机件 传动带
+
+	relatedneg 17
+		rneg 机件 预埋件
+		rneg 机件 地轴
+		rneg 机件 棘爪
+		rneg 机件 主光轴
+		rneg 机件 铆钉
+		rneg 机件 坐标轴
+		rneg 机件 滚针轴承
+		rneg 机件 螺纹
+		rneg 机件 莱塞
+		rneg 机件 绞盘
+		rneg 易于 善
+		rneg 机件 钥匙
+		rneg 机件 锻件
+		rneg 机件 簧片
+		rneg 机件 轮轴
+		rneg 机件 挡
+		rneg 机件 活门
+
+	unrelatedpos 4
+		upos 打滑 耳畔
+		upos 行车 寻死觅活
+		upos 加力 国医
+		upos 装卸 实招
+
+	unrelatedneg 51
+		uneg 浮子 花边
+		uneg 马达 递进
+		uneg 铆接 多少
+		uneg 隔板 内忧
+		uneg 骨折 音读
+		uneg 危险 高见
+		uneg 螺旋桨 枯槁
+		uneg 机件 刖
+		uneg 曲柄 红铜
+		uneg 互感器 荒村
+		uneg 腭 图鉴
+		uneg 渗出 谱
+		uneg 腐蚀 药剂拌种
+		uneg 外伤 朝日
+		uneg 干燥 逛
+		uneg 缩短 反哺
+		uneg 腰椎间盘 策划人
+		uneg 裂纹 静候
+		uneg 锻压 点菜
+		uneg 冲刷 兄妹
+		uneg 装设 翩然
+		uneg 行驶 取样
+		uneg 回流 腥
+		uneg 气缸盖 长毛绒
+		uneg 易于 改行
+		uneg 事故 同窗
+		uneg 感应电流 养鱼
+		uneg 接地 燃起
+		uneg 安装 在天之灵
+		uneg 毛刺 矣
+		uneg 机床 轰动
+		uneg 卷扬机 园圃
+		uneg 滑跑 坛坛罐罐
+		uneg 体液 服装店
+		uneg 高压 策源地
+		uneg 流量计 华侨
+		uneg 更换 拳谱
+		uneg 爆炸 心安
+		uneg 故障 书坛
+		uneg 滑坡 露面
+		uneg 带电 米
+		uneg 坠毁 大雪纷飞
+		uneg 大气压 黄鸟
+		uneg 缺点 催生
+		uneg 钻机 文凭
+		uneg 进气口 放映机
+		uneg 水管 两性人
+		uneg 制动 可变性
+		uneg 倒退 中餐
+		uneg 雷击 名义
+		uneg 关机 七夕
+
+
+Cluster 8
+	relatedpos 14
+		rpos 场所 图书城
+		rpos 场所 鱼市
+		rpos 场所 试场
+		rpos 场所 无用武之地
+		rpos 场所 贫民区
+		rpos 场所 鸟市
+		rpos 场所 市府
+		rpos 场所 服装城
+		rpos 场所 中国馆
+		rpos 场所 市场
+		rpos 场所 农科院
+		rpos 场所 晓市
+		rpos 场所 娱乐城
+		rpos 场所 收容所
+
+	relatedneg 23
+		rneg 场所 现场
+		rneg 场所 科学院
+		rneg 场所 商贸城
+		rneg 场所 楼市
+		rneg 场所 次
+		rneg 场所 力场
+		rneg 场所 熊市
+		rneg 场所 观察哨
+		rneg 场所 课堂
+		rneg 场所 庙
+		rneg 场所 家
+		rneg 场所 黑市
+		rneg 场所 住所
+		rneg 场所 考场
+		rneg 场所 夜场
+		rneg 场所 实地
+		rneg 场所 岗
+		rneg 场所 客
+		rneg 场所 舍
+		rneg 场所 招待所
+		rneg 场所 球馆
+		rneg 场所 共同市场
+		rneg 场所 闹市
+
+	unrelatedpos 0
+
+	unrelatedneg 5
+		uneg 护理 脉络
+		uneg 高温 合编
+		uneg 室内 顶楼
+		uneg 透气 一哄而起
+		uneg 消毒 袜筒
+
+
+Cluster 9
+	relatedpos 30
+		rpos 版 胶版
+		rpos 年 历年
+		rpos 年 头年
+		rpos 日 天
+		rpos 月 季春
+		rpos 月 月度
+		rpos 日 前日
+		rpos 日 明朝
+		rpos 年 一年半载
+		rpos 月 小阳春
+		rpos 年 本年
+		rpos 日 初四
+		rpos 月 岁首
+		rpos 月 半月
+		rpos 月 仲冬
+		rpos 月 小建
+		rpos 年 阴历年
+		rpos 年 跨年度
+		rpos 日 初七
+		rpos 月 某月
+		rpos 版 锌版
+		rpos 版 石版
+		rpos 日 今儿个
+		rpos 月 三月
+		rpos 版 梓
+		rpos 日 初八
+		rpos 年 前年
+		rpos 日 即日
+		rpos 月 仲秋
+		rpos 月 阳春
+
+	relatedneg 19
+		rneg 年 明
+		rneg 日 日复一日
+		rneg 年 现年
+		rneg 年 春秋
+		rneg 日 正月初一
+		rneg 版 雕版
+		rneg 日 明日
+		rneg 年 大半年
+		rneg 月 暮春
+		rneg 年 学年
+		rneg 版 凸版
+		rneg 日 当天
+		rneg 政府 宫廷
+		rneg 年 兹
+		rneg 版 平版
+		rneg 月 七月
+		rneg 月 大月
+		rneg 年 东
+		rneg 年 过年
+
+	unrelatedpos 17
+		upos 公映 艳史
+		upos 聘为 肉用鸡
+		upos 巴解组织 赖账
+		upos 周二 媚俗
+		upos 首发式 诗句
+		upos 挂牌 老人星
+		upos 共和国 开
+		upos 改组 青年人
+		upos 就任 整组
+		upos 党代会 笑吟吟
+		upos 留校 非卖品
+		upos 日 犯戒
+		upos 版 水性杨花
+		upos 南昌起义 办班
+		upos 七七事变 冰棍
+		upos 宣布 拔草
+		upos 剿匪 衾
+
+	unrelatedneg 40
+		uneg 授牌 拿手好戏
+		uneg 合并 下限
+		uneg 卫冕 饭团
+		uneg 创纪录 顺手
+		uneg 同比 雪茄
+		uneg 通知 猜中
+		uneg 降息 笸箩
+		uneg 计生委 别称
+		uneg 颁发 下雪
+		uneg 解放 本来
+		uneg 开通 落子
+		uneg 巡展 膜拜
+		uneg 动工 收获
+		uneg 出版 晦涩
+		uneg 欧安组织 陶
+		uneg 共和国 先锋
+		uneg 行政区划 娘子
+		uneg 报请 辔头
+		uneg 转发 荒
+		uneg 总经理部 孝
+		uneg 主修 雁
+		uneg 列入 传授
+		uneg 登基 小偷
+		uneg 季度 荒
+		uneg 司法局 小帽
+		uneg 卸任 触
+		uneg 人民公社 染
+		uneg 陕西省 未婚
+		uneg 动工 用材
+		uneg 大使 刽子手
+		uneg 平松 太公
+		uneg 大月 平
+		uneg 享年 渊
+		uneg 投降 打拍子
+		uneg 年鉴 脸红
+		uneg 月底 奋战
+		uneg 提请 酿造
+		uneg 总协定 神
+		uneg 编委 输送
+		uneg 挂牌 疟蚊
+
+
+
+Thresholdrate: 1.20
+Precision: 0.256006 	Recall: 0.649351 	Train Precision: 0.770615
+
+
+Dict Detail:
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5    13   22    0    5     0.9286   0.4390 0.3611
+Cluster 1: 221  112  109    77   35   27   82     0.7333   0.7162 0.6814
+Cluster 2: 292   93  199    47   46   39  160     0.5402   0.7065 0.5000
+Cluster 3: 105   85   20    49   36    4   16     0.9074   0.6132 0.5698
+Cluster 4:  58   52    6    32   20    0    6     0.9697   0.6441 0.6038
+Cluster 5:3248  488 2760   370  118 1794  966     0.1709   0.4112 0.7566
+Cluster 6:  53   19   34     5   14    3   31     0.5556   0.6667 0.2500
+Cluster 7:  85   30   55    13   17    4   51     0.7222   0.7442 0.4194
+Cluster 8:  42   37    5    14   23    0    5     0.9333   0.4419 0.3684
+Cluster 9: 106   49   57    30   19   17   40     0.6250   0.6542 0.6000
+Detail test end
+Genetal test start
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0   57     0.0000   0.5327 0.0000
+Detail test end
+
+Thresholdrate: 0.10
+Precision: 0.032258 	Recall: 0.001998 	Train Precision: 0.010495
+cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall
+Cluster 0:  40   35    5     0   35    0    5     0.0000   0.1220 0.0000
+Cluster 1: 221  112  109     0  112    0  109     0.0000   0.4910 0.0000
+Cluster 2: 292   93  199     0   93    0  199     0.0000   0.6792 0.0000
+Cluster 3: 105   85   20     0   85    0   20     0.0000   0.1887 0.0000
+Cluster 4:  58   52    6     0   52    0    6     0.0000   0.1017 0.0000
+Cluster 5:3248  488 2760     2  486   59 2701     0.0323   0.8319 0.0041
+Cluster 6:  53   19   34     0   19    0   34     0.0000   0.6296 0.0000
+Cluster 7:  85   30   55     0   30    0   55     0.0000   0.6395 0.0000
+Cluster 8:  42   37    5     0   37    0    5     0.0000   0.1163 0.0000
+Cluster 9: 106   49   57     0   49    0 
