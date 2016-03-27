@@ -61,7 +61,7 @@ class node(object):
 				childnum[tmp] = 1
 			else:
 				childnum[tmp] += 1
-		
+
 		if self.level == 2 or self.level == 3:
 			tmptriple[self.level - 2] = self.value
 		if self.level == 5:
@@ -74,11 +74,11 @@ class node(object):
 			for i in self.value:
 				print i.encode('utf-8'),
 			print ''
-		
+
 		for i,j in self.child.items():
 			j.traverse(t + 1, flag)
 		pass
-		
+
 root = node(['ROOT'],1)
 
 def readfile(_file):
@@ -123,7 +123,7 @@ def makeTree():
 		value = tmp[1:]
 		all_word[key] = value
 		tmp = node(value,1,3)
-		root.child[key[0]].child[key[1]].child[key[2:]] = tmp	
+		root.child[key[0]].child[key[1]].child[key[2:]] = tmp
 
 	#l45
 	for i in readfile('CilinE/l45.txt'):
@@ -209,7 +209,6 @@ def calcPhiSGD(X,Y):
 		# 	break
 		if step%50 == 0:
 			print '\tStep %d %f'%(step,costAll(phi, X, Y))
-		
 		tmp = random.choice(xrange(len(X)))
 		x = X[tmp]
 		y = Y[tmp]
@@ -219,9 +218,7 @@ def calcPhiSGD(X,Y):
 				for k in xrange(D):
 					jt += x[k]*phi[k][v]
 				jt = 2.0 * x[u] * (jt - y[v])
-				
 				phi[u][v] -= r * jt
-		
 		r *= rt
 		pass
 	cost = costAll(phi, X, Y)
@@ -391,10 +388,8 @@ def __main__():
 				unrelated.append((tx,ty))
 	print 'Test Data Kanliou'
 
-	
 	sys.stdout = open('out.txt','w')
 
-		
 	tmpthresholdrate = 0.8
 	ForTest(related, unrelated, tmpthresholdrate, [(x[2],x[1]) for x in train])
 	# sys.stdout = sysstdout
