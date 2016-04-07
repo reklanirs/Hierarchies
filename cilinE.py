@@ -6,26 +6,25 @@ from dependent import *
 class Node(object):
 	"""docstring for Node"""
 	def __init__(self, _value = [], _keylen = 1, _level = 0):
-		self.value = _value
-		self.child = {}
-		self.keylen = _keylen
-		self.level = _level
-		
+		self.value = _value #键值对的 值的list 例:[中共 中央]
+		self.child = {} #{ 当前层(不含上层value的)独占value : Node }
+		self.keylen = _keylen #当前level的下一层节点key的长度
+		self.level = _level #l1-l5,l2-l3-l5为重点,root为l0
+
 
 
 class CilinE(object):
 	"""docstring for CilinE"""
 	def __init__(self):
-		self.root = Node(['ROOT'],1)
-		self.all_word = {}
-		self.triple = []
-		self.alltriple = []
-		self.tmptriple = ['','','']
+		self.root = Node(['ROOT'],1) #CilinE的根节点
+		self.all_word = {} #所有有值节点的 {从ROOT到此整个key : 该节点的value的list}
+		self.triple = [] # triple存放了全部l2-l3-l5层value的三元组(list)
+		self.tmptriple = ['','',''] #临时变量
 
-		self.childnum = {}
+		self.childnum = {} #通过traverse获得,叶子节点长为l的节点 { l : 长为l的叶子节点数 }
 
 		self.makeTree()
-		self.traverse()
+		self.traverse(flag = False)
 
 	def makeTree(self):
 		#l12
@@ -77,8 +76,8 @@ class CilinE(object):
 		writeln('MakeTree End')
 		pass
 
-	def traverse(self, node = '', t = 0, flag = False):
-		if node == '':
+	def traverse(self, node = None, t = 0, flag = False):
+		if node == None:
 			node = self.root
 
 		if node.keylen == 0:
@@ -87,6 +86,7 @@ class CilinE(object):
 				self.childnum[tmp] = 1
 			else:
 				self.childnum[tmp] += 1
+		# triple存放了l2-l3-l5层的三元组. root为l02
 		if node.level == 2 or node.level == 3:
 			self.tmptriple[node.level - 2] = node.value
 		if node.level == 5:
@@ -106,4 +106,15 @@ class CilinE(object):
 
 
 # c = CilinE()
-# c.traverse(flag = True)
+# print len(c.triple)
+# for i in random.sample(c.triple, 10):
+# 	for j in i:
+# 		for k in j:
+# 			print k.encode('utf-8'),
+# 		print ''
+# 	print '\n'
+
+# p = '属于'
+# print type(p)
+# print p
+# print p.encode('utf-8')

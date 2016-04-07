@@ -1,8 +1,6 @@
 #!/usr/bin/python2.7
 # -*- coding: utf-8 -*- import requests
-import dependent
-
-model = gensim.models.Word2Vec.load('model/m100.w2v')
+from dependent import *
 
 
 
