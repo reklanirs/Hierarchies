@@ -53,11 +53,16 @@ class HolE(object):
 		self.training(self.trainData)
 		writeln('HolE Training End')
 
+		# for p in self.plist:
+		# 	print('p:%s\nrp:')
+		# 	print self.w2v[p]
+
 		# for d in self.trainData:
 		# 	writeln('s:%s o:%s P:%f'%(d.s,d.o,self.calcP(d.es,d.eo,d.rp)))
 		# self.testing(self.testData)
 
-		self.testTopK(self.testData)
+		# self.testTopK(self.testData)
+		self.testing(self.testData)
 		writeln('HolE Testing End')
 
 	def extractData(self, D):
@@ -71,7 +76,7 @@ class HolE(object):
 
 	"""存疑: a-b b-c, 同时含有b, 如何更新b? 暂时使用map方法"""
 	def training(self, D):
-		steps = 200
+		steps = 500
 		for step in xrange(steps):
 			for i in xrange(len(D)):
 				curData = D[i]
@@ -83,9 +88,21 @@ class HolE(object):
 	def minimCostFunction1(self, d, u = 0.1):
 		d.es,d.eo,d.rp = self.w2v[d.s],self.w2v[d.o],self.w2v[d.p]
 		eta = np.dot(d.rp, ccorr(d.es, d.eo))
-		es = d.es + u * ccorr(d.rp, d.eo) / (1 + math.exp(eta))
-		eo = d.eo + u * cconv(d.rp, d.es) / (1 + math.exp(eta))
-		rp = d.rp + u * ccorr(d.es, d.eo) / (1 + math.exp(eta))
+		if eta>500 or eta<-500:
+			print 'eta:',eta
+			print '\nrp:',d.rp
+			print '\nes:',d.es
+			print '\neo:',d.eo
+		denominator = 1 + math.exp(eta)
+		# if eta > 100:
+		# 	return d
+		# elif eta < -100:
+		# 	denominator = 1
+		# else:
+		# 	denominator = 1 + math.exp(eta)
+		es = d.es + u * ccorr(d.rp, d.eo) / denominator
+		eo = d.eo + u * cconv(d.rp, d.es) / denominator
+		rp = d.rp + u * ccorr(d.es, d.eo) / denominator
 		d.es,d.eo,d.rp = es,eo,rp
 		self.w2v[d.s],self.w2v[d.o],self.w2v[d.p] = es,eo,rp
 		return d
@@ -102,6 +119,7 @@ class HolE(object):
 	def testing(self, D):
 		for d in D:
 			d.ans = self.calcP(self.w2v[d.s], self.w2v[d.o], self.w2v[d.p])
+			writeln('s:%s o:%s Pro:%f\n'%(d.s,d.o,d.ans))
 		pass
 
 	def testTopK(self, D):
@@ -133,19 +151,35 @@ class HolE(object):
 			d.stop = ls[:10]
 		pass
 
-	def output(self, r = 0.85):
+	
+	def rank(self,k,l = [1,3,5,10,100,1000,1000000]):
+		for i in xrange(len(l)):
+			if k<l[i]:
+				return i
+		return len(l) - 1
+
+	def output(self, r = 0.99):
+		l = [0.5,0.6,0.7,0.8,0.85,0.9,0.95,0.99,1.0]
+		num = [0 for x in xrange(len(l))]
+
 		A,B,C,D = 0,0,0,0
+		Al,Bl,Cl,Dl = [],[],[],[]
 		for d in self.testData:
 			if d.y == 1:
-				if d.ans >= r:
+				num[self.rank(d.ans,l)] += 1
+				if d.ans > r:
 					A += 1
+					Al.append(d)
 				else:
 					C += 1
+					Cl.append(d)
 			elif d.y == 0:
 				if d.ans >= r:
 					B += 1
+					Bl.append(d)
 				else :
 					D += 1
+					Dl.append(d)
 		writeln('\nr:%f'%r)
 		writeln(' sum rsum usum     A    C    B    D  Accuracy  Precision Recall')
 		writeln('%4d %4d %4d  %4d %4d %4d %4d %8.4f   %9.4f %6.4f'%(
@@ -156,23 +190,43 @@ class HolE(object):
 			A*1.0/(A + C + 1)
 			)
 		)
+
+		for s in 'Al','Bl','Cl','Dl':
+			writeln('\n%s Sample:'%s)
+			for d in random.sample(eval(s),min(30,len(eval(s)))):
+				writeln('\ts:%s o:%s'%(d.s,d.o))
+
+		writeln('Probility:')
+		s = sum(num)
+		prob = [x for x in num]
+		for i in xrange(1,len(l)):
+			for j in xrange(i-1,-1,-1):
+				prob[j] += prob[i]
+		for i in xrange(len(l)):
+			prob[i] = prob[i]*1.0/s
+		write('   ')
+		for i in l:
+			write('%5.2f'%i)
+		writeln('')
+		for i in num:
+			write('%5d'%i)
+		writeln('\n')
+		for i in l[:-1]:
+			write(' >%4.2f'%i)
+		writeln('')
+		for i in prob[:-1]:
+			write('%6.3f'%i)
 		# writeln('Detail test end')
 		pass
-	def rank(self,k):
-		l = [1,3,5,10,100,1000,10000000]
-		for i in xrange(len(l)):
-			if k<l[i]:
-				return i
-		return len(l) - 1
 
 	def outputTopK(self):
 		#top 1, 3, 5, 10, 100, 1000, other
-		l = [1,3,5,10,100,1000,10000000]
+		l = [1,3,5,10,100,1000,1000000]
 		poss = [0 for x in range(len(l))]
 		poso = [0 for x in range(len(l))]
+		pos = [0 for x in range(len(l))]
 		negs = [0 for x in range(len(l))]
 		nego = [0 for x in range(len(l))]
-		pos = [0 for x in range(len(l))]
 		neg = [0 for x in range(len(l))]
 		for d in self.testData:
 			if d.y == 1:
@@ -197,11 +251,37 @@ class HolE(object):
 		for i in xrange(len(l)):
 			pos[i] = (poss[i] + poso[i])/2.0
 			neg[i] = (negs[i] + nego[i])/2.0
-		write('Hits at\n   ')
+
+		wrongl = []
+		rightl = []
+		for d in self.testData:
+			if d.orank < 10:
+				rightl.append(d)
+			elif len(wrongl) < 100:
+				wrongl.append(d)
+
+		writeln('\nWring cases:')
+		k = 3
+		for d in wrongl:
+			write('s:%s p:%s o:? want:%s, top%d:'%(d.s, d.p, d.o, k))
+			for i in xrange(k):
+				write(' ' + d.otop[i][0])
+			write('\n')
+
+		writeln('\nRight cases:')
+		k = 5
+		for d in rightl:
+			write('s:%s p:%s o:? want:%s, top%d:'%(d.s, d.p, d.o, k))
+			for i in xrange(k):
+				write(' ' + d.otop[i][0])
+			write('\n')
+
+
+		write('\nHits at\n    ')
 		for i in l:
 			write('%8d'%i)
 
-		for l in 'pos','neg','poss','poso','negs','nego':
+		for l in 'pos','poss','poso':#,'neg','negs','nego':
 			write('\n%4s'%l)
 			for i in eval(l):
 				write('%8.5f'%i)
