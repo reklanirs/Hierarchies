@@ -1,0 +1,3242 @@
+MakeTree End
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.0000001
+Current Costfunction Value:9000.286748
+Current Costfunction Value:0.027061
+Current Costfunction Value:0.017694
+Current Costfunction Value:0.016089
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.4408  Precision:0.370  Recall:0.963
+r:0.510000 Accuracy:0.4446  Precision:0.371  Recall:0.961
+r:0.520000 Accuracy:0.4466  Precision:0.372  Recall:0.958
+r:0.530000 Accuracy:0.4499  Precision:0.373  Recall:0.955
+r:0.540000 Accuracy:0.4527  Precision:0.374  Recall:0.952
+r:0.550000 Accuracy:0.4554  Precision:0.375  Recall:0.948
+r:0.560000 Accuracy:0.4562  Precision:0.374  Recall:0.942
+r:0.570000 Accuracy:0.4606  Precision:0.376  Recall:0.940
+r:0.580000 Accuracy:0.4630  Precision:0.377  Recall:0.936
+r:0.590000 Accuracy:0.4654  Precision:0.378  Recall:0.932
+r:0.600000 Accuracy:0.4674  Precision:0.378  Recall:0.930
+r:0.610000 Accuracy:0.4715  Precision:0.380  Recall:0.928
+r:0.620000 Accuracy:0.4749  Precision:0.381  Recall:0.925
+r:0.630000 Accuracy:0.4772  Precision:0.382  Recall:0.920
+r:0.640000 Accuracy:0.4801  Precision:0.383  Recall:0.914
+r:0.650000 Accuracy:0.4824  Precision:0.383  Recall:0.909
+r:0.660000 Accuracy:0.4852  Precision:0.384  Recall:0.904
+r:0.670000 Accuracy:0.4867  Precision:0.384  Recall:0.895
+r:0.680000 Accuracy:0.4896  Precision:0.385  Recall:0.890
+r:0.690000 Accuracy:0.4925  Precision:0.386  Recall:0.886
+r:0.700000 Accuracy:0.4947  Precision:0.387  Recall:0.879
+r:0.710000 Accuracy:0.4984  Precision:0.388  Recall:0.874
+r:0.720000 Accuracy:0.5028  Precision:0.390  Recall:0.869
+r:0.730000 Accuracy:0.5068  Precision:0.391  Recall:0.864
+r:0.740000 Accuracy:0.5105  Precision:0.393  Recall:0.859
+r:0.750000 Accuracy:0.5143  Precision:0.394  Recall:0.853
+r:0.760000 Accuracy:0.5184  Precision:0.396  Recall:0.847
+r:0.770000 Accuracy:0.5211  Precision:0.397  Recall:0.840
+r:0.780000 Accuracy:0.5260  Precision:0.399  Recall:0.833
+r:0.790000 Accuracy:0.5304  Precision:0.401  Recall:0.826
+r:0.800000 Accuracy:0.5348  Precision:0.403  Recall:0.820
+r:0.810000 Accuracy:0.5390  Precision:0.405  Recall:0.816
+r:0.820000 Accuracy:0.5442  Precision:0.407  Recall:0.807
+r:0.830000 Accuracy:0.5484  Precision:0.409  Recall:0.799
+r:0.840000 Accuracy:0.5517  Precision:0.410  Recall:0.788
+r:0.850000 Accuracy:0.5536  Precision:0.410  Recall:0.772
+r:0.860000 Accuracy:0.5589  Precision:0.413  Recall:0.763
+r:0.870000 Accuracy:0.5620  Precision:0.413  Recall:0.748
+r:0.880000 Accuracy:0.5670  Precision:0.416  Recall:0.736
+r:0.890000 Accuracy:0.5725  Precision:0.418  Recall:0.720
+r:0.900000 Accuracy:0.5762  Precision:0.419  Recall:0.705
+r:0.910000 Accuracy:0.5826  Precision:0.423  Recall:0.691
+r:0.920000 Accuracy:0.5869  Precision:0.424  Recall:0.672
+r:0.930000 Accuracy:0.5946  Precision:0.429  Recall:0.651
+r:0.940000 Accuracy:0.6013  Precision:0.433  Recall:0.631
+r:0.950000 Accuracy:0.6083  Precision:0.437  Recall:0.604
+r:0.960000 Accuracy:0.6142  Precision:0.440  Recall:0.574
+r:0.970000 Accuracy:0.6215  Precision:0.444  Recall:0.532
+r:0.980000 Accuracy:0.6349  Precision:0.455  Recall:0.480
+r:0.990000 Accuracy:0.6493  Precision:0.468  Recall:0.389
+r:0.950000 Accuracy:0.6083  Precision:0.437  Recall:0.604
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+   92    83   126   148   121   168   251    76   105   130   227   974 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.963  0.930  0.880  0.820  0.772  0.705  0.605  0.574  0.532  0.480 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.0000010
+Current Costfunction Value:0.901999
+Current Costfunction Value:0.123170
+Current Costfunction Value:0.121898
+Current Costfunction Value:0.123053
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.4552  Precision:0.286  Recall:0.424
+r:0.510000 Accuracy:0.4638  Precision:0.282  Recall:0.394
+r:0.520000 Accuracy:0.4711  Precision:0.280  Recall:0.375
+r:0.530000 Accuracy:0.4775  Precision:0.276  Recall:0.350
+r:0.540000 Accuracy:0.4859  Precision:0.275  Recall:0.332
+r:0.550000 Accuracy:0.4933  Precision:0.273  Recall:0.313
+r:0.560000 Accuracy:0.5019  Precision:0.273  Recall:0.297
+r:0.570000 Accuracy:0.5093  Precision:0.270  Recall:0.278
+r:0.580000 Accuracy:0.5177  Precision:0.272  Recall:0.266
+r:0.590000 Accuracy:0.5260  Precision:0.271  Recall:0.249
+r:0.600000 Accuracy:0.5297  Precision:0.266  Recall:0.234
+r:0.610000 Accuracy:0.5372  Precision:0.266  Recall:0.221
+r:0.620000 Accuracy:0.5424  Precision:0.262  Recall:0.205
+r:0.630000 Accuracy:0.5485  Precision:0.261  Recall:0.194
+r:0.640000 Accuracy:0.5570  Precision:0.265  Recall:0.185
+r:0.650000 Accuracy:0.5602  Precision:0.259  Recall:0.172
+r:0.660000 Accuracy:0.5677  Precision:0.259  Recall:0.159
+r:0.670000 Accuracy:0.5722  Precision:0.256  Recall:0.149
+r:0.680000 Accuracy:0.5781  Precision:0.258  Recall:0.141
+r:0.690000 Accuracy:0.5849  Precision:0.262  Recall:0.135
+r:0.700000 Accuracy:0.5916  Precision:0.267  Recall:0.129
+r:0.710000 Accuracy:0.5967  Precision:0.264  Recall:0.118
+r:0.720000 Accuracy:0.6018  Precision:0.264  Recall:0.109
+r:0.730000 Accuracy:0.6074  Precision:0.265  Recall:0.100
+r:0.740000 Accuracy:0.6111  Precision:0.265  Recall:0.094
+r:0.750000 Accuracy:0.6165  Precision:0.265  Recall:0.085
+r:0.760000 Accuracy:0.6223  Precision:0.273  Recall:0.080
+r:0.770000 Accuracy:0.6262  Precision:0.276  Recall:0.075
+r:0.780000 Accuracy:0.6291  Precision:0.275  Recall:0.069
+r:0.790000 Accuracy:0.6339  Precision:0.283  Recall:0.064
+r:0.800000 Accuracy:0.6375  Precision:0.283  Recall:0.057
+r:0.810000 Accuracy:0.6419  Precision:0.295  Recall:0.054
+r:0.820000 Accuracy:0.6443  Precision:0.295  Recall:0.048
+r:0.830000 Accuracy:0.6477  Precision:0.311  Recall:0.047
+r:0.840000 Accuracy:0.6523  Precision:0.336  Recall:0.044
+r:0.850000 Accuracy:0.6561  Precision:0.359  Recall:0.041
+r:0.860000 Accuracy:0.6591  Precision:0.387  Recall:0.039
+r:0.870000 Accuracy:0.6610  Precision:0.406  Recall:0.037
+r:0.880000 Accuracy:0.6623  Precision:0.421  Recall:0.035
+r:0.890000 Accuracy:0.6642  Precision:0.449  Recall:0.033
+r:0.900000 Accuracy:0.6658  Precision:0.479  Recall:0.032
+r:0.910000 Accuracy:0.6674  Precision:0.517  Recall:0.030
+r:0.920000 Accuracy:0.6688  Precision:0.566  Recall:0.028
+r:0.930000 Accuracy:0.6698  Precision:0.607  Recall:0.026
+r:0.940000 Accuracy:0.6706  Precision:0.663  Recall:0.024
+r:0.950000 Accuracy:0.6711  Precision:0.709  Recall:0.022
+r:0.960000 Accuracy:0.6712  Precision:0.743  Recall:0.021
+r:0.970000 Accuracy:0.6714  Precision:0.787  Recall:0.019
+r:0.980000 Accuracy:0.6700  Precision:0.805  Recall:0.013
+r:0.990000 Accuracy:0.6694  Precision:0.917  Recall:0.009
+r:0.950000 Accuracy:0.6711  Precision:0.709  Recall:0.022
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1441   475   263   179    41    22    24     4     4    15    11    22 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.424  0.234  0.129  0.057  0.041  0.032  0.022  0.021  0.019  0.013 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.0000100
+Current Costfunction Value:1.532386
+Current Costfunction Value:1.307183
+Current Costfunction Value:0.930986
+Current Costfunction Value:0.845862
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.4765  Precision:0.275  Recall:0.347
+r:0.510000 Accuracy:0.4875  Precision:0.271  Recall:0.317
+r:0.520000 Accuracy:0.4993  Precision:0.268  Recall:0.291
+r:0.530000 Accuracy:0.5068  Precision:0.262  Recall:0.265
+r:0.540000 Accuracy:0.5145  Precision:0.257  Recall:0.241
+r:0.550000 Accuracy:0.5223  Precision:0.254  Recall:0.223
+r:0.560000 Accuracy:0.5272  Precision:0.247  Recall:0.205
+r:0.570000 Accuracy:0.5340  Precision:0.242  Recall:0.187
+r:0.580000 Accuracy:0.5401  Precision:0.237  Recall:0.171
+r:0.590000 Accuracy:0.5465  Precision:0.235  Recall:0.159
+r:0.600000 Accuracy:0.5552  Precision:0.233  Recall:0.146
+r:0.610000 Accuracy:0.5622  Precision:0.230  Recall:0.133
+r:0.620000 Accuracy:0.5714  Precision:0.228  Recall:0.120
+r:0.630000 Accuracy:0.5777  Precision:0.225  Recall:0.110
+r:0.640000 Accuracy:0.5822  Precision:0.220  Recall:0.100
+r:0.650000 Accuracy:0.5900  Precision:0.221  Recall:0.092
+r:0.660000 Accuracy:0.5978  Precision:0.222  Recall:0.083
+r:0.670000 Accuracy:0.6047  Precision:0.227  Recall:0.078
+r:0.680000 Accuracy:0.6119  Precision:0.228  Recall:0.069
+r:0.690000 Accuracy:0.6175  Precision:0.230  Recall:0.063
+r:0.700000 Accuracy:0.6217  Precision:0.231  Recall:0.058
+r:0.710000 Accuracy:0.6259  Precision:0.229  Recall:0.052
+r:0.720000 Accuracy:0.6293  Precision:0.229  Recall:0.048
+r:0.730000 Accuracy:0.6342  Precision:0.242  Recall:0.046
+r:0.740000 Accuracy:0.6398  Precision:0.261  Recall:0.044
+r:0.750000 Accuracy:0.6433  Precision:0.270  Recall:0.041
+r:0.760000 Accuracy:0.6465  Precision:0.280  Recall:0.039
+r:0.770000 Accuracy:0.6498  Precision:0.294  Recall:0.036
+r:0.780000 Accuracy:0.6523  Precision:0.307  Recall:0.034
+r:0.790000 Accuracy:0.6538  Precision:0.313  Recall:0.032
+r:0.800000 Accuracy:0.6568  Precision:0.339  Recall:0.031
+r:0.810000 Accuracy:0.6588  Precision:0.359  Recall:0.030
+r:0.820000 Accuracy:0.6607  Precision:0.383  Recall:0.030
+r:0.830000 Accuracy:0.6624  Precision:0.409  Recall:0.029
+r:0.840000 Accuracy:0.6651  Precision:0.462  Recall:0.029
+r:0.850000 Accuracy:0.6663  Precision:0.490  Recall:0.028
+r:0.860000 Accuracy:0.6670  Precision:0.507  Recall:0.028
+r:0.870000 Accuracy:0.6684  Precision:0.556  Recall:0.026
+r:0.880000 Accuracy:0.6692  Precision:0.590  Recall:0.025
+r:0.890000 Accuracy:0.6695  Precision:0.604  Recall:0.024
+r:0.900000 Accuracy:0.6700  Precision:0.640  Recall:0.023
+r:0.910000 Accuracy:0.6704  Precision:0.679  Recall:0.021
+r:0.920000 Accuracy:0.6700  Precision:0.687  Recall:0.018
+r:0.930000 Accuracy:0.6704  Precision:0.759  Recall:0.016
+r:0.940000 Accuracy:0.6699  Precision:0.761  Recall:0.014
+r:0.950000 Accuracy:0.6692  Precision:0.788  Recall:0.010
+r:0.960000 Accuracy:0.6684  Precision:0.783  Recall:0.007
+r:0.970000 Accuracy:0.6684  Precision:0.882  Recall:0.006
+r:0.980000 Accuracy:0.6678  Precision:0.900  Recall:0.004
+r:0.990000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.950000 Accuracy:0.6692  Precision:0.788  Recall:0.010
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1632   504   220    67     7    14    31     8     3     6     5     4 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.347  0.146  0.058  0.031  0.028  0.023  0.010  0.007  0.006  0.004 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.0001000
+Current Costfunction Value:15.936010
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5247  Precision:0.297  Recall:0.311
+r:0.510000 Accuracy:0.5433  Precision:0.289  Recall:0.253
+r:0.520000 Accuracy:0.5569  Precision:0.280  Recall:0.210
+r:0.530000 Accuracy:0.5693  Precision:0.271  Recall:0.173
+r:0.540000 Accuracy:0.5793  Precision:0.258  Recall:0.140
+r:0.550000 Accuracy:0.5869  Precision:0.241  Recall:0.112
+r:0.560000 Accuracy:0.5955  Precision:0.231  Recall:0.092
+r:0.570000 Accuracy:0.6018  Precision:0.217  Recall:0.075
+r:0.580000 Accuracy:0.6103  Precision:0.220  Recall:0.066
+r:0.590000 Accuracy:0.6157  Precision:0.208  Recall:0.054
+r:0.600000 Accuracy:0.6218  Precision:0.212  Recall:0.050
+r:0.610000 Accuracy:0.6269  Precision:0.211  Recall:0.044
+r:0.620000 Accuracy:0.6321  Precision:0.207  Recall:0.037
+r:0.630000 Accuracy:0.6350  Precision:0.199  Recall:0.032
+r:0.640000 Accuracy:0.6382  Precision:0.185  Recall:0.025
+r:0.650000 Accuracy:0.6415  Precision:0.188  Recall:0.023
+r:0.660000 Accuracy:0.6442  Precision:0.181  Recall:0.019
+r:0.670000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.680000 Accuracy:0.6503  Precision:0.194  Recall:0.016
+r:0.690000 Accuracy:0.6522  Precision:0.192  Recall:0.014
+r:0.700000 Accuracy:0.6545  Precision:0.197  Recall:0.012
+r:0.710000 Accuracy:0.6566  Precision:0.216  Recall:0.012
+r:0.720000 Accuracy:0.6574  Precision:0.198  Recall:0.009
+r:0.730000 Accuracy:0.6584  Precision:0.208  Recall:0.009
+r:0.740000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6604  Precision:0.203  Recall:0.006
+r:0.760000 Accuracy:0.6618  Precision:0.224  Recall:0.006
+r:0.770000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6634  Precision:0.209  Recall:0.004
+r:0.800000 Accuracy:0.6640  Precision:0.222  Recall:0.003
+r:0.810000 Accuracy:0.6651  Precision:0.250  Recall:0.002
+r:0.820000 Accuracy:0.6656  Precision:0.278  Recall:0.002
+r:0.830000 Accuracy:0.6656  Precision:0.214  Recall:0.001
+r:0.840000 Accuracy:0.6658  Precision:0.182  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6662  Precision:0.250  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1722   655    94    22     6     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.311  0.050  0.012  0.003  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.0010000
+Current Costfunction Value:85.877883
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5247  Precision:0.297  Recall:0.311
+r:0.510000 Accuracy:0.5456  Precision:0.288  Recall:0.247
+r:0.520000 Accuracy:0.5602  Precision:0.276  Recall:0.196
+r:0.530000 Accuracy:0.5741  Precision:0.262  Recall:0.153
+r:0.540000 Accuracy:0.5841  Precision:0.244  Recall:0.118
+r:0.550000 Accuracy:0.5950  Precision:0.234  Recall:0.094
+r:0.560000 Accuracy:0.6021  Precision:0.218  Recall:0.075
+r:0.570000 Accuracy:0.6109  Precision:0.215  Recall:0.063
+r:0.580000 Accuracy:0.6181  Precision:0.210  Recall:0.053
+r:0.590000 Accuracy:0.6245  Precision:0.210  Recall:0.046
+r:0.600000 Accuracy:0.6301  Precision:0.206  Recall:0.038
+r:0.610000 Accuracy:0.6345  Precision:0.202  Recall:0.033
+r:0.620000 Accuracy:0.6385  Precision:0.186  Recall:0.025
+r:0.630000 Accuracy:0.6417  Precision:0.185  Recall:0.022
+r:0.640000 Accuracy:0.6451  Precision:0.181  Recall:0.018
+r:0.650000 Accuracy:0.6501  Precision:0.204  Recall:0.017
+r:0.660000 Accuracy:0.6514  Precision:0.193  Recall:0.014
+r:0.670000 Accuracy:0.6541  Precision:0.197  Recall:0.012
+r:0.680000 Accuracy:0.6559  Precision:0.209  Recall:0.012
+r:0.690000 Accuracy:0.6574  Precision:0.198  Recall:0.009
+r:0.700000 Accuracy:0.6588  Precision:0.214  Recall:0.009
+r:0.710000 Accuracy:0.6596  Precision:0.202  Recall:0.007
+r:0.720000 Accuracy:0.6610  Precision:0.213  Recall:0.006
+r:0.730000 Accuracy:0.6619  Precision:0.219  Recall:0.006
+r:0.740000 Accuracy:0.6623  Precision:0.211  Recall:0.005
+r:0.750000 Accuracy:0.6628  Precision:0.204  Recall:0.004
+r:0.760000 Accuracy:0.6638  Precision:0.225  Recall:0.004
+r:0.770000 Accuracy:0.6648  Precision:0.250  Recall:0.003
+r:0.780000 Accuracy:0.6655  Precision:0.235  Recall:0.002
+r:0.790000 Accuracy:0.6659  Precision:0.250  Recall:0.001
+r:0.800000 Accuracy:0.6658  Precision:0.182  Recall:0.001
+r:0.810000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.820000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.830000 Accuracy:0.6664  Precision:0.333  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1722   683    74    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.311  0.038  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000001 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.0000001
+Current Costfunction Value:0.841703
+Current Costfunction Value:0.043862
+Current Costfunction Value:0.028531
+Current Costfunction Value:0.025855
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5164  Precision:0.318  Recall:0.392
+r:0.510000 Accuracy:0.5195  Precision:0.314  Recall:0.371
+r:0.520000 Accuracy:0.5220  Precision:0.307  Recall:0.345
+r:0.530000 Accuracy:0.5241  Precision:0.300  Recall:0.320
+r:0.540000 Accuracy:0.5309  Precision:0.300  Recall:0.305
+r:0.550000 Accuracy:0.5366  Precision:0.298  Recall:0.287
+r:0.560000 Accuracy:0.5438  Precision:0.299  Recall:0.274
+r:0.570000 Accuracy:0.5472  Precision:0.295  Recall:0.257
+r:0.580000 Accuracy:0.5546  Precision:0.298  Recall:0.247
+r:0.590000 Accuracy:0.5577  Precision:0.294  Recall:0.233
+r:0.600000 Accuracy:0.5645  Precision:0.295  Recall:0.221
+r:0.610000 Accuracy:0.5712  Precision:0.298  Recall:0.211
+r:0.620000 Accuracy:0.5770  Precision:0.298  Recall:0.199
+r:0.630000 Accuracy:0.5826  Precision:0.300  Recall:0.189
+r:0.640000 Accuracy:0.5854  Precision:0.298  Recall:0.180
+r:0.650000 Accuracy:0.5894  Precision:0.295  Recall:0.166
+r:0.660000 Accuracy:0.5945  Precision:0.297  Recall:0.158
+r:0.670000 Accuracy:0.5973  Precision:0.293  Recall:0.147
+r:0.680000 Accuracy:0.6034  Precision:0.298  Recall:0.140
+r:0.690000 Accuracy:0.6073  Precision:0.297  Recall:0.131
+r:0.700000 Accuracy:0.6110  Precision:0.293  Recall:0.119
+r:0.710000 Accuracy:0.6146  Precision:0.294  Recall:0.112
+r:0.720000 Accuracy:0.6177  Precision:0.294  Recall:0.105
+r:0.730000 Accuracy:0.6209  Precision:0.294  Recall:0.098
+r:0.740000 Accuracy:0.6245  Precision:0.294  Recall:0.090
+r:0.750000 Accuracy:0.6287  Precision:0.297  Recall:0.083
+r:0.760000 Accuracy:0.6319  Precision:0.302  Recall:0.080
+r:0.770000 Accuracy:0.6347  Precision:0.303  Recall:0.074
+r:0.780000 Accuracy:0.6391  Precision:0.311  Recall:0.068
+r:0.790000 Accuracy:0.6411  Precision:0.307  Recall:0.061
+r:0.800000 Accuracy:0.6442  Precision:0.317  Recall:0.058
+r:0.810000 Accuracy:0.6463  Precision:0.317  Recall:0.053
+r:0.820000 Accuracy:0.6485  Precision:0.316  Recall:0.047
+r:0.830000 Accuracy:0.6502  Precision:0.312  Recall:0.041
+r:0.840000 Accuracy:0.6545  Precision:0.340  Recall:0.039
+r:0.850000 Accuracy:0.6574  Precision:0.363  Recall:0.037
+r:0.860000 Accuracy:0.6595  Precision:0.384  Recall:0.036
+r:0.870000 Accuracy:0.6618  Precision:0.409  Recall:0.033
+r:0.880000 Accuracy:0.6635  Precision:0.435  Recall:0.032
+r:0.890000 Accuracy:0.6648  Precision:0.454  Recall:0.028
+r:0.900000 Accuracy:0.6662  Precision:0.485  Recall:0.025
+r:0.910000 Accuracy:0.6670  Precision:0.509  Recall:0.022
+r:0.920000 Accuracy:0.6668  Precision:0.505  Recall:0.020
+r:0.930000 Accuracy:0.6666  Precision:0.494  Recall:0.018
+r:0.940000 Accuracy:0.6672  Precision:0.529  Recall:0.015
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+r:0.960000 Accuracy:0.6683  Precision:0.650  Recall:0.010
+r:0.970000 Accuracy:0.6686  Precision:0.706  Recall:0.010
+r:0.980000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.990000 Accuracy:0.6678  Precision:0.833  Recall:0.004
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1519   428   257   151    53    30    31     6     2     6     8    10 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.393  0.222  0.119  0.058  0.037  0.025  0.013  0.010  0.010  0.007 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.0000010
+Current Costfunction Value:0.893137
+Current Costfunction Value:0.122574
+Current Costfunction Value:0.121443
+Current Costfunction Value:0.122629
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5109  Precision:0.310  Recall:0.381
+r:0.510000 Accuracy:0.5147  Precision:0.305  Recall:0.355
+r:0.520000 Accuracy:0.5165  Precision:0.298  Recall:0.332
+r:0.530000 Accuracy:0.5232  Precision:0.297  Recall:0.314
+r:0.540000 Accuracy:0.5285  Precision:0.294  Recall:0.296
+r:0.550000 Accuracy:0.5356  Precision:0.292  Recall:0.277
+r:0.560000 Accuracy:0.5426  Precision:0.292  Recall:0.261
+r:0.570000 Accuracy:0.5482  Precision:0.290  Recall:0.245
+r:0.580000 Accuracy:0.5536  Precision:0.290  Recall:0.235
+r:0.590000 Accuracy:0.5580  Precision:0.287  Recall:0.219
+r:0.600000 Accuracy:0.5653  Precision:0.287  Recall:0.205
+r:0.610000 Accuracy:0.5712  Precision:0.288  Recall:0.195
+r:0.620000 Accuracy:0.5765  Precision:0.289  Recall:0.186
+r:0.630000 Accuracy:0.5825  Precision:0.290  Recall:0.175
+r:0.640000 Accuracy:0.5865  Precision:0.285  Recall:0.160
+r:0.650000 Accuracy:0.5917  Precision:0.288  Recall:0.152
+r:0.660000 Accuracy:0.5957  Precision:0.284  Recall:0.140
+r:0.670000 Accuracy:0.6007  Precision:0.287  Recall:0.133
+r:0.680000 Accuracy:0.6045  Precision:0.284  Recall:0.123
+r:0.690000 Accuracy:0.6089  Precision:0.284  Recall:0.114
+r:0.700000 Accuracy:0.6121  Precision:0.283  Recall:0.107
+r:0.710000 Accuracy:0.6173  Precision:0.286  Recall:0.099
+r:0.720000 Accuracy:0.6203  Precision:0.281  Recall:0.089
+r:0.730000 Accuracy:0.6261  Precision:0.292  Recall:0.086
+r:0.740000 Accuracy:0.6289  Precision:0.292  Recall:0.080
+r:0.750000 Accuracy:0.6326  Precision:0.298  Recall:0.076
+r:0.760000 Accuracy:0.6365  Precision:0.300  Recall:0.068
+r:0.770000 Accuracy:0.6394  Precision:0.301  Recall:0.062
+r:0.780000 Accuracy:0.6423  Precision:0.306  Recall:0.058
+r:0.790000 Accuracy:0.6445  Precision:0.307  Recall:0.053
+r:0.800000 Accuracy:0.6470  Precision:0.309  Recall:0.048
+r:0.810000 Accuracy:0.6501  Precision:0.316  Recall:0.043
+r:0.820000 Accuracy:0.6518  Precision:0.317  Recall:0.039
+r:0.830000 Accuracy:0.6549  Precision:0.338  Recall:0.037
+r:0.840000 Accuracy:0.6580  Precision:0.367  Recall:0.036
+r:0.850000 Accuracy:0.6602  Precision:0.388  Recall:0.034
+r:0.860000 Accuracy:0.6627  Precision:0.422  Recall:0.032
+r:0.870000 Accuracy:0.6644  Precision:0.448  Recall:0.030
+r:0.880000 Accuracy:0.6662  Precision:0.486  Recall:0.028
+r:0.890000 Accuracy:0.6672  Precision:0.516  Recall:0.025
+r:0.900000 Accuracy:0.6675  Precision:0.528  Recall:0.023
+r:0.910000 Accuracy:0.6674  Precision:0.525  Recall:0.021
+r:0.920000 Accuracy:0.6672  Precision:0.523  Recall:0.018
+r:0.930000 Accuracy:0.6682  Precision:0.577  Recall:0.016
+r:0.940000 Accuracy:0.6684  Precision:0.618  Recall:0.014
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+r:0.960000 Accuracy:0.6687  Precision:0.714  Recall:0.010
+r:0.970000 Accuracy:0.6688  Precision:0.786  Recall:0.009
+r:0.980000 Accuracy:0.6686  Precision:0.889  Recall:0.006
+r:0.990000 Accuracy:0.6675  Precision:0.875  Recall:0.003
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1548   441   245   147    35    28    28     4     3     6     9     7 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.381  0.205  0.107  0.048  0.034  0.023  0.012  0.010  0.009  0.006 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.0000100
+Current Costfunction Value:1.519162
+Current Costfunction Value:1.297388
+Current Costfunction Value:0.917880
+Current Costfunction Value:0.835063
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5061  Precision:0.287  Recall:0.325
+r:0.510000 Accuracy:0.5128  Precision:0.282  Recall:0.299
+r:0.520000 Accuracy:0.5180  Precision:0.274  Recall:0.271
+r:0.530000 Accuracy:0.5259  Precision:0.271  Recall:0.249
+r:0.540000 Accuracy:0.5322  Precision:0.263  Recall:0.225
+r:0.550000 Accuracy:0.5393  Precision:0.260  Recall:0.206
+r:0.560000 Accuracy:0.5425  Precision:0.251  Recall:0.188
+r:0.570000 Accuracy:0.5489  Precision:0.245  Recall:0.169
+r:0.580000 Accuracy:0.5561  Precision:0.240  Recall:0.153
+r:0.590000 Accuracy:0.5642  Precision:0.241  Recall:0.143
+r:0.600000 Accuracy:0.5741  Precision:0.244  Recall:0.132
+r:0.610000 Accuracy:0.5809  Precision:0.241  Recall:0.120
+r:0.620000 Accuracy:0.5857  Precision:0.232  Recall:0.105
+r:0.630000 Accuracy:0.5914  Precision:0.228  Recall:0.094
+r:0.640000 Accuracy:0.5979  Precision:0.231  Recall:0.089
+r:0.650000 Accuracy:0.6051  Precision:0.234  Recall:0.082
+r:0.660000 Accuracy:0.6105  Precision:0.232  Recall:0.073
+r:0.670000 Accuracy:0.6166  Precision:0.234  Recall:0.066
+r:0.680000 Accuracy:0.6221  Precision:0.236  Recall:0.060
+r:0.690000 Accuracy:0.6253  Precision:0.229  Recall:0.052
+r:0.700000 Accuracy:0.6299  Precision:0.229  Recall:0.047
+r:0.710000 Accuracy:0.6354  Precision:0.246  Recall:0.046
+r:0.720000 Accuracy:0.6393  Precision:0.250  Recall:0.041
+r:0.730000 Accuracy:0.6437  Precision:0.266  Recall:0.039
+r:0.740000 Accuracy:0.6482  Precision:0.285  Recall:0.037
+r:0.750000 Accuracy:0.6506  Precision:0.289  Recall:0.033
+r:0.760000 Accuracy:0.6526  Precision:0.301  Recall:0.032
+r:0.770000 Accuracy:0.6554  Precision:0.321  Recall:0.030
+r:0.780000 Accuracy:0.6575  Precision:0.332  Recall:0.027
+r:0.790000 Accuracy:0.6596  Precision:0.355  Recall:0.026
+r:0.800000 Accuracy:0.6611  Precision:0.370  Recall:0.024
+r:0.810000 Accuracy:0.6630  Precision:0.404  Recall:0.024
+r:0.820000 Accuracy:0.6655  Precision:0.463  Recall:0.022
+r:0.830000 Accuracy:0.6664  Precision:0.491  Recall:0.021
+r:0.840000 Accuracy:0.6672  Precision:0.521  Recall:0.020
+r:0.850000 Accuracy:0.6671  Precision:0.517  Recall:0.018
+r:0.860000 Accuracy:0.6667  Precision:0.500  Recall:0.014
+r:0.870000 Accuracy:0.6672  Precision:0.534  Recall:0.012
+r:0.880000 Accuracy:0.6675  Precision:0.562  Recall:0.011
+r:0.890000 Accuracy:0.6675  Precision:0.571  Recall:0.010
+r:0.900000 Accuracy:0.6675  Precision:0.588  Recall:0.008
+r:0.910000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.920000 Accuracy:0.6679  Precision:0.737  Recall:0.006
+r:0.930000 Accuracy:0.6676  Precision:0.706  Recall:0.005
+r:0.940000 Accuracy:0.6676  Precision:0.769  Recall:0.004
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+r:0.960000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.970000 Accuracy:0.6670  Precision:0.750  Recall:0.001
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1688   483   213    57    15    25    13     3     1     3     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.325  0.132  0.047  0.024  0.018  0.008  0.003  0.002  0.001  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.0001000
+Current Costfunction Value:15.897274
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5477  Precision:0.297  Recall:0.261
+r:0.520000 Accuracy:0.5586  Precision:0.285  Recall:0.215
+r:0.530000 Accuracy:0.5702  Precision:0.277  Recall:0.179
+r:0.540000 Accuracy:0.5773  Precision:0.256  Recall:0.140
+r:0.550000 Accuracy:0.5866  Precision:0.246  Recall:0.116
+r:0.560000 Accuracy:0.5963  Precision:0.237  Recall:0.095
+r:0.570000 Accuracy:0.6019  Precision:0.226  Recall:0.080
+r:0.580000 Accuracy:0.6095  Precision:0.220  Recall:0.068
+r:0.590000 Accuracy:0.6149  Precision:0.214  Recall:0.058
+r:0.600000 Accuracy:0.6209  Precision:0.212  Recall:0.051
+r:0.610000 Accuracy:0.6262  Precision:0.214  Recall:0.046
+r:0.620000 Accuracy:0.6306  Precision:0.207  Recall:0.038
+r:0.630000 Accuracy:0.6349  Precision:0.211  Recall:0.035
+r:0.640000 Accuracy:0.6377  Precision:0.189  Recall:0.026
+r:0.650000 Accuracy:0.6402  Precision:0.188  Recall:0.024
+r:0.660000 Accuracy:0.6430  Precision:0.184  Recall:0.021
+r:0.670000 Accuracy:0.6471  Precision:0.192  Recall:0.018
+r:0.680000 Accuracy:0.6494  Precision:0.196  Recall:0.017
+r:0.690000 Accuracy:0.6513  Precision:0.191  Recall:0.014
+r:0.700000 Accuracy:0.6534  Precision:0.195  Recall:0.013
+r:0.710000 Accuracy:0.6551  Precision:0.200  Recall:0.012
+r:0.720000 Accuracy:0.6568  Precision:0.206  Recall:0.010
+r:0.730000 Accuracy:0.6574  Precision:0.193  Recall:0.009
+r:0.740000 Accuracy:0.6588  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6602  Precision:0.212  Recall:0.007
+r:0.760000 Accuracy:0.6618  Precision:0.239  Recall:0.007
+r:0.770000 Accuracy:0.6615  Precision:0.190  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6630  Precision:0.208  Recall:0.004
+r:0.800000 Accuracy:0.6635  Precision:0.214  Recall:0.004
+r:0.810000 Accuracy:0.6651  Precision:0.269  Recall:0.003
+r:0.820000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.830000 Accuracy:0.6655  Precision:0.200  Recall:0.001
+r:0.840000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   672    95    23     7     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.051  0.013  0.004  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.0010000
+Current Costfunction Value:85.876925
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5516  Precision:0.298  Recall:0.255
+r:0.520000 Accuracy:0.5622  Precision:0.281  Recall:0.201
+r:0.530000 Accuracy:0.5768  Precision:0.271  Recall:0.160
+r:0.540000 Accuracy:0.5850  Precision:0.252  Recall:0.125
+r:0.550000 Accuracy:0.5959  Precision:0.241  Recall:0.099
+r:0.560000 Accuracy:0.6022  Precision:0.226  Recall:0.080
+r:0.570000 Accuracy:0.6094  Precision:0.215  Recall:0.065
+r:0.580000 Accuracy:0.6165  Precision:0.210  Recall:0.054
+r:0.590000 Accuracy:0.6245  Precision:0.217  Recall:0.049
+r:0.600000 Accuracy:0.6283  Precision:0.204  Recall:0.040
+r:0.610000 Accuracy:0.6337  Precision:0.208  Recall:0.035
+r:0.620000 Accuracy:0.6379  Precision:0.190  Recall:0.026
+r:0.630000 Accuracy:0.6414  Precision:0.192  Recall:0.024
+r:0.640000 Accuracy:0.6446  Precision:0.190  Recall:0.020
+r:0.650000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.660000 Accuracy:0.6507  Precision:0.191  Recall:0.015
+r:0.670000 Accuracy:0.6534  Precision:0.199  Recall:0.013
+r:0.680000 Accuracy:0.6550  Precision:0.203  Recall:0.012
+r:0.690000 Accuracy:0.6567  Precision:0.205  Recall:0.010
+r:0.700000 Accuracy:0.6579  Precision:0.200  Recall:0.009
+r:0.710000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.720000 Accuracy:0.6608  Precision:0.225  Recall:0.007
+r:0.730000 Accuracy:0.6619  Precision:0.243  Recall:0.007
+r:0.740000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.750000 Accuracy:0.6627  Precision:0.200  Recall:0.004
+r:0.760000 Accuracy:0.6632  Precision:0.205  Recall:0.004
+r:0.770000 Accuracy:0.6640  Precision:0.206  Recall:0.003
+r:0.780000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.790000 Accuracy:0.6658  Precision:0.231  Recall:0.001
+r:0.800000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.810000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.820000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.830000 Accuracy:0.6663  Precision:0.286  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   700    77    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.040  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000010 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.0000001
+Current Costfunction Value:0.841703
+Current Costfunction Value:0.043862
+Current Costfunction Value:0.028531
+Current Costfunction Value:0.025855
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5164  Precision:0.318  Recall:0.392
+r:0.510000 Accuracy:0.5195  Precision:0.314  Recall:0.371
+r:0.520000 Accuracy:0.5220  Precision:0.307  Recall:0.345
+r:0.530000 Accuracy:0.5241  Precision:0.300  Recall:0.320
+r:0.540000 Accuracy:0.5309  Precision:0.300  Recall:0.305
+r:0.550000 Accuracy:0.5366  Precision:0.298  Recall:0.287
+r:0.560000 Accuracy:0.5438  Precision:0.299  Recall:0.274
+r:0.570000 Accuracy:0.5472  Precision:0.295  Recall:0.257
+r:0.580000 Accuracy:0.5546  Precision:0.298  Recall:0.247
+r:0.590000 Accuracy:0.5577  Precision:0.294  Recall:0.233
+r:0.600000 Accuracy:0.5645  Precision:0.295  Recall:0.221
+r:0.610000 Accuracy:0.5712  Precision:0.298  Recall:0.211
+r:0.620000 Accuracy:0.5770  Precision:0.298  Recall:0.199
+r:0.630000 Accuracy:0.5826  Precision:0.300  Recall:0.189
+r:0.640000 Accuracy:0.5854  Precision:0.298  Recall:0.180
+r:0.650000 Accuracy:0.5894  Precision:0.295  Recall:0.166
+r:0.660000 Accuracy:0.5945  Precision:0.297  Recall:0.158
+r:0.670000 Accuracy:0.5973  Precision:0.293  Recall:0.147
+r:0.680000 Accuracy:0.6034  Precision:0.298  Recall:0.140
+r:0.690000 Accuracy:0.6073  Precision:0.297  Recall:0.131
+r:0.700000 Accuracy:0.6110  Precision:0.293  Recall:0.119
+r:0.710000 Accuracy:0.6146  Precision:0.294  Recall:0.112
+r:0.720000 Accuracy:0.6177  Precision:0.294  Recall:0.105
+r:0.730000 Accuracy:0.6209  Precision:0.294  Recall:0.098
+r:0.740000 Accuracy:0.6245  Precision:0.294  Recall:0.090
+r:0.750000 Accuracy:0.6287  Precision:0.297  Recall:0.083
+r:0.760000 Accuracy:0.6319  Precision:0.302  Recall:0.080
+r:0.770000 Accuracy:0.6347  Precision:0.303  Recall:0.074
+r:0.780000 Accuracy:0.6391  Precision:0.311  Recall:0.068
+r:0.790000 Accuracy:0.6411  Precision:0.307  Recall:0.061
+r:0.800000 Accuracy:0.6442  Precision:0.317  Recall:0.058
+r:0.810000 Accuracy:0.6463  Precision:0.317  Recall:0.053
+r:0.820000 Accuracy:0.6485  Precision:0.316  Recall:0.047
+r:0.830000 Accuracy:0.6502  Precision:0.312  Recall:0.041
+r:0.840000 Accuracy:0.6545  Precision:0.340  Recall:0.039
+r:0.850000 Accuracy:0.6574  Precision:0.363  Recall:0.037
+r:0.860000 Accuracy:0.6595  Precision:0.384  Recall:0.036
+r:0.870000 Accuracy:0.6618  Precision:0.409  Recall:0.033
+r:0.880000 Accuracy:0.6635  Precision:0.435  Recall:0.032
+r:0.890000 Accuracy:0.6648  Precision:0.454  Recall:0.028
+r:0.900000 Accuracy:0.6662  Precision:0.485  Recall:0.025
+r:0.910000 Accuracy:0.6670  Precision:0.509  Recall:0.022
+r:0.920000 Accuracy:0.6668  Precision:0.505  Recall:0.020
+r:0.930000 Accuracy:0.6666  Precision:0.494  Recall:0.018
+r:0.940000 Accuracy:0.6672  Precision:0.529  Recall:0.015
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+r:0.960000 Accuracy:0.6683  Precision:0.650  Recall:0.010
+r:0.970000 Accuracy:0.6686  Precision:0.706  Recall:0.010
+r:0.980000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.990000 Accuracy:0.6678  Precision:0.833  Recall:0.004
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1519   428   257   151    53    30    31     6     2     6     8    10 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.393  0.222  0.119  0.058  0.037  0.025  0.013  0.010  0.010  0.007 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.0000010
+Current Costfunction Value:0.893137
+Current Costfunction Value:0.122574
+Current Costfunction Value:0.121443
+Current Costfunction Value:0.122629
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5109  Precision:0.310  Recall:0.381
+r:0.510000 Accuracy:0.5147  Precision:0.305  Recall:0.355
+r:0.520000 Accuracy:0.5165  Precision:0.298  Recall:0.332
+r:0.530000 Accuracy:0.5232  Precision:0.297  Recall:0.314
+r:0.540000 Accuracy:0.5285  Precision:0.294  Recall:0.296
+r:0.550000 Accuracy:0.5356  Precision:0.292  Recall:0.277
+r:0.560000 Accuracy:0.5426  Precision:0.292  Recall:0.261
+r:0.570000 Accuracy:0.5482  Precision:0.290  Recall:0.245
+r:0.580000 Accuracy:0.5536  Precision:0.290  Recall:0.235
+r:0.590000 Accuracy:0.5580  Precision:0.287  Recall:0.219
+r:0.600000 Accuracy:0.5653  Precision:0.287  Recall:0.205
+r:0.610000 Accuracy:0.5712  Precision:0.288  Recall:0.195
+r:0.620000 Accuracy:0.5765  Precision:0.289  Recall:0.186
+r:0.630000 Accuracy:0.5825  Precision:0.290  Recall:0.175
+r:0.640000 Accuracy:0.5865  Precision:0.285  Recall:0.160
+r:0.650000 Accuracy:0.5917  Precision:0.288  Recall:0.152
+r:0.660000 Accuracy:0.5957  Precision:0.284  Recall:0.140
+r:0.670000 Accuracy:0.6007  Precision:0.287  Recall:0.133
+r:0.680000 Accuracy:0.6045  Precision:0.284  Recall:0.123
+r:0.690000 Accuracy:0.6089  Precision:0.284  Recall:0.114
+r:0.700000 Accuracy:0.6121  Precision:0.283  Recall:0.107
+r:0.710000 Accuracy:0.6173  Precision:0.286  Recall:0.099
+r:0.720000 Accuracy:0.6203  Precision:0.281  Recall:0.089
+r:0.730000 Accuracy:0.6261  Precision:0.292  Recall:0.086
+r:0.740000 Accuracy:0.6289  Precision:0.292  Recall:0.080
+r:0.750000 Accuracy:0.6326  Precision:0.298  Recall:0.076
+r:0.760000 Accuracy:0.6365  Precision:0.300  Recall:0.068
+r:0.770000 Accuracy:0.6394  Precision:0.301  Recall:0.062
+r:0.780000 Accuracy:0.6423  Precision:0.306  Recall:0.058
+r:0.790000 Accuracy:0.6445  Precision:0.307  Recall:0.053
+r:0.800000 Accuracy:0.6470  Precision:0.309  Recall:0.048
+r:0.810000 Accuracy:0.6501  Precision:0.316  Recall:0.043
+r:0.820000 Accuracy:0.6518  Precision:0.317  Recall:0.039
+r:0.830000 Accuracy:0.6549  Precision:0.338  Recall:0.037
+r:0.840000 Accuracy:0.6580  Precision:0.367  Recall:0.036
+r:0.850000 Accuracy:0.6602  Precision:0.388  Recall:0.034
+r:0.860000 Accuracy:0.6627  Precision:0.422  Recall:0.032
+r:0.870000 Accuracy:0.6644  Precision:0.448  Recall:0.030
+r:0.880000 Accuracy:0.6662  Precision:0.486  Recall:0.028
+r:0.890000 Accuracy:0.6672  Precision:0.516  Recall:0.025
+r:0.900000 Accuracy:0.6675  Precision:0.528  Recall:0.023
+r:0.910000 Accuracy:0.6674  Precision:0.525  Recall:0.021
+r:0.920000 Accuracy:0.6672  Precision:0.523  Recall:0.018
+r:0.930000 Accuracy:0.6682  Precision:0.577  Recall:0.016
+r:0.940000 Accuracy:0.6684  Precision:0.618  Recall:0.014
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+r:0.960000 Accuracy:0.6687  Precision:0.714  Recall:0.010
+r:0.970000 Accuracy:0.6688  Precision:0.786  Recall:0.009
+r:0.980000 Accuracy:0.6686  Precision:0.889  Recall:0.006
+r:0.990000 Accuracy:0.6675  Precision:0.875  Recall:0.003
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1548   441   245   147    35    28    28     4     3     6     9     7 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.381  0.205  0.107  0.048  0.034  0.023  0.012  0.010  0.009  0.006 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.0000100
+Current Costfunction Value:1.519162
+Current Costfunction Value:1.297388
+Current Costfunction Value:0.917880
+Current Costfunction Value:0.835063
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5061  Precision:0.287  Recall:0.325
+r:0.510000 Accuracy:0.5128  Precision:0.282  Recall:0.299
+r:0.520000 Accuracy:0.5180  Precision:0.274  Recall:0.271
+r:0.530000 Accuracy:0.5259  Precision:0.271  Recall:0.249
+r:0.540000 Accuracy:0.5322  Precision:0.263  Recall:0.225
+r:0.550000 Accuracy:0.5393  Precision:0.260  Recall:0.206
+r:0.560000 Accuracy:0.5425  Precision:0.251  Recall:0.188
+r:0.570000 Accuracy:0.5489  Precision:0.245  Recall:0.169
+r:0.580000 Accuracy:0.5561  Precision:0.240  Recall:0.153
+r:0.590000 Accuracy:0.5642  Precision:0.241  Recall:0.143
+r:0.600000 Accuracy:0.5741  Precision:0.244  Recall:0.132
+r:0.610000 Accuracy:0.5809  Precision:0.241  Recall:0.120
+r:0.620000 Accuracy:0.5857  Precision:0.232  Recall:0.105
+r:0.630000 Accuracy:0.5914  Precision:0.228  Recall:0.094
+r:0.640000 Accuracy:0.5979  Precision:0.231  Recall:0.089
+r:0.650000 Accuracy:0.6051  Precision:0.234  Recall:0.082
+r:0.660000 Accuracy:0.6105  Precision:0.232  Recall:0.073
+r:0.670000 Accuracy:0.6166  Precision:0.234  Recall:0.066
+r:0.680000 Accuracy:0.6221  Precision:0.236  Recall:0.060
+r:0.690000 Accuracy:0.6253  Precision:0.229  Recall:0.052
+r:0.700000 Accuracy:0.6299  Precision:0.229  Recall:0.047
+r:0.710000 Accuracy:0.6354  Precision:0.246  Recall:0.046
+r:0.720000 Accuracy:0.6393  Precision:0.250  Recall:0.041
+r:0.730000 Accuracy:0.6437  Precision:0.266  Recall:0.039
+r:0.740000 Accuracy:0.6482  Precision:0.285  Recall:0.037
+r:0.750000 Accuracy:0.6506  Precision:0.289  Recall:0.033
+r:0.760000 Accuracy:0.6526  Precision:0.301  Recall:0.032
+r:0.770000 Accuracy:0.6554  Precision:0.321  Recall:0.030
+r:0.780000 Accuracy:0.6575  Precision:0.332  Recall:0.027
+r:0.790000 Accuracy:0.6596  Precision:0.355  Recall:0.026
+r:0.800000 Accuracy:0.6611  Precision:0.370  Recall:0.024
+r:0.810000 Accuracy:0.6630  Precision:0.404  Recall:0.024
+r:0.820000 Accuracy:0.6655  Precision:0.463  Recall:0.022
+r:0.830000 Accuracy:0.6664  Precision:0.491  Recall:0.021
+r:0.840000 Accuracy:0.6672  Precision:0.521  Recall:0.020
+r:0.850000 Accuracy:0.6671  Precision:0.517  Recall:0.018
+r:0.860000 Accuracy:0.6667  Precision:0.500  Recall:0.014
+r:0.870000 Accuracy:0.6672  Precision:0.534  Recall:0.012
+r:0.880000 Accuracy:0.6675  Precision:0.562  Recall:0.011
+r:0.890000 Accuracy:0.6675  Precision:0.571  Recall:0.010
+r:0.900000 Accuracy:0.6675  Precision:0.588  Recall:0.008
+r:0.910000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.920000 Accuracy:0.6679  Precision:0.737  Recall:0.006
+r:0.930000 Accuracy:0.6676  Precision:0.706  Recall:0.005
+r:0.940000 Accuracy:0.6676  Precision:0.769  Recall:0.004
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+r:0.960000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.970000 Accuracy:0.6670  Precision:0.750  Recall:0.001
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1688   483   213    57    15    25    13     3     1     3     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.325  0.132  0.047  0.024  0.018  0.008  0.003  0.002  0.001  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.0001000
+Current Costfunction Value:15.897274
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5477  Precision:0.297  Recall:0.261
+r:0.520000 Accuracy:0.5586  Precision:0.285  Recall:0.215
+r:0.530000 Accuracy:0.5702  Precision:0.277  Recall:0.179
+r:0.540000 Accuracy:0.5773  Precision:0.256  Recall:0.140
+r:0.550000 Accuracy:0.5866  Precision:0.246  Recall:0.116
+r:0.560000 Accuracy:0.5963  Precision:0.237  Recall:0.095
+r:0.570000 Accuracy:0.6019  Precision:0.226  Recall:0.080
+r:0.580000 Accuracy:0.6095  Precision:0.220  Recall:0.068
+r:0.590000 Accuracy:0.6149  Precision:0.214  Recall:0.058
+r:0.600000 Accuracy:0.6209  Precision:0.212  Recall:0.051
+r:0.610000 Accuracy:0.6262  Precision:0.214  Recall:0.046
+r:0.620000 Accuracy:0.6306  Precision:0.207  Recall:0.038
+r:0.630000 Accuracy:0.6349  Precision:0.211  Recall:0.035
+r:0.640000 Accuracy:0.6377  Precision:0.189  Recall:0.026
+r:0.650000 Accuracy:0.6402  Precision:0.188  Recall:0.024
+r:0.660000 Accuracy:0.6430  Precision:0.184  Recall:0.021
+r:0.670000 Accuracy:0.6471  Precision:0.192  Recall:0.018
+r:0.680000 Accuracy:0.6494  Precision:0.196  Recall:0.017
+r:0.690000 Accuracy:0.6513  Precision:0.191  Recall:0.014
+r:0.700000 Accuracy:0.6534  Precision:0.195  Recall:0.013
+r:0.710000 Accuracy:0.6551  Precision:0.200  Recall:0.012
+r:0.720000 Accuracy:0.6568  Precision:0.206  Recall:0.010
+r:0.730000 Accuracy:0.6574  Precision:0.193  Recall:0.009
+r:0.740000 Accuracy:0.6588  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6602  Precision:0.212  Recall:0.007
+r:0.760000 Accuracy:0.6618  Precision:0.239  Recall:0.007
+r:0.770000 Accuracy:0.6615  Precision:0.190  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6630  Precision:0.208  Recall:0.004
+r:0.800000 Accuracy:0.6635  Precision:0.214  Recall:0.004
+r:0.810000 Accuracy:0.6651  Precision:0.269  Recall:0.003
+r:0.820000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.830000 Accuracy:0.6655  Precision:0.200  Recall:0.001
+r:0.840000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   672    95    23     7     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.051  0.013  0.004  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.0010000
+Current Costfunction Value:85.876925
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5516  Precision:0.298  Recall:0.255
+r:0.520000 Accuracy:0.5622  Precision:0.281  Recall:0.201
+r:0.530000 Accuracy:0.5768  Precision:0.271  Recall:0.160
+r:0.540000 Accuracy:0.5850  Precision:0.252  Recall:0.125
+r:0.550000 Accuracy:0.5959  Precision:0.241  Recall:0.099
+r:0.560000 Accuracy:0.6022  Precision:0.226  Recall:0.080
+r:0.570000 Accuracy:0.6094  Precision:0.215  Recall:0.065
+r:0.580000 Accuracy:0.6165  Precision:0.210  Recall:0.054
+r:0.590000 Accuracy:0.6245  Precision:0.217  Recall:0.049
+r:0.600000 Accuracy:0.6283  Precision:0.204  Recall:0.040
+r:0.610000 Accuracy:0.6337  Precision:0.208  Recall:0.035
+r:0.620000 Accuracy:0.6379  Precision:0.190  Recall:0.026
+r:0.630000 Accuracy:0.6414  Precision:0.192  Recall:0.024
+r:0.640000 Accuracy:0.6446  Precision:0.190  Recall:0.020
+r:0.650000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.660000 Accuracy:0.6507  Precision:0.191  Recall:0.015
+r:0.670000 Accuracy:0.6534  Precision:0.199  Recall:0.013
+r:0.680000 Accuracy:0.6550  Precision:0.203  Recall:0.012
+r:0.690000 Accuracy:0.6567  Precision:0.205  Recall:0.010
+r:0.700000 Accuracy:0.6579  Precision:0.200  Recall:0.009
+r:0.710000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.720000 Accuracy:0.6608  Precision:0.225  Recall:0.007
+r:0.730000 Accuracy:0.6619  Precision:0.243  Recall:0.007
+r:0.740000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.750000 Accuracy:0.6627  Precision:0.200  Recall:0.004
+r:0.760000 Accuracy:0.6632  Precision:0.205  Recall:0.004
+r:0.770000 Accuracy:0.6640  Precision:0.206  Recall:0.003
+r:0.780000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.790000 Accuracy:0.6658  Precision:0.231  Recall:0.001
+r:0.800000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.810000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.820000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.830000 Accuracy:0.6663  Precision:0.286  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   700    77    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.040  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0000100 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.0000001
+Current Costfunction Value:0.841703
+Current Costfunction Value:0.043862
+Current Costfunction Value:0.028531
+Current Costfunction Value:0.025855
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5164  Precision:0.318  Recall:0.392
+r:0.510000 Accuracy:0.5195  Precision:0.314  Recall:0.371
+r:0.520000 Accuracy:0.5220  Precision:0.307  Recall:0.345
+r:0.530000 Accuracy:0.5241  Precision:0.300  Recall:0.320
+r:0.540000 Accuracy:0.5309  Precision:0.300  Recall:0.305
+r:0.550000 Accuracy:0.5366  Precision:0.298  Recall:0.287
+r:0.560000 Accuracy:0.5438  Precision:0.299  Recall:0.274
+r:0.570000 Accuracy:0.5472  Precision:0.295  Recall:0.257
+r:0.580000 Accuracy:0.5546  Precision:0.298  Recall:0.247
+r:0.590000 Accuracy:0.5577  Precision:0.294  Recall:0.233
+r:0.600000 Accuracy:0.5645  Precision:0.295  Recall:0.221
+r:0.610000 Accuracy:0.5712  Precision:0.298  Recall:0.211
+r:0.620000 Accuracy:0.5770  Precision:0.298  Recall:0.199
+r:0.630000 Accuracy:0.5826  Precision:0.300  Recall:0.189
+r:0.640000 Accuracy:0.5854  Precision:0.298  Recall:0.180
+r:0.650000 Accuracy:0.5894  Precision:0.295  Recall:0.166
+r:0.660000 Accuracy:0.5945  Precision:0.297  Recall:0.158
+r:0.670000 Accuracy:0.5973  Precision:0.293  Recall:0.147
+r:0.680000 Accuracy:0.6034  Precision:0.298  Recall:0.140
+r:0.690000 Accuracy:0.6073  Precision:0.297  Recall:0.131
+r:0.700000 Accuracy:0.6110  Precision:0.293  Recall:0.119
+r:0.710000 Accuracy:0.6146  Precision:0.294  Recall:0.112
+r:0.720000 Accuracy:0.6177  Precision:0.294  Recall:0.105
+r:0.730000 Accuracy:0.6209  Precision:0.294  Recall:0.098
+r:0.740000 Accuracy:0.6245  Precision:0.294  Recall:0.090
+r:0.750000 Accuracy:0.6287  Precision:0.297  Recall:0.083
+r:0.760000 Accuracy:0.6319  Precision:0.302  Recall:0.080
+r:0.770000 Accuracy:0.6347  Precision:0.303  Recall:0.074
+r:0.780000 Accuracy:0.6391  Precision:0.311  Recall:0.068
+r:0.790000 Accuracy:0.6411  Precision:0.307  Recall:0.061
+r:0.800000 Accuracy:0.6442  Precision:0.317  Recall:0.058
+r:0.810000 Accuracy:0.6463  Precision:0.317  Recall:0.053
+r:0.820000 Accuracy:0.6485  Precision:0.316  Recall:0.047
+r:0.830000 Accuracy:0.6502  Precision:0.312  Recall:0.041
+r:0.840000 Accuracy:0.6545  Precision:0.340  Recall:0.039
+r:0.850000 Accuracy:0.6574  Precision:0.363  Recall:0.037
+r:0.860000 Accuracy:0.6595  Precision:0.384  Recall:0.036
+r:0.870000 Accuracy:0.6618  Precision:0.409  Recall:0.033
+r:0.880000 Accuracy:0.6635  Precision:0.435  Recall:0.032
+r:0.890000 Accuracy:0.6648  Precision:0.454  Recall:0.028
+r:0.900000 Accuracy:0.6662  Precision:0.485  Recall:0.025
+r:0.910000 Accuracy:0.6670  Precision:0.509  Recall:0.022
+r:0.920000 Accuracy:0.6668  Precision:0.505  Recall:0.020
+r:0.930000 Accuracy:0.6666  Precision:0.494  Recall:0.018
+r:0.940000 Accuracy:0.6672  Precision:0.529  Recall:0.015
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+r:0.960000 Accuracy:0.6683  Precision:0.650  Recall:0.010
+r:0.970000 Accuracy:0.6686  Precision:0.706  Recall:0.010
+r:0.980000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.990000 Accuracy:0.6678  Precision:0.833  Recall:0.004
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1519   428   257   151    53    30    31     6     2     6     8    10 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.393  0.222  0.119  0.058  0.037  0.025  0.013  0.010  0.010  0.007 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.0000010
+Current Costfunction Value:0.893137
+Current Costfunction Value:0.122574
+Current Costfunction Value:0.121443
+Current Costfunction Value:0.122629
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5109  Precision:0.310  Recall:0.381
+r:0.510000 Accuracy:0.5147  Precision:0.305  Recall:0.355
+r:0.520000 Accuracy:0.5165  Precision:0.298  Recall:0.332
+r:0.530000 Accuracy:0.5232  Precision:0.297  Recall:0.314
+r:0.540000 Accuracy:0.5285  Precision:0.294  Recall:0.296
+r:0.550000 Accuracy:0.5356  Precision:0.292  Recall:0.277
+r:0.560000 Accuracy:0.5426  Precision:0.292  Recall:0.261
+r:0.570000 Accuracy:0.5482  Precision:0.290  Recall:0.245
+r:0.580000 Accuracy:0.5536  Precision:0.290  Recall:0.235
+r:0.590000 Accuracy:0.5580  Precision:0.287  Recall:0.219
+r:0.600000 Accuracy:0.5653  Precision:0.287  Recall:0.205
+r:0.610000 Accuracy:0.5712  Precision:0.288  Recall:0.195
+r:0.620000 Accuracy:0.5765  Precision:0.289  Recall:0.186
+r:0.630000 Accuracy:0.5825  Precision:0.290  Recall:0.175
+r:0.640000 Accuracy:0.5865  Precision:0.285  Recall:0.160
+r:0.650000 Accuracy:0.5917  Precision:0.288  Recall:0.152
+r:0.660000 Accuracy:0.5957  Precision:0.284  Recall:0.140
+r:0.670000 Accuracy:0.6007  Precision:0.287  Recall:0.133
+r:0.680000 Accuracy:0.6045  Precision:0.284  Recall:0.123
+r:0.690000 Accuracy:0.6089  Precision:0.284  Recall:0.114
+r:0.700000 Accuracy:0.6121  Precision:0.283  Recall:0.107
+r:0.710000 Accuracy:0.6173  Precision:0.286  Recall:0.099
+r:0.720000 Accuracy:0.6203  Precision:0.281  Recall:0.089
+r:0.730000 Accuracy:0.6261  Precision:0.292  Recall:0.086
+r:0.740000 Accuracy:0.6289  Precision:0.292  Recall:0.080
+r:0.750000 Accuracy:0.6326  Precision:0.298  Recall:0.076
+r:0.760000 Accuracy:0.6365  Precision:0.300  Recall:0.068
+r:0.770000 Accuracy:0.6394  Precision:0.301  Recall:0.062
+r:0.780000 Accuracy:0.6423  Precision:0.306  Recall:0.058
+r:0.790000 Accuracy:0.6445  Precision:0.307  Recall:0.053
+r:0.800000 Accuracy:0.6470  Precision:0.309  Recall:0.048
+r:0.810000 Accuracy:0.6501  Precision:0.316  Recall:0.043
+r:0.820000 Accuracy:0.6518  Precision:0.317  Recall:0.039
+r:0.830000 Accuracy:0.6549  Precision:0.338  Recall:0.037
+r:0.840000 Accuracy:0.6580  Precision:0.367  Recall:0.036
+r:0.850000 Accuracy:0.6602  Precision:0.388  Recall:0.034
+r:0.860000 Accuracy:0.6627  Precision:0.422  Recall:0.032
+r:0.870000 Accuracy:0.6644  Precision:0.448  Recall:0.030
+r:0.880000 Accuracy:0.6662  Precision:0.486  Recall:0.028
+r:0.890000 Accuracy:0.6672  Precision:0.516  Recall:0.025
+r:0.900000 Accuracy:0.6675  Precision:0.528  Recall:0.023
+r:0.910000 Accuracy:0.6674  Precision:0.525  Recall:0.021
+r:0.920000 Accuracy:0.6672  Precision:0.523  Recall:0.018
+r:0.930000 Accuracy:0.6682  Precision:0.577  Recall:0.016
+r:0.940000 Accuracy:0.6684  Precision:0.618  Recall:0.014
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+r:0.960000 Accuracy:0.6687  Precision:0.714  Recall:0.010
+r:0.970000 Accuracy:0.6688  Precision:0.786  Recall:0.009
+r:0.980000 Accuracy:0.6686  Precision:0.889  Recall:0.006
+r:0.990000 Accuracy:0.6675  Precision:0.875  Recall:0.003
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1548   441   245   147    35    28    28     4     3     6     9     7 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.381  0.205  0.107  0.048  0.034  0.023  0.012  0.010  0.009  0.006 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.0000100
+Current Costfunction Value:1.519162
+Current Costfunction Value:1.297388
+Current Costfunction Value:0.917880
+Current Costfunction Value:0.835063
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5061  Precision:0.287  Recall:0.325
+r:0.510000 Accuracy:0.5128  Precision:0.282  Recall:0.299
+r:0.520000 Accuracy:0.5180  Precision:0.274  Recall:0.271
+r:0.530000 Accuracy:0.5259  Precision:0.271  Recall:0.249
+r:0.540000 Accuracy:0.5322  Precision:0.263  Recall:0.225
+r:0.550000 Accuracy:0.5393  Precision:0.260  Recall:0.206
+r:0.560000 Accuracy:0.5425  Precision:0.251  Recall:0.188
+r:0.570000 Accuracy:0.5489  Precision:0.245  Recall:0.169
+r:0.580000 Accuracy:0.5561  Precision:0.240  Recall:0.153
+r:0.590000 Accuracy:0.5642  Precision:0.241  Recall:0.143
+r:0.600000 Accuracy:0.5741  Precision:0.244  Recall:0.132
+r:0.610000 Accuracy:0.5809  Precision:0.241  Recall:0.120
+r:0.620000 Accuracy:0.5857  Precision:0.232  Recall:0.105
+r:0.630000 Accuracy:0.5914  Precision:0.228  Recall:0.094
+r:0.640000 Accuracy:0.5979  Precision:0.231  Recall:0.089
+r:0.650000 Accuracy:0.6051  Precision:0.234  Recall:0.082
+r:0.660000 Accuracy:0.6105  Precision:0.232  Recall:0.073
+r:0.670000 Accuracy:0.6166  Precision:0.234  Recall:0.066
+r:0.680000 Accuracy:0.6221  Precision:0.236  Recall:0.060
+r:0.690000 Accuracy:0.6253  Precision:0.229  Recall:0.052
+r:0.700000 Accuracy:0.6299  Precision:0.229  Recall:0.047
+r:0.710000 Accuracy:0.6354  Precision:0.246  Recall:0.046
+r:0.720000 Accuracy:0.6393  Precision:0.250  Recall:0.041
+r:0.730000 Accuracy:0.6437  Precision:0.266  Recall:0.039
+r:0.740000 Accuracy:0.6482  Precision:0.285  Recall:0.037
+r:0.750000 Accuracy:0.6506  Precision:0.289  Recall:0.033
+r:0.760000 Accuracy:0.6526  Precision:0.301  Recall:0.032
+r:0.770000 Accuracy:0.6554  Precision:0.321  Recall:0.030
+r:0.780000 Accuracy:0.6575  Precision:0.332  Recall:0.027
+r:0.790000 Accuracy:0.6596  Precision:0.355  Recall:0.026
+r:0.800000 Accuracy:0.6611  Precision:0.370  Recall:0.024
+r:0.810000 Accuracy:0.6630  Precision:0.404  Recall:0.024
+r:0.820000 Accuracy:0.6655  Precision:0.463  Recall:0.022
+r:0.830000 Accuracy:0.6664  Precision:0.491  Recall:0.021
+r:0.840000 Accuracy:0.6672  Precision:0.521  Recall:0.020
+r:0.850000 Accuracy:0.6671  Precision:0.517  Recall:0.018
+r:0.860000 Accuracy:0.6667  Precision:0.500  Recall:0.014
+r:0.870000 Accuracy:0.6672  Precision:0.534  Recall:0.012
+r:0.880000 Accuracy:0.6675  Precision:0.562  Recall:0.011
+r:0.890000 Accuracy:0.6675  Precision:0.571  Recall:0.010
+r:0.900000 Accuracy:0.6675  Precision:0.588  Recall:0.008
+r:0.910000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.920000 Accuracy:0.6679  Precision:0.737  Recall:0.006
+r:0.930000 Accuracy:0.6676  Precision:0.706  Recall:0.005
+r:0.940000 Accuracy:0.6676  Precision:0.769  Recall:0.004
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+r:0.960000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.970000 Accuracy:0.6670  Precision:0.750  Recall:0.001
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1688   483   213    57    15    25    13     3     1     3     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.325  0.132  0.047  0.024  0.018  0.008  0.003  0.002  0.001  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.0001000
+Current Costfunction Value:15.897274
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5477  Precision:0.297  Recall:0.261
+r:0.520000 Accuracy:0.5586  Precision:0.285  Recall:0.215
+r:0.530000 Accuracy:0.5702  Precision:0.277  Recall:0.179
+r:0.540000 Accuracy:0.5773  Precision:0.256  Recall:0.140
+r:0.550000 Accuracy:0.5866  Precision:0.246  Recall:0.116
+r:0.560000 Accuracy:0.5963  Precision:0.237  Recall:0.095
+r:0.570000 Accuracy:0.6019  Precision:0.226  Recall:0.080
+r:0.580000 Accuracy:0.6095  Precision:0.220  Recall:0.068
+r:0.590000 Accuracy:0.6149  Precision:0.214  Recall:0.058
+r:0.600000 Accuracy:0.6209  Precision:0.212  Recall:0.051
+r:0.610000 Accuracy:0.6262  Precision:0.214  Recall:0.046
+r:0.620000 Accuracy:0.6306  Precision:0.207  Recall:0.038
+r:0.630000 Accuracy:0.6349  Precision:0.211  Recall:0.035
+r:0.640000 Accuracy:0.6377  Precision:0.189  Recall:0.026
+r:0.650000 Accuracy:0.6402  Precision:0.188  Recall:0.024
+r:0.660000 Accuracy:0.6430  Precision:0.184  Recall:0.021
+r:0.670000 Accuracy:0.6471  Precision:0.192  Recall:0.018
+r:0.680000 Accuracy:0.6494  Precision:0.196  Recall:0.017
+r:0.690000 Accuracy:0.6513  Precision:0.191  Recall:0.014
+r:0.700000 Accuracy:0.6534  Precision:0.195  Recall:0.013
+r:0.710000 Accuracy:0.6551  Precision:0.200  Recall:0.012
+r:0.720000 Accuracy:0.6568  Precision:0.206  Recall:0.010
+r:0.730000 Accuracy:0.6574  Precision:0.193  Recall:0.009
+r:0.740000 Accuracy:0.6588  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6602  Precision:0.212  Recall:0.007
+r:0.760000 Accuracy:0.6618  Precision:0.239  Recall:0.007
+r:0.770000 Accuracy:0.6615  Precision:0.190  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6630  Precision:0.208  Recall:0.004
+r:0.800000 Accuracy:0.6635  Precision:0.214  Recall:0.004
+r:0.810000 Accuracy:0.6651  Precision:0.269  Recall:0.003
+r:0.820000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.830000 Accuracy:0.6655  Precision:0.200  Recall:0.001
+r:0.840000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   672    95    23     7     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.051  0.013  0.004  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.0010000
+Current Costfunction Value:85.876925
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5516  Precision:0.298  Recall:0.255
+r:0.520000 Accuracy:0.5622  Precision:0.281  Recall:0.201
+r:0.530000 Accuracy:0.5768  Precision:0.271  Recall:0.160
+r:0.540000 Accuracy:0.5850  Precision:0.252  Recall:0.125
+r:0.550000 Accuracy:0.5959  Precision:0.241  Recall:0.099
+r:0.560000 Accuracy:0.6022  Precision:0.226  Recall:0.080
+r:0.570000 Accuracy:0.6094  Precision:0.215  Recall:0.065
+r:0.580000 Accuracy:0.6165  Precision:0.210  Recall:0.054
+r:0.590000 Accuracy:0.6245  Precision:0.217  Recall:0.049
+r:0.600000 Accuracy:0.6283  Precision:0.204  Recall:0.040
+r:0.610000 Accuracy:0.6337  Precision:0.208  Recall:0.035
+r:0.620000 Accuracy:0.6379  Precision:0.190  Recall:0.026
+r:0.630000 Accuracy:0.6414  Precision:0.192  Recall:0.024
+r:0.640000 Accuracy:0.6446  Precision:0.190  Recall:0.020
+r:0.650000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.660000 Accuracy:0.6507  Precision:0.191  Recall:0.015
+r:0.670000 Accuracy:0.6534  Precision:0.199  Recall:0.013
+r:0.680000 Accuracy:0.6550  Precision:0.203  Recall:0.012
+r:0.690000 Accuracy:0.6567  Precision:0.205  Recall:0.010
+r:0.700000 Accuracy:0.6579  Precision:0.200  Recall:0.009
+r:0.710000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.720000 Accuracy:0.6608  Precision:0.225  Recall:0.007
+r:0.730000 Accuracy:0.6619  Precision:0.243  Recall:0.007
+r:0.740000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.750000 Accuracy:0.6627  Precision:0.200  Recall:0.004
+r:0.760000 Accuracy:0.6632  Precision:0.205  Recall:0.004
+r:0.770000 Accuracy:0.6640  Precision:0.206  Recall:0.003
+r:0.780000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.790000 Accuracy:0.6658  Precision:0.231  Recall:0.001
+r:0.800000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.810000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.820000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.830000 Accuracy:0.6663  Precision:0.286  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   700    77    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.040  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0001000 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.0000001
+Current Costfunction Value:0.841703
+Current Costfunction Value:0.043862
+Current Costfunction Value:0.028531
+Current Costfunction Value:0.025855
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5164  Precision:0.318  Recall:0.392
+r:0.510000 Accuracy:0.5195  Precision:0.314  Recall:0.371
+r:0.520000 Accuracy:0.5220  Precision:0.307  Recall:0.345
+r:0.530000 Accuracy:0.5241  Precision:0.300  Recall:0.320
+r:0.540000 Accuracy:0.5309  Precision:0.300  Recall:0.305
+r:0.550000 Accuracy:0.5366  Precision:0.298  Recall:0.287
+r:0.560000 Accuracy:0.5438  Precision:0.299  Recall:0.274
+r:0.570000 Accuracy:0.5472  Precision:0.295  Recall:0.257
+r:0.580000 Accuracy:0.5546  Precision:0.298  Recall:0.247
+r:0.590000 Accuracy:0.5577  Precision:0.294  Recall:0.233
+r:0.600000 Accuracy:0.5645  Precision:0.295  Recall:0.221
+r:0.610000 Accuracy:0.5712  Precision:0.298  Recall:0.211
+r:0.620000 Accuracy:0.5770  Precision:0.298  Recall:0.199
+r:0.630000 Accuracy:0.5826  Precision:0.300  Recall:0.189
+r:0.640000 Accuracy:0.5854  Precision:0.298  Recall:0.180
+r:0.650000 Accuracy:0.5894  Precision:0.295  Recall:0.166
+r:0.660000 Accuracy:0.5945  Precision:0.297  Recall:0.158
+r:0.670000 Accuracy:0.5973  Precision:0.293  Recall:0.147
+r:0.680000 Accuracy:0.6034  Precision:0.298  Recall:0.140
+r:0.690000 Accuracy:0.6073  Precision:0.297  Recall:0.131
+r:0.700000 Accuracy:0.6110  Precision:0.293  Recall:0.119
+r:0.710000 Accuracy:0.6146  Precision:0.294  Recall:0.112
+r:0.720000 Accuracy:0.6177  Precision:0.294  Recall:0.105
+r:0.730000 Accuracy:0.6209  Precision:0.294  Recall:0.098
+r:0.740000 Accuracy:0.6245  Precision:0.294  Recall:0.090
+r:0.750000 Accuracy:0.6287  Precision:0.297  Recall:0.083
+r:0.760000 Accuracy:0.6319  Precision:0.302  Recall:0.080
+r:0.770000 Accuracy:0.6347  Precision:0.303  Recall:0.074
+r:0.780000 Accuracy:0.6391  Precision:0.311  Recall:0.068
+r:0.790000 Accuracy:0.6411  Precision:0.307  Recall:0.061
+r:0.800000 Accuracy:0.6442  Precision:0.317  Recall:0.058
+r:0.810000 Accuracy:0.6463  Precision:0.317  Recall:0.053
+r:0.820000 Accuracy:0.6485  Precision:0.316  Recall:0.047
+r:0.830000 Accuracy:0.6502  Precision:0.312  Recall:0.041
+r:0.840000 Accuracy:0.6545  Precision:0.340  Recall:0.039
+r:0.850000 Accuracy:0.6574  Precision:0.363  Recall:0.037
+r:0.860000 Accuracy:0.6595  Precision:0.384  Recall:0.036
+r:0.870000 Accuracy:0.6618  Precision:0.409  Recall:0.033
+r:0.880000 Accuracy:0.6635  Precision:0.435  Recall:0.032
+r:0.890000 Accuracy:0.6648  Precision:0.454  Recall:0.028
+r:0.900000 Accuracy:0.6662  Precision:0.485  Recall:0.025
+r:0.910000 Accuracy:0.6670  Precision:0.509  Recall:0.022
+r:0.920000 Accuracy:0.6668  Precision:0.505  Recall:0.020
+r:0.930000 Accuracy:0.6666  Precision:0.494  Recall:0.018
+r:0.940000 Accuracy:0.6672  Precision:0.529  Recall:0.015
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+r:0.960000 Accuracy:0.6683  Precision:0.650  Recall:0.010
+r:0.970000 Accuracy:0.6686  Precision:0.706  Recall:0.010
+r:0.980000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.990000 Accuracy:0.6678  Precision:0.833  Recall:0.004
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1519   428   257   151    53    30    31     6     2     6     8    10 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.393  0.222  0.119  0.058  0.037  0.025  0.013  0.010  0.010  0.007 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.0000010
+Current Costfunction Value:0.893137
+Current Costfunction Value:0.122574
+Current Costfunction Value:0.121443
+Current Costfunction Value:0.122629
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5109  Precision:0.310  Recall:0.381
+r:0.510000 Accuracy:0.5147  Precision:0.305  Recall:0.355
+r:0.520000 Accuracy:0.5165  Precision:0.298  Recall:0.332
+r:0.530000 Accuracy:0.5232  Precision:0.297  Recall:0.314
+r:0.540000 Accuracy:0.5285  Precision:0.294  Recall:0.296
+r:0.550000 Accuracy:0.5356  Precision:0.292  Recall:0.277
+r:0.560000 Accuracy:0.5426  Precision:0.292  Recall:0.261
+r:0.570000 Accuracy:0.5482  Precision:0.290  Recall:0.245
+r:0.580000 Accuracy:0.5536  Precision:0.290  Recall:0.235
+r:0.590000 Accuracy:0.5580  Precision:0.287  Recall:0.219
+r:0.600000 Accuracy:0.5653  Precision:0.287  Recall:0.205
+r:0.610000 Accuracy:0.5712  Precision:0.288  Recall:0.195
+r:0.620000 Accuracy:0.5765  Precision:0.289  Recall:0.186
+r:0.630000 Accuracy:0.5825  Precision:0.290  Recall:0.175
+r:0.640000 Accuracy:0.5865  Precision:0.285  Recall:0.160
+r:0.650000 Accuracy:0.5917  Precision:0.288  Recall:0.152
+r:0.660000 Accuracy:0.5957  Precision:0.284  Recall:0.140
+r:0.670000 Accuracy:0.6007  Precision:0.287  Recall:0.133
+r:0.680000 Accuracy:0.6045  Precision:0.284  Recall:0.123
+r:0.690000 Accuracy:0.6089  Precision:0.284  Recall:0.114
+r:0.700000 Accuracy:0.6121  Precision:0.283  Recall:0.107
+r:0.710000 Accuracy:0.6173  Precision:0.286  Recall:0.099
+r:0.720000 Accuracy:0.6203  Precision:0.281  Recall:0.089
+r:0.730000 Accuracy:0.6261  Precision:0.292  Recall:0.086
+r:0.740000 Accuracy:0.6289  Precision:0.292  Recall:0.080
+r:0.750000 Accuracy:0.6326  Precision:0.298  Recall:0.076
+r:0.760000 Accuracy:0.6365  Precision:0.300  Recall:0.068
+r:0.770000 Accuracy:0.6394  Precision:0.301  Recall:0.062
+r:0.780000 Accuracy:0.6423  Precision:0.306  Recall:0.058
+r:0.790000 Accuracy:0.6445  Precision:0.307  Recall:0.053
+r:0.800000 Accuracy:0.6470  Precision:0.309  Recall:0.048
+r:0.810000 Accuracy:0.6501  Precision:0.316  Recall:0.043
+r:0.820000 Accuracy:0.6518  Precision:0.317  Recall:0.039
+r:0.830000 Accuracy:0.6549  Precision:0.338  Recall:0.037
+r:0.840000 Accuracy:0.6580  Precision:0.367  Recall:0.036
+r:0.850000 Accuracy:0.6602  Precision:0.388  Recall:0.034
+r:0.860000 Accuracy:0.6627  Precision:0.422  Recall:0.032
+r:0.870000 Accuracy:0.6644  Precision:0.448  Recall:0.030
+r:0.880000 Accuracy:0.6662  Precision:0.486  Recall:0.028
+r:0.890000 Accuracy:0.6672  Precision:0.516  Recall:0.025
+r:0.900000 Accuracy:0.6675  Precision:0.528  Recall:0.023
+r:0.910000 Accuracy:0.6674  Precision:0.525  Recall:0.021
+r:0.920000 Accuracy:0.6672  Precision:0.523  Recall:0.018
+r:0.930000 Accuracy:0.6682  Precision:0.577  Recall:0.016
+r:0.940000 Accuracy:0.6684  Precision:0.618  Recall:0.014
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+r:0.960000 Accuracy:0.6687  Precision:0.714  Recall:0.010
+r:0.970000 Accuracy:0.6688  Precision:0.786  Recall:0.009
+r:0.980000 Accuracy:0.6686  Precision:0.889  Recall:0.006
+r:0.990000 Accuracy:0.6675  Precision:0.875  Recall:0.003
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1548   441   245   147    35    28    28     4     3     6     9     7 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.381  0.205  0.107  0.048  0.034  0.023  0.012  0.010  0.009  0.006 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.0000100
+Current Costfunction Value:1.519162
+Current Costfunction Value:1.297388
+Current Costfunction Value:0.917880
+Current Costfunction Value:0.835063
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5061  Precision:0.287  Recall:0.325
+r:0.510000 Accuracy:0.5128  Precision:0.282  Recall:0.299
+r:0.520000 Accuracy:0.5180  Precision:0.274  Recall:0.271
+r:0.530000 Accuracy:0.5259  Precision:0.271  Recall:0.249
+r:0.540000 Accuracy:0.5322  Precision:0.263  Recall:0.225
+r:0.550000 Accuracy:0.5393  Precision:0.260  Recall:0.206
+r:0.560000 Accuracy:0.5425  Precision:0.251  Recall:0.188
+r:0.570000 Accuracy:0.5489  Precision:0.245  Recall:0.169
+r:0.580000 Accuracy:0.5561  Precision:0.240  Recall:0.153
+r:0.590000 Accuracy:0.5642  Precision:0.241  Recall:0.143
+r:0.600000 Accuracy:0.5741  Precision:0.244  Recall:0.132
+r:0.610000 Accuracy:0.5809  Precision:0.241  Recall:0.120
+r:0.620000 Accuracy:0.5857  Precision:0.232  Recall:0.105
+r:0.630000 Accuracy:0.5914  Precision:0.228  Recall:0.094
+r:0.640000 Accuracy:0.5979  Precision:0.231  Recall:0.089
+r:0.650000 Accuracy:0.6051  Precision:0.234  Recall:0.082
+r:0.660000 Accuracy:0.6105  Precision:0.232  Recall:0.073
+r:0.670000 Accuracy:0.6166  Precision:0.234  Recall:0.066
+r:0.680000 Accuracy:0.6221  Precision:0.236  Recall:0.060
+r:0.690000 Accuracy:0.6253  Precision:0.229  Recall:0.052
+r:0.700000 Accuracy:0.6299  Precision:0.229  Recall:0.047
+r:0.710000 Accuracy:0.6354  Precision:0.246  Recall:0.046
+r:0.720000 Accuracy:0.6393  Precision:0.250  Recall:0.041
+r:0.730000 Accuracy:0.6437  Precision:0.266  Recall:0.039
+r:0.740000 Accuracy:0.6482  Precision:0.285  Recall:0.037
+r:0.750000 Accuracy:0.6506  Precision:0.289  Recall:0.033
+r:0.760000 Accuracy:0.6526  Precision:0.301  Recall:0.032
+r:0.770000 Accuracy:0.6554  Precision:0.321  Recall:0.030
+r:0.780000 Accuracy:0.6575  Precision:0.332  Recall:0.027
+r:0.790000 Accuracy:0.6596  Precision:0.355  Recall:0.026
+r:0.800000 Accuracy:0.6611  Precision:0.370  Recall:0.024
+r:0.810000 Accuracy:0.6630  Precision:0.404  Recall:0.024
+r:0.820000 Accuracy:0.6655  Precision:0.463  Recall:0.022
+r:0.830000 Accuracy:0.6664  Precision:0.491  Recall:0.021
+r:0.840000 Accuracy:0.6672  Precision:0.521  Recall:0.020
+r:0.850000 Accuracy:0.6671  Precision:0.517  Recall:0.018
+r:0.860000 Accuracy:0.6667  Precision:0.500  Recall:0.014
+r:0.870000 Accuracy:0.6672  Precision:0.534  Recall:0.012
+r:0.880000 Accuracy:0.6675  Precision:0.562  Recall:0.011
+r:0.890000 Accuracy:0.6675  Precision:0.571  Recall:0.010
+r:0.900000 Accuracy:0.6675  Precision:0.588  Recall:0.008
+r:0.910000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.920000 Accuracy:0.6679  Precision:0.737  Recall:0.006
+r:0.930000 Accuracy:0.6676  Precision:0.706  Recall:0.005
+r:0.940000 Accuracy:0.6676  Precision:0.769  Recall:0.004
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+r:0.960000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.970000 Accuracy:0.6670  Precision:0.750  Recall:0.001
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1688   483   213    57    15    25    13     3     1     3     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.325  0.132  0.047  0.024  0.018  0.008  0.003  0.002  0.001  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.0001000
+Current Costfunction Value:15.897274
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5477  Precision:0.297  Recall:0.261
+r:0.520000 Accuracy:0.5586  Precision:0.285  Recall:0.215
+r:0.530000 Accuracy:0.5702  Precision:0.277  Recall:0.179
+r:0.540000 Accuracy:0.5773  Precision:0.256  Recall:0.140
+r:0.550000 Accuracy:0.5866  Precision:0.246  Recall:0.116
+r:0.560000 Accuracy:0.5963  Precision:0.237  Recall:0.095
+r:0.570000 Accuracy:0.6019  Precision:0.226  Recall:0.080
+r:0.580000 Accuracy:0.6095  Precision:0.220  Recall:0.068
+r:0.590000 Accuracy:0.6149  Precision:0.214  Recall:0.058
+r:0.600000 Accuracy:0.6209  Precision:0.212  Recall:0.051
+r:0.610000 Accuracy:0.6262  Precision:0.214  Recall:0.046
+r:0.620000 Accuracy:0.6306  Precision:0.207  Recall:0.038
+r:0.630000 Accuracy:0.6349  Precision:0.211  Recall:0.035
+r:0.640000 Accuracy:0.6377  Precision:0.189  Recall:0.026
+r:0.650000 Accuracy:0.6402  Precision:0.188  Recall:0.024
+r:0.660000 Accuracy:0.6430  Precision:0.184  Recall:0.021
+r:0.670000 Accuracy:0.6471  Precision:0.192  Recall:0.018
+r:0.680000 Accuracy:0.6494  Precision:0.196  Recall:0.017
+r:0.690000 Accuracy:0.6513  Precision:0.191  Recall:0.014
+r:0.700000 Accuracy:0.6534  Precision:0.195  Recall:0.013
+r:0.710000 Accuracy:0.6551  Precision:0.200  Recall:0.012
+r:0.720000 Accuracy:0.6568  Precision:0.206  Recall:0.010
+r:0.730000 Accuracy:0.6574  Precision:0.193  Recall:0.009
+r:0.740000 Accuracy:0.6588  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6602  Precision:0.212  Recall:0.007
+r:0.760000 Accuracy:0.6618  Precision:0.239  Recall:0.007
+r:0.770000 Accuracy:0.6615  Precision:0.190  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6630  Precision:0.208  Recall:0.004
+r:0.800000 Accuracy:0.6635  Precision:0.214  Recall:0.004
+r:0.810000 Accuracy:0.6651  Precision:0.269  Recall:0.003
+r:0.820000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.830000 Accuracy:0.6655  Precision:0.200  Recall:0.001
+r:0.840000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   672    95    23     7     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.051  0.013  0.004  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.0010000
+Current Costfunction Value:85.876925
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5516  Precision:0.298  Recall:0.255
+r:0.520000 Accuracy:0.5622  Precision:0.281  Recall:0.201
+r:0.530000 Accuracy:0.5768  Precision:0.271  Recall:0.160
+r:0.540000 Accuracy:0.5850  Precision:0.252  Recall:0.125
+r:0.550000 Accuracy:0.5959  Precision:0.241  Recall:0.099
+r:0.560000 Accuracy:0.6022  Precision:0.226  Recall:0.080
+r:0.570000 Accuracy:0.6094  Precision:0.215  Recall:0.065
+r:0.580000 Accuracy:0.6165  Precision:0.210  Recall:0.054
+r:0.590000 Accuracy:0.6245  Precision:0.217  Recall:0.049
+r:0.600000 Accuracy:0.6283  Precision:0.204  Recall:0.040
+r:0.610000 Accuracy:0.6337  Precision:0.208  Recall:0.035
+r:0.620000 Accuracy:0.6379  Precision:0.190  Recall:0.026
+r:0.630000 Accuracy:0.6414  Precision:0.192  Recall:0.024
+r:0.640000 Accuracy:0.6446  Precision:0.190  Recall:0.020
+r:0.650000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.660000 Accuracy:0.6507  Precision:0.191  Recall:0.015
+r:0.670000 Accuracy:0.6534  Precision:0.199  Recall:0.013
+r:0.680000 Accuracy:0.6550  Precision:0.203  Recall:0.012
+r:0.690000 Accuracy:0.6567  Precision:0.205  Recall:0.010
+r:0.700000 Accuracy:0.6579  Precision:0.200  Recall:0.009
+r:0.710000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.720000 Accuracy:0.6608  Precision:0.225  Recall:0.007
+r:0.730000 Accuracy:0.6619  Precision:0.243  Recall:0.007
+r:0.740000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.750000 Accuracy:0.6627  Precision:0.200  Recall:0.004
+r:0.760000 Accuracy:0.6632  Precision:0.205  Recall:0.004
+r:0.770000 Accuracy:0.6640  Precision:0.206  Recall:0.003
+r:0.780000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.790000 Accuracy:0.6658  Precision:0.231  Recall:0.001
+r:0.800000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.810000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.820000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.830000 Accuracy:0.6663  Precision:0.286  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   700    77    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.040  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0010000 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.0000001
+Current Costfunction Value:0.841703
+Current Costfunction Value:0.043862
+Current Costfunction Value:0.028531
+Current Costfunction Value:0.025855
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5164  Precision:0.318  Recall:0.392
+r:0.510000 Accuracy:0.5195  Precision:0.314  Recall:0.371
+r:0.520000 Accuracy:0.5220  Precision:0.307  Recall:0.345
+r:0.530000 Accuracy:0.5241  Precision:0.300  Recall:0.320
+r:0.540000 Accuracy:0.5309  Precision:0.300  Recall:0.305
+r:0.550000 Accuracy:0.5366  Precision:0.298  Recall:0.287
+r:0.560000 Accuracy:0.5438  Precision:0.299  Recall:0.274
+r:0.570000 Accuracy:0.5472  Precision:0.295  Recall:0.257
+r:0.580000 Accuracy:0.5546  Precision:0.298  Recall:0.247
+r:0.590000 Accuracy:0.5577  Precision:0.294  Recall:0.233
+r:0.600000 Accuracy:0.5645  Precision:0.295  Recall:0.221
+r:0.610000 Accuracy:0.5712  Precision:0.298  Recall:0.211
+r:0.620000 Accuracy:0.5770  Precision:0.298  Recall:0.199
+r:0.630000 Accuracy:0.5826  Precision:0.300  Recall:0.189
+r:0.640000 Accuracy:0.5854  Precision:0.298  Recall:0.180
+r:0.650000 Accuracy:0.5894  Precision:0.295  Recall:0.166
+r:0.660000 Accuracy:0.5945  Precision:0.297  Recall:0.158
+r:0.670000 Accuracy:0.5973  Precision:0.293  Recall:0.147
+r:0.680000 Accuracy:0.6034  Precision:0.298  Recall:0.140
+r:0.690000 Accuracy:0.6073  Precision:0.297  Recall:0.131
+r:0.700000 Accuracy:0.6110  Precision:0.293  Recall:0.119
+r:0.710000 Accuracy:0.6146  Precision:0.294  Recall:0.112
+r:0.720000 Accuracy:0.6177  Precision:0.294  Recall:0.105
+r:0.730000 Accuracy:0.6209  Precision:0.294  Recall:0.098
+r:0.740000 Accuracy:0.6245  Precision:0.294  Recall:0.090
+r:0.750000 Accuracy:0.6287  Precision:0.297  Recall:0.083
+r:0.760000 Accuracy:0.6319  Precision:0.302  Recall:0.080
+r:0.770000 Accuracy:0.6347  Precision:0.303  Recall:0.074
+r:0.780000 Accuracy:0.6391  Precision:0.311  Recall:0.068
+r:0.790000 Accuracy:0.6411  Precision:0.307  Recall:0.061
+r:0.800000 Accuracy:0.6442  Precision:0.317  Recall:0.058
+r:0.810000 Accuracy:0.6463  Precision:0.317  Recall:0.053
+r:0.820000 Accuracy:0.6485  Precision:0.316  Recall:0.047
+r:0.830000 Accuracy:0.6502  Precision:0.312  Recall:0.041
+r:0.840000 Accuracy:0.6545  Precision:0.340  Recall:0.039
+r:0.850000 Accuracy:0.6574  Precision:0.363  Recall:0.037
+r:0.860000 Accuracy:0.6595  Precision:0.384  Recall:0.036
+r:0.870000 Accuracy:0.6618  Precision:0.409  Recall:0.033
+r:0.880000 Accuracy:0.6635  Precision:0.435  Recall:0.032
+r:0.890000 Accuracy:0.6648  Precision:0.454  Recall:0.028
+r:0.900000 Accuracy:0.6662  Precision:0.485  Recall:0.025
+r:0.910000 Accuracy:0.6670  Precision:0.509  Recall:0.022
+r:0.920000 Accuracy:0.6668  Precision:0.505  Recall:0.020
+r:0.930000 Accuracy:0.6666  Precision:0.494  Recall:0.018
+r:0.940000 Accuracy:0.6672  Precision:0.529  Recall:0.015
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+r:0.960000 Accuracy:0.6683  Precision:0.650  Recall:0.010
+r:0.970000 Accuracy:0.6686  Precision:0.706  Recall:0.010
+r:0.980000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.990000 Accuracy:0.6678  Precision:0.833  Recall:0.004
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1519   428   257   151    53    30    31     6     2     6     8    10 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.393  0.222  0.119  0.058  0.037  0.025  0.013  0.010  0.010  0.007 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.0000010
+Current Costfunction Value:0.893137
+Current Costfunction Value:0.122574
+Current Costfunction Value:0.121443
+Current Costfunction Value:0.122629
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5109  Precision:0.310  Recall:0.381
+r:0.510000 Accuracy:0.5147  Precision:0.305  Recall:0.355
+r:0.520000 Accuracy:0.5165  Precision:0.298  Recall:0.332
+r:0.530000 Accuracy:0.5232  Precision:0.297  Recall:0.314
+r:0.540000 Accuracy:0.5285  Precision:0.294  Recall:0.296
+r:0.550000 Accuracy:0.5356  Precision:0.292  Recall:0.277
+r:0.560000 Accuracy:0.5426  Precision:0.292  Recall:0.261
+r:0.570000 Accuracy:0.5482  Precision:0.290  Recall:0.245
+r:0.580000 Accuracy:0.5536  Precision:0.290  Recall:0.235
+r:0.590000 Accuracy:0.5580  Precision:0.287  Recall:0.219
+r:0.600000 Accuracy:0.5653  Precision:0.287  Recall:0.205
+r:0.610000 Accuracy:0.5712  Precision:0.288  Recall:0.195
+r:0.620000 Accuracy:0.5765  Precision:0.289  Recall:0.186
+r:0.630000 Accuracy:0.5825  Precision:0.290  Recall:0.175
+r:0.640000 Accuracy:0.5865  Precision:0.285  Recall:0.160
+r:0.650000 Accuracy:0.5917  Precision:0.288  Recall:0.152
+r:0.660000 Accuracy:0.5957  Precision:0.284  Recall:0.140
+r:0.670000 Accuracy:0.6007  Precision:0.287  Recall:0.133
+r:0.680000 Accuracy:0.6045  Precision:0.284  Recall:0.123
+r:0.690000 Accuracy:0.6089  Precision:0.284  Recall:0.114
+r:0.700000 Accuracy:0.6121  Precision:0.283  Recall:0.107
+r:0.710000 Accuracy:0.6173  Precision:0.286  Recall:0.099
+r:0.720000 Accuracy:0.6203  Precision:0.281  Recall:0.089
+r:0.730000 Accuracy:0.6261  Precision:0.292  Recall:0.086
+r:0.740000 Accuracy:0.6289  Precision:0.292  Recall:0.080
+r:0.750000 Accuracy:0.6326  Precision:0.298  Recall:0.076
+r:0.760000 Accuracy:0.6365  Precision:0.300  Recall:0.068
+r:0.770000 Accuracy:0.6394  Precision:0.301  Recall:0.062
+r:0.780000 Accuracy:0.6423  Precision:0.306  Recall:0.058
+r:0.790000 Accuracy:0.6445  Precision:0.307  Recall:0.053
+r:0.800000 Accuracy:0.6470  Precision:0.309  Recall:0.048
+r:0.810000 Accuracy:0.6501  Precision:0.316  Recall:0.043
+r:0.820000 Accuracy:0.6518  Precision:0.317  Recall:0.039
+r:0.830000 Accuracy:0.6549  Precision:0.338  Recall:0.037
+r:0.840000 Accuracy:0.6580  Precision:0.367  Recall:0.036
+r:0.850000 Accuracy:0.6602  Precision:0.388  Recall:0.034
+r:0.860000 Accuracy:0.6627  Precision:0.422  Recall:0.032
+r:0.870000 Accuracy:0.6644  Precision:0.448  Recall:0.030
+r:0.880000 Accuracy:0.6662  Precision:0.486  Recall:0.028
+r:0.890000 Accuracy:0.6672  Precision:0.516  Recall:0.025
+r:0.900000 Accuracy:0.6675  Precision:0.528  Recall:0.023
+r:0.910000 Accuracy:0.6674  Precision:0.525  Recall:0.021
+r:0.920000 Accuracy:0.6672  Precision:0.523  Recall:0.018
+r:0.930000 Accuracy:0.6682  Precision:0.577  Recall:0.016
+r:0.940000 Accuracy:0.6684  Precision:0.618  Recall:0.014
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+r:0.960000 Accuracy:0.6687  Precision:0.714  Recall:0.010
+r:0.970000 Accuracy:0.6688  Precision:0.786  Recall:0.009
+r:0.980000 Accuracy:0.6686  Precision:0.889  Recall:0.006
+r:0.990000 Accuracy:0.6675  Precision:0.875  Recall:0.003
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1548   441   245   147    35    28    28     4     3     6     9     7 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.381  0.205  0.107  0.048  0.034  0.023  0.012  0.010  0.009  0.006 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.0000100
+Current Costfunction Value:1.519162
+Current Costfunction Value:1.297388
+Current Costfunction Value:0.917880
+Current Costfunction Value:0.835063
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5061  Precision:0.287  Recall:0.325
+r:0.510000 Accuracy:0.5128  Precision:0.282  Recall:0.299
+r:0.520000 Accuracy:0.5180  Precision:0.274  Recall:0.271
+r:0.530000 Accuracy:0.5259  Precision:0.271  Recall:0.249
+r:0.540000 Accuracy:0.5322  Precision:0.263  Recall:0.225
+r:0.550000 Accuracy:0.5393  Precision:0.260  Recall:0.206
+r:0.560000 Accuracy:0.5425  Precision:0.251  Recall:0.188
+r:0.570000 Accuracy:0.5489  Precision:0.245  Recall:0.169
+r:0.580000 Accuracy:0.5561  Precision:0.240  Recall:0.153
+r:0.590000 Accuracy:0.5642  Precision:0.241  Recall:0.143
+r:0.600000 Accuracy:0.5741  Precision:0.244  Recall:0.132
+r:0.610000 Accuracy:0.5809  Precision:0.241  Recall:0.120
+r:0.620000 Accuracy:0.5857  Precision:0.232  Recall:0.105
+r:0.630000 Accuracy:0.5914  Precision:0.228  Recall:0.094
+r:0.640000 Accuracy:0.5979  Precision:0.231  Recall:0.089
+r:0.650000 Accuracy:0.6051  Precision:0.234  Recall:0.082
+r:0.660000 Accuracy:0.6105  Precision:0.232  Recall:0.073
+r:0.670000 Accuracy:0.6166  Precision:0.234  Recall:0.066
+r:0.680000 Accuracy:0.6221  Precision:0.236  Recall:0.060
+r:0.690000 Accuracy:0.6253  Precision:0.229  Recall:0.052
+r:0.700000 Accuracy:0.6299  Precision:0.229  Recall:0.047
+r:0.710000 Accuracy:0.6354  Precision:0.246  Recall:0.046
+r:0.720000 Accuracy:0.6393  Precision:0.250  Recall:0.041
+r:0.730000 Accuracy:0.6437  Precision:0.266  Recall:0.039
+r:0.740000 Accuracy:0.6482  Precision:0.285  Recall:0.037
+r:0.750000 Accuracy:0.6506  Precision:0.289  Recall:0.033
+r:0.760000 Accuracy:0.6526  Precision:0.301  Recall:0.032
+r:0.770000 Accuracy:0.6554  Precision:0.321  Recall:0.030
+r:0.780000 Accuracy:0.6575  Precision:0.332  Recall:0.027
+r:0.790000 Accuracy:0.6596  Precision:0.355  Recall:0.026
+r:0.800000 Accuracy:0.6611  Precision:0.370  Recall:0.024
+r:0.810000 Accuracy:0.6630  Precision:0.404  Recall:0.024
+r:0.820000 Accuracy:0.6655  Precision:0.463  Recall:0.022
+r:0.830000 Accuracy:0.6664  Precision:0.491  Recall:0.021
+r:0.840000 Accuracy:0.6672  Precision:0.521  Recall:0.020
+r:0.850000 Accuracy:0.6671  Precision:0.517  Recall:0.018
+r:0.860000 Accuracy:0.6667  Precision:0.500  Recall:0.014
+r:0.870000 Accuracy:0.6672  Precision:0.534  Recall:0.012
+r:0.880000 Accuracy:0.6675  Precision:0.562  Recall:0.011
+r:0.890000 Accuracy:0.6675  Precision:0.571  Recall:0.010
+r:0.900000 Accuracy:0.6675  Precision:0.588  Recall:0.008
+r:0.910000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.920000 Accuracy:0.6679  Precision:0.737  Recall:0.006
+r:0.930000 Accuracy:0.6676  Precision:0.706  Recall:0.005
+r:0.940000 Accuracy:0.6676  Precision:0.769  Recall:0.004
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+r:0.960000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.970000 Accuracy:0.6670  Precision:0.750  Recall:0.001
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1688   483   213    57    15    25    13     3     1     3     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.325  0.132  0.047  0.024  0.018  0.008  0.003  0.002  0.001  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.0001000
+Current Costfunction Value:15.897274
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5477  Precision:0.297  Recall:0.261
+r:0.520000 Accuracy:0.5586  Precision:0.285  Recall:0.215
+r:0.530000 Accuracy:0.5702  Precision:0.277  Recall:0.179
+r:0.540000 Accuracy:0.5773  Precision:0.256  Recall:0.140
+r:0.550000 Accuracy:0.5866  Precision:0.246  Recall:0.116
+r:0.560000 Accuracy:0.5963  Precision:0.237  Recall:0.095
+r:0.570000 Accuracy:0.6019  Precision:0.226  Recall:0.080
+r:0.580000 Accuracy:0.6095  Precision:0.220  Recall:0.068
+r:0.590000 Accuracy:0.6149  Precision:0.214  Recall:0.058
+r:0.600000 Accuracy:0.6209  Precision:0.212  Recall:0.051
+r:0.610000 Accuracy:0.6262  Precision:0.214  Recall:0.046
+r:0.620000 Accuracy:0.6306  Precision:0.207  Recall:0.038
+r:0.630000 Accuracy:0.6349  Precision:0.211  Recall:0.035
+r:0.640000 Accuracy:0.6377  Precision:0.189  Recall:0.026
+r:0.650000 Accuracy:0.6402  Precision:0.188  Recall:0.024
+r:0.660000 Accuracy:0.6430  Precision:0.184  Recall:0.021
+r:0.670000 Accuracy:0.6471  Precision:0.192  Recall:0.018
+r:0.680000 Accuracy:0.6494  Precision:0.196  Recall:0.017
+r:0.690000 Accuracy:0.6513  Precision:0.191  Recall:0.014
+r:0.700000 Accuracy:0.6534  Precision:0.195  Recall:0.013
+r:0.710000 Accuracy:0.6551  Precision:0.200  Recall:0.012
+r:0.720000 Accuracy:0.6568  Precision:0.206  Recall:0.010
+r:0.730000 Accuracy:0.6574  Precision:0.193  Recall:0.009
+r:0.740000 Accuracy:0.6588  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6602  Precision:0.212  Recall:0.007
+r:0.760000 Accuracy:0.6618  Precision:0.239  Recall:0.007
+r:0.770000 Accuracy:0.6615  Precision:0.190  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6630  Precision:0.208  Recall:0.004
+r:0.800000 Accuracy:0.6635  Precision:0.214  Recall:0.004
+r:0.810000 Accuracy:0.6651  Precision:0.269  Recall:0.003
+r:0.820000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.830000 Accuracy:0.6655  Precision:0.200  Recall:0.001
+r:0.840000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   672    95    23     7     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.051  0.013  0.004  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.0010000
+Current Costfunction Value:85.876925
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5516  Precision:0.298  Recall:0.255
+r:0.520000 Accuracy:0.5622  Precision:0.281  Recall:0.201
+r:0.530000 Accuracy:0.5768  Precision:0.271  Recall:0.160
+r:0.540000 Accuracy:0.5850  Precision:0.252  Recall:0.125
+r:0.550000 Accuracy:0.5959  Precision:0.241  Recall:0.099
+r:0.560000 Accuracy:0.6022  Precision:0.226  Recall:0.080
+r:0.570000 Accuracy:0.6094  Precision:0.215  Recall:0.065
+r:0.580000 Accuracy:0.6165  Precision:0.210  Recall:0.054
+r:0.590000 Accuracy:0.6245  Precision:0.217  Recall:0.049
+r:0.600000 Accuracy:0.6283  Precision:0.204  Recall:0.040
+r:0.610000 Accuracy:0.6337  Precision:0.208  Recall:0.035
+r:0.620000 Accuracy:0.6379  Precision:0.190  Recall:0.026
+r:0.630000 Accuracy:0.6414  Precision:0.192  Recall:0.024
+r:0.640000 Accuracy:0.6446  Precision:0.190  Recall:0.020
+r:0.650000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.660000 Accuracy:0.6507  Precision:0.191  Recall:0.015
+r:0.670000 Accuracy:0.6534  Precision:0.199  Recall:0.013
+r:0.680000 Accuracy:0.6550  Precision:0.203  Recall:0.012
+r:0.690000 Accuracy:0.6567  Precision:0.205  Recall:0.010
+r:0.700000 Accuracy:0.6579  Precision:0.200  Recall:0.009
+r:0.710000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.720000 Accuracy:0.6608  Precision:0.225  Recall:0.007
+r:0.730000 Accuracy:0.6619  Precision:0.243  Recall:0.007
+r:0.740000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.750000 Accuracy:0.6627  Precision:0.200  Recall:0.004
+r:0.760000 Accuracy:0.6632  Precision:0.205  Recall:0.004
+r:0.770000 Accuracy:0.6640  Precision:0.206  Recall:0.003
+r:0.780000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.790000 Accuracy:0.6658  Precision:0.231  Recall:0.001
+r:0.800000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.810000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.820000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.830000 Accuracy:0.6663  Precision:0.286  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   700    77    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.040  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.0100000 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.0000001
+Current Costfunction Value:0.841703
+Current Costfunction Value:0.043862
+Current Costfunction Value:0.028531
+Current Costfunction Value:0.025855
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5164  Precision:0.318  Recall:0.392
+r:0.510000 Accuracy:0.5195  Precision:0.314  Recall:0.371
+r:0.520000 Accuracy:0.5220  Precision:0.307  Recall:0.345
+r:0.530000 Accuracy:0.5241  Precision:0.300  Recall:0.320
+r:0.540000 Accuracy:0.5309  Precision:0.300  Recall:0.305
+r:0.550000 Accuracy:0.5366  Precision:0.298  Recall:0.287
+r:0.560000 Accuracy:0.5438  Precision:0.299  Recall:0.274
+r:0.570000 Accuracy:0.5472  Precision:0.295  Recall:0.257
+r:0.580000 Accuracy:0.5546  Precision:0.298  Recall:0.247
+r:0.590000 Accuracy:0.5577  Precision:0.294  Recall:0.233
+r:0.600000 Accuracy:0.5645  Precision:0.295  Recall:0.221
+r:0.610000 Accuracy:0.5712  Precision:0.298  Recall:0.211
+r:0.620000 Accuracy:0.5770  Precision:0.298  Recall:0.199
+r:0.630000 Accuracy:0.5826  Precision:0.300  Recall:0.189
+r:0.640000 Accuracy:0.5854  Precision:0.298  Recall:0.180
+r:0.650000 Accuracy:0.5894  Precision:0.295  Recall:0.166
+r:0.660000 Accuracy:0.5945  Precision:0.297  Recall:0.158
+r:0.670000 Accuracy:0.5973  Precision:0.293  Recall:0.147
+r:0.680000 Accuracy:0.6034  Precision:0.298  Recall:0.140
+r:0.690000 Accuracy:0.6073  Precision:0.297  Recall:0.131
+r:0.700000 Accuracy:0.6110  Precision:0.293  Recall:0.119
+r:0.710000 Accuracy:0.6146  Precision:0.294  Recall:0.112
+r:0.720000 Accuracy:0.6177  Precision:0.294  Recall:0.105
+r:0.730000 Accuracy:0.6209  Precision:0.294  Recall:0.098
+r:0.740000 Accuracy:0.6245  Precision:0.294  Recall:0.090
+r:0.750000 Accuracy:0.6287  Precision:0.297  Recall:0.083
+r:0.760000 Accuracy:0.6319  Precision:0.302  Recall:0.080
+r:0.770000 Accuracy:0.6347  Precision:0.303  Recall:0.074
+r:0.780000 Accuracy:0.6391  Precision:0.311  Recall:0.068
+r:0.790000 Accuracy:0.6411  Precision:0.307  Recall:0.061
+r:0.800000 Accuracy:0.6442  Precision:0.317  Recall:0.058
+r:0.810000 Accuracy:0.6463  Precision:0.317  Recall:0.053
+r:0.820000 Accuracy:0.6485  Precision:0.316  Recall:0.047
+r:0.830000 Accuracy:0.6502  Precision:0.312  Recall:0.041
+r:0.840000 Accuracy:0.6545  Precision:0.340  Recall:0.039
+r:0.850000 Accuracy:0.6574  Precision:0.363  Recall:0.037
+r:0.860000 Accuracy:0.6595  Precision:0.384  Recall:0.036
+r:0.870000 Accuracy:0.6618  Precision:0.409  Recall:0.033
+r:0.880000 Accuracy:0.6635  Precision:0.435  Recall:0.032
+r:0.890000 Accuracy:0.6648  Precision:0.454  Recall:0.028
+r:0.900000 Accuracy:0.6662  Precision:0.485  Recall:0.025
+r:0.910000 Accuracy:0.6670  Precision:0.509  Recall:0.022
+r:0.920000 Accuracy:0.6668  Precision:0.505  Recall:0.020
+r:0.930000 Accuracy:0.6666  Precision:0.494  Recall:0.018
+r:0.940000 Accuracy:0.6672  Precision:0.529  Recall:0.015
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+r:0.960000 Accuracy:0.6683  Precision:0.650  Recall:0.010
+r:0.970000 Accuracy:0.6686  Precision:0.706  Recall:0.010
+r:0.980000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.990000 Accuracy:0.6678  Precision:0.833  Recall:0.004
+r:0.950000 Accuracy:0.6683  Precision:0.615  Recall:0.013
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1519   428   257   151    53    30    31     6     2     6     8    10 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.393  0.222  0.119  0.058  0.037  0.025  0.013  0.010  0.010  0.007 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.0000010
+Current Costfunction Value:0.893137
+Current Costfunction Value:0.122574
+Current Costfunction Value:0.121443
+Current Costfunction Value:0.122629
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5109  Precision:0.310  Recall:0.381
+r:0.510000 Accuracy:0.5147  Precision:0.305  Recall:0.355
+r:0.520000 Accuracy:0.5165  Precision:0.298  Recall:0.332
+r:0.530000 Accuracy:0.5232  Precision:0.297  Recall:0.314
+r:0.540000 Accuracy:0.5285  Precision:0.294  Recall:0.296
+r:0.550000 Accuracy:0.5356  Precision:0.292  Recall:0.277
+r:0.560000 Accuracy:0.5426  Precision:0.292  Recall:0.261
+r:0.570000 Accuracy:0.5482  Precision:0.290  Recall:0.245
+r:0.580000 Accuracy:0.5536  Precision:0.290  Recall:0.235
+r:0.590000 Accuracy:0.5580  Precision:0.287  Recall:0.219
+r:0.600000 Accuracy:0.5653  Precision:0.287  Recall:0.205
+r:0.610000 Accuracy:0.5712  Precision:0.288  Recall:0.195
+r:0.620000 Accuracy:0.5765  Precision:0.289  Recall:0.186
+r:0.630000 Accuracy:0.5825  Precision:0.290  Recall:0.175
+r:0.640000 Accuracy:0.5865  Precision:0.285  Recall:0.160
+r:0.650000 Accuracy:0.5917  Precision:0.288  Recall:0.152
+r:0.660000 Accuracy:0.5957  Precision:0.284  Recall:0.140
+r:0.670000 Accuracy:0.6007  Precision:0.287  Recall:0.133
+r:0.680000 Accuracy:0.6045  Precision:0.284  Recall:0.123
+r:0.690000 Accuracy:0.6089  Precision:0.284  Recall:0.114
+r:0.700000 Accuracy:0.6121  Precision:0.283  Recall:0.107
+r:0.710000 Accuracy:0.6173  Precision:0.286  Recall:0.099
+r:0.720000 Accuracy:0.6203  Precision:0.281  Recall:0.089
+r:0.730000 Accuracy:0.6261  Precision:0.292  Recall:0.086
+r:0.740000 Accuracy:0.6289  Precision:0.292  Recall:0.080
+r:0.750000 Accuracy:0.6326  Precision:0.298  Recall:0.076
+r:0.760000 Accuracy:0.6365  Precision:0.300  Recall:0.068
+r:0.770000 Accuracy:0.6394  Precision:0.301  Recall:0.062
+r:0.780000 Accuracy:0.6423  Precision:0.306  Recall:0.058
+r:0.790000 Accuracy:0.6445  Precision:0.307  Recall:0.053
+r:0.800000 Accuracy:0.6470  Precision:0.309  Recall:0.048
+r:0.810000 Accuracy:0.6501  Precision:0.316  Recall:0.043
+r:0.820000 Accuracy:0.6518  Precision:0.317  Recall:0.039
+r:0.830000 Accuracy:0.6549  Precision:0.338  Recall:0.037
+r:0.840000 Accuracy:0.6580  Precision:0.367  Recall:0.036
+r:0.850000 Accuracy:0.6602  Precision:0.388  Recall:0.034
+r:0.860000 Accuracy:0.6627  Precision:0.422  Recall:0.032
+r:0.870000 Accuracy:0.6644  Precision:0.448  Recall:0.030
+r:0.880000 Accuracy:0.6662  Precision:0.486  Recall:0.028
+r:0.890000 Accuracy:0.6672  Precision:0.516  Recall:0.025
+r:0.900000 Accuracy:0.6675  Precision:0.528  Recall:0.023
+r:0.910000 Accuracy:0.6674  Precision:0.525  Recall:0.021
+r:0.920000 Accuracy:0.6672  Precision:0.523  Recall:0.018
+r:0.930000 Accuracy:0.6682  Precision:0.577  Recall:0.016
+r:0.940000 Accuracy:0.6684  Precision:0.618  Recall:0.014
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+r:0.960000 Accuracy:0.6687  Precision:0.714  Recall:0.010
+r:0.970000 Accuracy:0.6688  Precision:0.786  Recall:0.009
+r:0.980000 Accuracy:0.6686  Precision:0.889  Recall:0.006
+r:0.990000 Accuracy:0.6675  Precision:0.875  Recall:0.003
+r:0.950000 Accuracy:0.6687  Precision:0.674  Recall:0.012
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1548   441   245   147    35    28    28     4     3     6     9     7 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.381  0.205  0.107  0.048  0.034  0.023  0.012  0.010  0.009  0.006 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.0000100
+Current Costfunction Value:1.519162
+Current Costfunction Value:1.297388
+Current Costfunction Value:0.917880
+Current Costfunction Value:0.835063
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5061  Precision:0.287  Recall:0.325
+r:0.510000 Accuracy:0.5128  Precision:0.282  Recall:0.299
+r:0.520000 Accuracy:0.5180  Precision:0.274  Recall:0.271
+r:0.530000 Accuracy:0.5259  Precision:0.271  Recall:0.249
+r:0.540000 Accuracy:0.5322  Precision:0.263  Recall:0.225
+r:0.550000 Accuracy:0.5393  Precision:0.260  Recall:0.206
+r:0.560000 Accuracy:0.5425  Precision:0.251  Recall:0.188
+r:0.570000 Accuracy:0.5489  Precision:0.245  Recall:0.169
+r:0.580000 Accuracy:0.5561  Precision:0.240  Recall:0.153
+r:0.590000 Accuracy:0.5642  Precision:0.241  Recall:0.143
+r:0.600000 Accuracy:0.5741  Precision:0.244  Recall:0.132
+r:0.610000 Accuracy:0.5809  Precision:0.241  Recall:0.120
+r:0.620000 Accuracy:0.5857  Precision:0.232  Recall:0.105
+r:0.630000 Accuracy:0.5914  Precision:0.228  Recall:0.094
+r:0.640000 Accuracy:0.5979  Precision:0.231  Recall:0.089
+r:0.650000 Accuracy:0.6051  Precision:0.234  Recall:0.082
+r:0.660000 Accuracy:0.6105  Precision:0.232  Recall:0.073
+r:0.670000 Accuracy:0.6166  Precision:0.234  Recall:0.066
+r:0.680000 Accuracy:0.6221  Precision:0.236  Recall:0.060
+r:0.690000 Accuracy:0.6253  Precision:0.229  Recall:0.052
+r:0.700000 Accuracy:0.6299  Precision:0.229  Recall:0.047
+r:0.710000 Accuracy:0.6354  Precision:0.246  Recall:0.046
+r:0.720000 Accuracy:0.6393  Precision:0.250  Recall:0.041
+r:0.730000 Accuracy:0.6437  Precision:0.266  Recall:0.039
+r:0.740000 Accuracy:0.6482  Precision:0.285  Recall:0.037
+r:0.750000 Accuracy:0.6506  Precision:0.289  Recall:0.033
+r:0.760000 Accuracy:0.6526  Precision:0.301  Recall:0.032
+r:0.770000 Accuracy:0.6554  Precision:0.321  Recall:0.030
+r:0.780000 Accuracy:0.6575  Precision:0.332  Recall:0.027
+r:0.790000 Accuracy:0.6596  Precision:0.355  Recall:0.026
+r:0.800000 Accuracy:0.6611  Precision:0.370  Recall:0.024
+r:0.810000 Accuracy:0.6630  Precision:0.404  Recall:0.024
+r:0.820000 Accuracy:0.6655  Precision:0.463  Recall:0.022
+r:0.830000 Accuracy:0.6664  Precision:0.491  Recall:0.021
+r:0.840000 Accuracy:0.6672  Precision:0.521  Recall:0.020
+r:0.850000 Accuracy:0.6671  Precision:0.517  Recall:0.018
+r:0.860000 Accuracy:0.6667  Precision:0.500  Recall:0.014
+r:0.870000 Accuracy:0.6672  Precision:0.534  Recall:0.012
+r:0.880000 Accuracy:0.6675  Precision:0.562  Recall:0.011
+r:0.890000 Accuracy:0.6675  Precision:0.571  Recall:0.010
+r:0.900000 Accuracy:0.6675  Precision:0.588  Recall:0.008
+r:0.910000 Accuracy:0.6683  Precision:0.750  Recall:0.007
+r:0.920000 Accuracy:0.6679  Precision:0.737  Recall:0.006
+r:0.930000 Accuracy:0.6676  Precision:0.706  Recall:0.005
+r:0.940000 Accuracy:0.6676  Precision:0.769  Recall:0.004
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+r:0.960000 Accuracy:0.6671  Precision:0.800  Recall:0.002
+r:0.970000 Accuracy:0.6670  Precision:0.750  Recall:0.001
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6674  Precision:0.778  Recall:0.003
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1688   483   213    57    15    25    13     3     1     3     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.325  0.132  0.047  0.024  0.018  0.008  0.003  0.002  0.001  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.0001000
+Current Costfunction Value:15.897274
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+Current Costfunction Value:7.268144
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5477  Precision:0.297  Recall:0.261
+r:0.520000 Accuracy:0.5586  Precision:0.285  Recall:0.215
+r:0.530000 Accuracy:0.5702  Precision:0.277  Recall:0.179
+r:0.540000 Accuracy:0.5773  Precision:0.256  Recall:0.140
+r:0.550000 Accuracy:0.5866  Precision:0.246  Recall:0.116
+r:0.560000 Accuracy:0.5963  Precision:0.237  Recall:0.095
+r:0.570000 Accuracy:0.6019  Precision:0.226  Recall:0.080
+r:0.580000 Accuracy:0.6095  Precision:0.220  Recall:0.068
+r:0.590000 Accuracy:0.6149  Precision:0.214  Recall:0.058
+r:0.600000 Accuracy:0.6209  Precision:0.212  Recall:0.051
+r:0.610000 Accuracy:0.6262  Precision:0.214  Recall:0.046
+r:0.620000 Accuracy:0.6306  Precision:0.207  Recall:0.038
+r:0.630000 Accuracy:0.6349  Precision:0.211  Recall:0.035
+r:0.640000 Accuracy:0.6377  Precision:0.189  Recall:0.026
+r:0.650000 Accuracy:0.6402  Precision:0.188  Recall:0.024
+r:0.660000 Accuracy:0.6430  Precision:0.184  Recall:0.021
+r:0.670000 Accuracy:0.6471  Precision:0.192  Recall:0.018
+r:0.680000 Accuracy:0.6494  Precision:0.196  Recall:0.017
+r:0.690000 Accuracy:0.6513  Precision:0.191  Recall:0.014
+r:0.700000 Accuracy:0.6534  Precision:0.195  Recall:0.013
+r:0.710000 Accuracy:0.6551  Precision:0.200  Recall:0.012
+r:0.720000 Accuracy:0.6568  Precision:0.206  Recall:0.010
+r:0.730000 Accuracy:0.6574  Precision:0.193  Recall:0.009
+r:0.740000 Accuracy:0.6588  Precision:0.208  Recall:0.008
+r:0.750000 Accuracy:0.6602  Precision:0.212  Recall:0.007
+r:0.760000 Accuracy:0.6618  Precision:0.239  Recall:0.007
+r:0.770000 Accuracy:0.6615  Precision:0.190  Recall:0.005
+r:0.780000 Accuracy:0.6624  Precision:0.192  Recall:0.004
+r:0.790000 Accuracy:0.6630  Precision:0.208  Recall:0.004
+r:0.800000 Accuracy:0.6635  Precision:0.214  Recall:0.004
+r:0.810000 Accuracy:0.6651  Precision:0.269  Recall:0.003
+r:0.820000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.830000 Accuracy:0.6655  Precision:0.200  Recall:0.001
+r:0.840000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.850000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.860000 Accuracy:0.6660  Precision:0.222  Recall:0.001
+r:0.870000 Accuracy:0.6666  Precision:0.400  Recall:0.001
+r:0.880000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.890000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   672    95    23     7     2     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.051  0.013  0.004  0.001  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.0010000
+Current Costfunction Value:85.876925
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+Current Costfunction Value:85.869179
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.5329  Precision:0.307  Recall:0.319
+r:0.510000 Accuracy:0.5516  Precision:0.298  Recall:0.255
+r:0.520000 Accuracy:0.5622  Precision:0.281  Recall:0.201
+r:0.530000 Accuracy:0.5768  Precision:0.271  Recall:0.160
+r:0.540000 Accuracy:0.5850  Precision:0.252  Recall:0.125
+r:0.550000 Accuracy:0.5959  Precision:0.241  Recall:0.099
+r:0.560000 Accuracy:0.6022  Precision:0.226  Recall:0.080
+r:0.570000 Accuracy:0.6094  Precision:0.215  Recall:0.065
+r:0.580000 Accuracy:0.6165  Precision:0.210  Recall:0.054
+r:0.590000 Accuracy:0.6245  Precision:0.217  Recall:0.049
+r:0.600000 Accuracy:0.6283  Precision:0.204  Recall:0.040
+r:0.610000 Accuracy:0.6337  Precision:0.208  Recall:0.035
+r:0.620000 Accuracy:0.6379  Precision:0.190  Recall:0.026
+r:0.630000 Accuracy:0.6414  Precision:0.192  Recall:0.024
+r:0.640000 Accuracy:0.6446  Precision:0.190  Recall:0.020
+r:0.650000 Accuracy:0.6487  Precision:0.197  Recall:0.018
+r:0.660000 Accuracy:0.6507  Precision:0.191  Recall:0.015
+r:0.670000 Accuracy:0.6534  Precision:0.199  Recall:0.013
+r:0.680000 Accuracy:0.6550  Precision:0.203  Recall:0.012
+r:0.690000 Accuracy:0.6567  Precision:0.205  Recall:0.010
+r:0.700000 Accuracy:0.6579  Precision:0.200  Recall:0.009
+r:0.710000 Accuracy:0.6592  Precision:0.208  Recall:0.008
+r:0.720000 Accuracy:0.6608  Precision:0.225  Recall:0.007
+r:0.730000 Accuracy:0.6619  Precision:0.243  Recall:0.007
+r:0.740000 Accuracy:0.6619  Precision:0.200  Recall:0.005
+r:0.750000 Accuracy:0.6627  Precision:0.200  Recall:0.004
+r:0.760000 Accuracy:0.6632  Precision:0.205  Recall:0.004
+r:0.770000 Accuracy:0.6640  Precision:0.206  Recall:0.003
+r:0.780000 Accuracy:0.6654  Precision:0.250  Recall:0.002
+r:0.790000 Accuracy:0.6658  Precision:0.231  Recall:0.001
+r:0.800000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.810000 Accuracy:0.6656  Precision:0.167  Recall:0.001
+r:0.820000 Accuracy:0.6659  Precision:0.200  Recall:0.001
+r:0.830000 Accuracy:0.6663  Precision:0.286  Recall:0.001
+r:0.840000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.850000 Accuracy:0.6664  Precision:0.250  Recall:0.000
+r:0.860000 Accuracy:0.6663  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6664  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+ 1702   700    77    20     1     1     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  0.319  0.040  0.009  0.001  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.0100000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+u:0.1000000 lmd:0.1000000
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+Current Costfunction Value:3467.122197
+HolE Training End
+HolE Testing End
+r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.990000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 r:0.500000 Accuracy:0.0000  Precision:0.000  Recall:0.000
+r:0.510000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.520000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.530000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.540000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.550000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.560000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.570000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.580000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.590000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.600000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.610000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.620000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.630000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.640000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.650000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.660000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.670000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.680000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.690000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.700000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.710000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.720000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.730000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.740000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.750000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.760000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.770000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.780000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.790000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.800000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.810000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.820000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.830000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.840000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.850000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.860000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.870000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.880000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.890000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.900000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.910000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.920000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.930000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.940000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.960000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.970000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.980000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+r:0.950000 Accuracy:0.6666  Precision:0.000  Recall:0.000
+Probility:
+     0.50  0.60  0.70  0.80  0.85  0.90  0.95  0.96  0.97  0.98  0.99  1.00 
+    0  2501     0     0     0     0     0     0     0     0     0     0 
+
+ >0.50  >0.60  >0.70  >0.80  >0.85  >0.90  >0.95  >0.96  >0.97  >0.98  >0.99 
+ 1.000  1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 

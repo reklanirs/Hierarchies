@@ -1,3 +1,11 @@
+#!/usr/bin/python2.7
+# -*- coding: utf-8 -*- import requests
+from dependent import *
+from cilinE import Node,CilinE
+from linear import Linear
+from vectorCompare import Comparer
+kcluster = 5
+
 def __main__():
 	c = CilinE()
 	alltriple = []
@@ -96,3 +104,5 @@ def __main__():
 		printclusterdetail()
 		tmpthresholdrate+= 1
 	pass
+
+__main__()

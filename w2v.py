@@ -30,7 +30,7 @@ def w2v():
 	sentences = MySentences()
 	logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 	print '#############\nw2v start:'
-	model = gensim.models.Word2Vec(sentences, min_count=5, size = 100, workers = 2)
+	model = gensim.models.Word2Vec(sentences, min_count=5, size = 50, workers = 2)
 	print '\n#############\nw2v end'
 	model.save('model.w2v')
 	print 'w2v saved'

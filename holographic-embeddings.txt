@@ -1,0 +1,534 @@
+➜  /Users/reKlanirs/Documents/workspace/Github/Hierarchies/holographic-embeddings git:(master)  >./run_hole_wn18.sh
+INFO:EX-KG:Fitting model HolE with trainer PairwiseStochasticTrainer and parameters Namespace(afs='sigmoid', fin='data/wn18.bin', fout=None, init='nunif', lr=0.1, margin=0.2, me=500, mode='rank', nb=100, ncomp=150, ne=1, no_pairwise=False, rparam=0, sampler='random-mode', test_all=50)
+INFO:EX-KG:[  1] time = 53s, violations = 203462
+INFO:EX-KG:[  2] time = 28s, violations = 57576
+INFO:EX-KG:[  3] time = 23s, violations = 28502
+INFO:EX-KG:[  4] time = 20s, violations = 20462
+INFO:EX-KG:[  5] time = 20s, violations = 16460
+INFO:EX-KG:[  6] time = 19s, violations = 13849
+INFO:EX-KG:[  7] time = 19s, violations = 12018
+INFO:EX-KG:[  8] time = 20s, violations = 10666
+INFO:EX-KG:[  9] time = 19s, violations = 9826
+INFO:EX-KG:[ 10] time = 19s, violations = 9012
+INFO:EX-KG:[ 11] time = 18s, violations = 8499
+INFO:EX-KG:[ 12] time = 18s, violations = 7898
+INFO:EX-KG:[ 13] time = 18s, violations = 7433
+INFO:EX-KG:[ 14] time = 17s, violations = 7331
+INFO:EX-KG:[ 15] time = 18s, violations = 6838
+INFO:EX-KG:[ 16] time = 17s, violations = 6699
+INFO:EX-KG:[ 17] time = 18s, violations = 6173
+INFO:EX-KG:[ 18] time = 18s, violations = 6121
+INFO:EX-KG:[ 19] time = 18s, violations = 5912
+INFO:EX-KG:[ 20] time = 18s, violations = 5633
+INFO:EX-KG:[ 21] time = 18s, violations = 5425
+INFO:EX-KG:[ 22] time = 18s, violations = 5273
+INFO:EX-KG:[ 23] time = 17s, violations = 5221
+INFO:EX-KG:[ 24] time = 16s, violations = 4835
+INFO:EX-KG:[ 25] time = 17s, violations = 4883
+INFO:EX-KG:[ 26] time = 17s, violations = 4814
+INFO:EX-KG:[ 27] time = 16s, violations = 4602
+INFO:EX-KG:[ 28] time = 16s, violations = 4589
+INFO:EX-KG:[ 29] time = 17s, violations = 4443
+INFO:EX-KG:[ 30] time = 17s, violations = 4322
+INFO:EX-KG:[ 31] time = 17s, violations = 4100
+INFO:EX-KG:[ 32] time = 17s, violations = 4274
+INFO:EX-KG:[ 33] time = 17s, violations = 3980
+INFO:EX-KG:[ 34] time = 17s, violations = 4101
+INFO:EX-KG:[ 35] time = 19s, violations = 3919
+INFO:EX-KG:[ 36] time = 17s, violations = 3801
+INFO:EX-KG:[ 37] time = 17s, violations = 3779
+INFO:EX-KG:[ 38] time = 17s, violations = 3673
+INFO:EX-KG:[ 39] time = 18s, violations = 3589
+INFO:EX-KG:[ 40] time = 18s, violations = 3579
+INFO:EX-KG:[ 41] time = 18s, violations = 3577
+INFO:EX-KG:[ 42] time = 17s, violations = 3384
+INFO:EX-KG:[ 43] time = 17s, violations = 3360
+INFO:EX-KG:[ 44] time = 17s, violations = 3284
+INFO:EX-KG:[ 45] time = 17s, violations = 3353
+INFO:EX-KG:[ 46] time = 17s, violations = 3262
+INFO:EX-KG:[ 47] time = 17s, violations = 3140
+INFO:EX-KG:[ 48] time = 16s, violations = 3151
+INFO:EX-KG:[ 49] time = 17s, violations = 3037
+INFO:EX-KG:[ 50] time = 16s, violations = 3051
+INFO:EX-KG:[ 50] VALID: MRR = 0.62/0.89, Mean Rank = 897.33/886.12, Hits@10 = 81.67/93.51
+DEBUG:EX-KG:FMRR valid = 0.893024, best = -1.000000
+INFO:EX-KG:[ 50] TEST: MRR = 0.62/0.90, Mean Rank = 778.75/767.71, Hits@10 = 82.22/93.56
+INFO:EX-KG:[ 51] time = 17s, violations = 3044
+INFO:EX-KG:[ 52] time = 17s, violations = 2995
+INFO:EX-KG:[ 53] time = 17s, violations = 2973
+INFO:EX-KG:[ 54] time = 17s, violations = 2913
+INFO:EX-KG:[ 55] time = 17s, violations = 2988
+INFO:EX-KG:[ 56] time = 18s, violations = 2897
+INFO:EX-KG:[ 57] time = 18s, violations = 2938
+INFO:EX-KG:[ 58] time = 17s, violations = 2813
+INFO:EX-KG:[ 59] time = 18s, violations = 2828
+INFO:EX-KG:[ 60] time = 17s, violations = 2745
+INFO:EX-KG:[ 61] time = 18s, violations = 2778
+INFO:EX-KG:[ 62] time = 17s, violations = 2644
+INFO:EX-KG:[ 63] time = 18s, violations = 2622
+INFO:EX-KG:[ 64] time = 18s, violations = 2661
+INFO:EX-KG:[ 65] time = 17s, violations = 2602
+INFO:EX-KG:[ 66] time = 17s, violations = 2613
+INFO:EX-KG:[ 67] time = 17s, violations = 2511
+INFO:EX-KG:[ 68] time = 17s, violations = 2507
+INFO:EX-KG:[ 69] time = 17s, violations = 2460
+INFO:EX-KG:[ 70] time = 17s, violations = 2432
+INFO:EX-KG:[ 71] time = 17s, violations = 2450
+INFO:EX-KG:[ 72] time = 17s, violations = 2374
+INFO:EX-KG:[ 73] time = 16s, violations = 2447
+INFO:EX-KG:[ 74] time = 16s, violations = 2408
+INFO:EX-KG:[ 75] time = 16s, violations = 2320
+INFO:EX-KG:[ 76] time = 16s, violations = 2326
+INFO:EX-KG:[ 77] time = 16s, violations = 2311
+INFO:EX-KG:[ 78] time = 16s, violations = 2266
+INFO:EX-KG:[ 79] time = 16s, violations = 2355
+INFO:EX-KG:[ 80] time = 17s, violations = 2203
+INFO:EX-KG:[ 81] time = 17s, violations = 2180
+INFO:EX-KG:[ 82] time = 17s, violations = 2298
+INFO:EX-KG:[ 83] time = 16s, violations = 2213
+INFO:EX-KG:[ 84] time = 17s, violations = 2189
+INFO:EX-KG:[ 85] time = 17s, violations = 2179
+INFO:EX-KG:[ 86] time = 17s, violations = 2154
+INFO:EX-KG:[ 87] time = 17s, violations = 2091
+INFO:EX-KG:[ 88] time = 16s, violations = 2129
+INFO:EX-KG:[ 89] time = 17s, violations = 2145
+INFO:EX-KG:[ 90] time = 16s, violations = 2057
+INFO:EX-KG:[ 91] time = 17s, violations = 2000
+INFO:EX-KG:[ 92] time = 16s, violations = 2011
+INFO:EX-KG:[ 93] time = 16s, violations = 2035
+INFO:EX-KG:[ 94] time = 17s, violations = 1937
+INFO:EX-KG:[ 95] time = 17s, violations = 2071
+INFO:EX-KG:[ 96] time = 17s, violations = 1973
+INFO:EX-KG:[ 97] time = 16s, violations = 1988
+INFO:EX-KG:[ 98] time = 16s, violations = 1865
+INFO:EX-KG:[ 99] time = 17s, violations = 1915
+INFO:EX-KG:[100] time = 16s, violations = 1908
+INFO:EX-KG:[100] VALID: MRR = 0.62/0.92, Mean Rank = 904.85/893.06, Hits@10 = 81.90/93.99
+DEBUG:EX-KG:FMRR valid = 0.915576, best = 0.893024
+INFO:EX-KG:[100] TEST: MRR = 0.62/0.92, Mean Rank = 752.67/741.31, Hits@10 = 82.34/94.03
+INFO:EX-KG:[101] time = 16s, violations = 1946
+INFO:EX-KG:[102] time = 16s, violations = 1871
+INFO:EX-KG:[103] time = 16s, violations = 1859
+INFO:EX-KG:[104] time = 16s, violations = 1893
+INFO:EX-KG:[105] time = 16s, violations = 2019
+INFO:EX-KG:[106] time = 16s, violations = 1887
+INFO:EX-KG:[107] time = 17s, violations = 1857
+INFO:EX-KG:[108] time = 16s, violations = 1857
+INFO:EX-KG:[109] time = 16s, violations = 1807
+INFO:EX-KG:[110] time = 16s, violations = 1868
+INFO:EX-KG:[111] time = 16s, violations = 1813
+INFO:EX-KG:[112] time = 16s, violations = 1879
+INFO:EX-KG:[113] time = 16s, violations = 1761
+INFO:EX-KG:[114] time = 16s, violations = 1848
+INFO:EX-KG:[115] time = 16s, violations = 1727
+INFO:EX-KG:[116] time = 16s, violations = 1791
+INFO:EX-KG:[117] time = 16s, violations = 1756
+INFO:EX-KG:[118] time = 16s, violations = 1757
+INFO:EX-KG:[119] time = 16s, violations = 1729
+INFO:EX-KG:[120] time = 16s, violations = 1593
+INFO:EX-KG:[121] time = 16s, violations = 1686
+INFO:EX-KG:[122] time = 16s, violations = 1722
+INFO:EX-KG:[123] time = 16s, violations = 1713
+INFO:EX-KG:[124] time = 16s, violations = 1726
+INFO:EX-KG:[125] time = 16s, violations = 1662
+INFO:EX-KG:[126] time = 16s, violations = 1623
+INFO:EX-KG:[127] time = 16s, violations = 1653
+INFO:EX-KG:[128] time = 16s, violations = 1743
+INFO:EX-KG:[129] time = 16s, violations = 1631
+INFO:EX-KG:[130] time = 16s, violations = 1628
+INFO:EX-KG:[131] time = 16s, violations = 1683
+INFO:EX-KG:[132] time = 16s, violations = 1604
+INFO:EX-KG:[133] time = 16s, violations = 1611
+INFO:EX-KG:[134] time = 16s, violations = 1582
+INFO:EX-KG:[135] time = 16s, violations = 1606
+INFO:EX-KG:[136] time = 16s, violations = 1543
+INFO:EX-KG:[137] time = 16s, violations = 1592
+INFO:EX-KG:[138] time = 16s, violations = 1612
+INFO:EX-KG:[139] time = 16s, violations = 1572
+INFO:EX-KG:[140] time = 16s, violations = 1590
+INFO:EX-KG:[141] time = 16s, violations = 1555
+INFO:EX-KG:[142] time = 16s, violations = 1512
+INFO:EX-KG:[143] time = 16s, violations = 1492
+INFO:EX-KG:[144] time = 16s, violations = 1442
+INFO:EX-KG:[145] time = 16s, violations = 1550
+INFO:EX-KG:[146] time = 16s, violations = 1535
+INFO:EX-KG:[147] time = 16s, violations = 1495
+INFO:EX-KG:[148] time = 16s, violations = 1513
+INFO:EX-KG:[149] time = 16s, violations = 1547
+INFO:EX-KG:[150] time = 16s, violations = 1444
+INFO:EX-KG:[150] VALID: MRR = 0.62/0.93, Mean Rank = 870.33/858.54, Hits@10 = 81.77/94.15
+DEBUG:EX-KG:FMRR valid = 0.925264, best = 0.915576
+INFO:EX-KG:[150] TEST: MRR = 0.63/0.93, Mean Rank = 738.42/726.86, Hits@10 = 82.72/94.29
+INFO:EX-KG:[151] time = 16s, violations = 1551
+INFO:EX-KG:[152] time = 16s, violations = 1469
+INFO:EX-KG:[153] time = 16s, violations = 1464
+INFO:EX-KG:[154] time = 16s, violations = 1499
+INFO:EX-KG:[155] time = 16s, violations = 1434
+INFO:EX-KG:[156] time = 16s, violations = 1485
+INFO:EX-KG:[157] time = 16s, violations = 1495
+INFO:EX-KG:[158] time = 16s, violations = 1403
+INFO:EX-KG:[159] time = 16s, violations = 1395
+INFO:EX-KG:[160] time = 16s, violations = 1473
+INFO:EX-KG:[161] time = 16s, violations = 1449
+INFO:EX-KG:[162] time = 16s, violations = 1448
+INFO:EX-KG:[163] time = 16s, violations = 1459
+INFO:EX-KG:[164] time = 16s, violations = 1444
+INFO:EX-KG:[165] time = 16s, violations = 1424
+INFO:EX-KG:[166] time = 16s, violations = 1440
+INFO:EX-KG:[167] time = 16s, violations = 1407
+INFO:EX-KG:[168] time = 16s, violations = 1331
+INFO:EX-KG:[169] time = 16s, violations = 1353
+INFO:EX-KG:[170] time = 16s, violations = 1374
+INFO:EX-KG:[171] time = 16s, violations = 1423
+INFO:EX-KG:[172] time = 16s, violations = 1364
+INFO:EX-KG:[173] time = 16s, violations = 1379
+INFO:EX-KG:[174] time = 16s, violations = 1325
+INFO:EX-KG:[175] time = 16s, violations = 1398
+INFO:EX-KG:[176] time = 16s, violations = 1391
+INFO:EX-KG:[177] time = 16s, violations = 1409
+INFO:EX-KG:[178] time = 16s, violations = 1324
+INFO:EX-KG:[179] time = 16s, violations = 1328
+INFO:EX-KG:[180] time = 16s, violations = 1301
+INFO:EX-KG:[181] time = 16s, violations = 1277
+INFO:EX-KG:[182] time = 16s, violations = 1250
+INFO:EX-KG:[183] time = 16s, violations = 1307
+INFO:EX-KG:[184] time = 16s, violations = 1348
+INFO:EX-KG:[185] time = 16s, violations = 1278
+INFO:EX-KG:[186] time = 16s, violations = 1302
+INFO:EX-KG:[187] time = 16s, violations = 1225
+INFO:EX-KG:[188] time = 16s, violations = 1318
+INFO:EX-KG:[189] time = 16s, violations = 1356
+INFO:EX-KG:[190] time = 16s, violations = 1287
+INFO:EX-KG:[191] time = 16s, violations = 1213
+INFO:EX-KG:[192] time = 17s, violations = 1320
+INFO:EX-KG:[193] time = 17s, violations = 1246
+INFO:EX-KG:[194] time = 16s, violations = 1201
+INFO:EX-KG:[195] time = 16s, violations = 1245
+INFO:EX-KG:[196] time = 16s, violations = 1319
+INFO:EX-KG:[197] time = 16s, violations = 1300
+INFO:EX-KG:[198] time = 17s, violations = 1251
+INFO:EX-KG:[199] time = 17s, violations = 1261
+INFO:EX-KG:[200] time = 20s, violations = 1208
+INFO:EX-KG:[200] VALID: MRR = 0.62/0.93, Mean Rank = 836.79/824.85, Hits@10 = 82.01/94.30
+DEBUG:EX-KG:FMRR valid = 0.928421, best = 0.925264
+INFO:EX-KG:[200] TEST: MRR = 0.62/0.93, Mean Rank = 733.25/721.27, Hits@10 = 82.56/94.33
+INFO:EX-KG:[201] time = 16s, violations = 1223
+INFO:EX-KG:[202] time = 16s, violations = 1185
+INFO:EX-KG:[203] time = 16s, violations = 1245
+INFO:EX-KG:[204] time = 16s, violations = 1220
+INFO:EX-KG:[205] time = 16s, violations = 1229
+INFO:EX-KG:[206] time = 16s, violations = 1255
+INFO:EX-KG:[207] time = 16s, violations = 1190
+INFO:EX-KG:[208] time = 17s, violations = 1239
+INFO:EX-KG:[209] time = 16s, violations = 1224
+INFO:EX-KG:[210] time = 16s, violations = 1195
+INFO:EX-KG:[211] time = 16s, violations = 1148
+INFO:EX-KG:[212] time = 16s, violations = 1185
+INFO:EX-KG:[213] time = 16s, violations = 1240
+INFO:EX-KG:[214] time = 16s, violations = 1181
+INFO:EX-KG:[215] time = 16s, violations = 1116
+INFO:EX-KG:[216] time = 16s, violations = 1204
+INFO:EX-KG:[217] time = 16s, violations = 1194
+INFO:EX-KG:[218] time = 16s, violations = 1153
+INFO:EX-KG:[219] time = 16s, violations = 1159
+INFO:EX-KG:[220] time = 16s, violations = 1148
+INFO:EX-KG:[221] time = 16s, violations = 1166
+INFO:EX-KG:[222] time = 16s, violations = 1178
+INFO:EX-KG:[223] time = 16s, violations = 1202
+INFO:EX-KG:[224] time = 16s, violations = 1157
+INFO:EX-KG:[225] time = 16s, violations = 1225
+INFO:EX-KG:[226] time = 16s, violations = 1145
+INFO:EX-KG:[227] time = 16s, violations = 1152
+INFO:EX-KG:[228] time = 17s, violations = 1188
+INFO:EX-KG:[229] time = 16s, violations = 1089
+INFO:EX-KG:[230] time = 16s, violations = 1129
+INFO:EX-KG:[231] time = 16s, violations = 1140
+INFO:EX-KG:[232] time = 16s, violations = 1168
+INFO:EX-KG:[233] time = 16s, violations = 1107
+INFO:EX-KG:[234] time = 16s, violations = 1164
+INFO:EX-KG:[235] time = 16s, violations = 1159
+INFO:EX-KG:[236] time = 16s, violations = 1144
+INFO:EX-KG:[237] time = 16s, violations = 1103
+INFO:EX-KG:[238] time = 16s, violations = 1196
+INFO:EX-KG:[239] time = 16s, violations = 1153
+INFO:EX-KG:[240] time = 16s, violations = 1153
+INFO:EX-KG:[241] time = 16s, violations = 1174
+INFO:EX-KG:[242] time = 16s, violations = 1103
+INFO:EX-KG:[243] time = 16s, violations = 1057
+INFO:EX-KG:[244] time = 16s, violations = 1119
+INFO:EX-KG:[245] time = 16s, violations = 1048
+INFO:EX-KG:[246] time = 16s, violations = 1128
+INFO:EX-KG:[247] time = 16s, violations = 1061
+INFO:EX-KG:[248] time = 16s, violations = 1094
+INFO:EX-KG:[249] time = 16s, violations = 1116
+INFO:EX-KG:[250] time = 16s, violations = 1065
+INFO:EX-KG:[250] VALID: MRR = 0.62/0.93, Mean Rank = 851.20/838.90, Hits@10 = 81.73/94.28
+DEBUG:EX-KG:FMRR valid = 0.930403, best = 0.928421
+INFO:EX-KG:[250] TEST: MRR = 0.62/0.93, Mean Rank = 708.35/696.67, Hits@10 = 82.53/94.30
+INFO:EX-KG:[251] time = 16s, violations = 1095
+INFO:EX-KG:[252] time = 16s, violations = 1122
+INFO:EX-KG:[253] time = 16s, violations = 1112
+INFO:EX-KG:[254] time = 17s, violations = 1043
+INFO:EX-KG:[255] time = 17s, violations = 1119
+INFO:EX-KG:[256] time = 16s, violations = 1076
+INFO:EX-KG:[257] time = 17s, violations = 1052
+INFO:EX-KG:[258] time = 16s, violations = 1051
+INFO:EX-KG:[259] time = 16s, violations = 1075
+INFO:EX-KG:[260] time = 16s, violations = 1069
+INFO:EX-KG:[261] time = 16s, violations = 1076
+INFO:EX-KG:[262] time = 16s, violations = 1044
+INFO:EX-KG:[263] time = 16s, violations = 1018
+INFO:EX-KG:[264] time = 16s, violations = 999
+INFO:EX-KG:[265] time = 16s, violations = 1067
+INFO:EX-KG:[266] time = 16s, violations = 990
+INFO:EX-KG:[267] time = 16s, violations = 1051
+INFO:EX-KG:[268] time = 16s, violations = 1021
+INFO:EX-KG:[269] time = 16s, violations = 1035
+INFO:EX-KG:[270] time = 16s, violations = 1012
+INFO:EX-KG:[271] time = 16s, violations = 1009
+INFO:EX-KG:[272] time = 17s, violations = 1037
+INFO:EX-KG:[273] time = 18s, violations = 982
+INFO:EX-KG:[274] time = 17s, violations = 961
+INFO:EX-KG:[275] time = 17s, violations = 1024
+INFO:EX-KG:[276] time = 17s, violations = 1004
+INFO:EX-KG:[277] time = 18s, violations = 956
+INFO:EX-KG:[278] time = 17s, violations = 1021
+INFO:EX-KG:[279] time = 17s, violations = 966
+INFO:EX-KG:[280] time = 17s, violations = 1000
+INFO:EX-KG:[281] time = 17s, violations = 1007
+INFO:EX-KG:[282] time = 17s, violations = 1001
+INFO:EX-KG:[283] time = 17s, violations = 963
+INFO:EX-KG:[284] time = 18s, violations = 976
+INFO:EX-KG:[285] time = 18s, violations = 878
+INFO:EX-KG:[286] time = 17s, violations = 1060
+INFO:EX-KG:[287] time = 17s, violations = 935
+INFO:EX-KG:[288] time = 17s, violations = 930
+INFO:EX-KG:[289] time = 17s, violations = 936
+INFO:EX-KG:[290] time = 17s, violations = 934
+INFO:EX-KG:[291] time = 18s, violations = 977
+INFO:EX-KG:[292] time = 17s, violations = 948
+INFO:EX-KG:[293] time = 17s, violations = 920
+INFO:EX-KG:[294] time = 17s, violations = 978
+INFO:EX-KG:[295] time = 17s, violations = 968
+INFO:EX-KG:[296] time = 17s, violations = 967
+INFO:EX-KG:[297] time = 17s, violations = 930
+INFO:EX-KG:[298] time = 16s, violations = 957
+INFO:EX-KG:[299] time = 17s, violations = 964
+INFO:EX-KG:[300] time = 17s, violations = 976
+INFO:EX-KG:[300] VALID: MRR = 0.62/0.93, Mean Rank = 845.59/833.19, Hits@10 = 81.98/94.28
+DEBUG:EX-KG:FMRR valid = 0.931393, best = 0.930403
+INFO:EX-KG:[300] TEST: MRR = 0.62/0.93, Mean Rank = 714.07/701.86, Hits@10 = 82.65/94.33
+INFO:EX-KG:[301] time = 16s, violations = 950
+INFO:EX-KG:[302] time = 17s, violations = 947
+INFO:EX-KG:[303] time = 17s, violations = 888
+INFO:EX-KG:[304] time = 17s, violations = 913
+INFO:EX-KG:[305] time = 16s, violations = 945
+INFO:EX-KG:[306] time = 16s, violations = 910
+INFO:EX-KG:[307] time = 16s, violations = 876
+INFO:EX-KG:[308] time = 16s, violations = 928
+INFO:EX-KG:[309] time = 16s, violations = 946
+INFO:EX-KG:[310] time = 16s, violations = 918
+INFO:EX-KG:[311] time = 16s, violations = 901
+INFO:EX-KG:[312] time = 16s, violations = 962
+INFO:EX-KG:[313] time = 16s, violations = 903
+INFO:EX-KG:[314] time = 16s, violations = 956
+INFO:EX-KG:[315] time = 16s, violations = 928
+INFO:EX-KG:[316] time = 16s, violations = 951
+INFO:EX-KG:[317] time = 16s, violations = 924
+INFO:EX-KG:[318] time = 16s, violations = 895
+INFO:EX-KG:[319] time = 16s, violations = 918
+INFO:EX-KG:[320] time = 16s, violations = 857
+INFO:EX-KG:[321] time = 16s, violations = 898
+INFO:EX-KG:[322] time = 16s, violations = 843
+INFO:EX-KG:[323] time = 16s, violations = 877
+INFO:EX-KG:[324] time = 16s, violations = 910
+INFO:EX-KG:[325] time = 16s, violations = 965
+INFO:EX-KG:[326] time = 16s, violations = 907
+INFO:EX-KG:[327] time = 16s, violations = 869
+INFO:EX-KG:[328] time = 16s, violations = 886
+INFO:EX-KG:[329] time = 16s, violations = 928
+INFO:EX-KG:[330] time = 16s, violations = 898
+INFO:EX-KG:[331] time = 16s, violations = 893
+INFO:EX-KG:[332] time = 16s, violations = 849
+INFO:EX-KG:[333] time = 16s, violations = 894
+INFO:EX-KG:[334] time = 16s, violations = 875
+INFO:EX-KG:[335] time = 16s, violations = 863
+INFO:EX-KG:[336] time = 16s, violations = 849
+INFO:EX-KG:[337] time = 16s, violations = 939
+INFO:EX-KG:[338] time = 16s, violations = 905
+INFO:EX-KG:[339] time = 16s, violations = 897
+INFO:EX-KG:[340] time = 16s, violations = 860
+INFO:EX-KG:[341] time = 16s, violations = 850
+INFO:EX-KG:[342] time = 16s, violations = 870
+INFO:EX-KG:[343] time = 16s, violations = 881
+INFO:EX-KG:[344] time = 16s, violations = 857
+INFO:EX-KG:[345] time = 16s, violations = 859
+INFO:EX-KG:[346] time = 16s, violations = 852
+INFO:EX-KG:[347] time = 16s, violations = 825
+INFO:EX-KG:[348] time = 16s, violations = 852
+INFO:EX-KG:[349] time = 16s, violations = 830
+INFO:EX-KG:[350] time = 16s, violations = 855
+INFO:EX-KG:[350] VALID: MRR = 0.62/0.93, Mean Rank = 833.80/821.56, Hits@10 = 81.92/94.28
+DEBUG:EX-KG:FMRR valid = 0.933148, best = 0.931393
+INFO:EX-KG:[350] TEST: MRR = 0.63/0.93, Mean Rank = 696.98/684.76, Hits@10 = 82.28/94.32
+INFO:EX-KG:[351] time = 16s, violations = 832
+INFO:EX-KG:[352] time = 16s, violations = 906
+INFO:EX-KG:[353] time = 16s, violations = 849
+INFO:EX-KG:[354] time = 16s, violations = 806
+INFO:EX-KG:[355] time = 16s, violations = 845
+INFO:EX-KG:[356] time = 16s, violations = 848
+INFO:EX-KG:[357] time = 16s, violations = 867
+INFO:EX-KG:[358] time = 16s, violations = 822
+INFO:EX-KG:[359] time = 16s, violations = 902
+INFO:EX-KG:[360] time = 16s, violations = 840
+INFO:EX-KG:[361] time = 16s, violations = 832
+INFO:EX-KG:[362] time = 16s, violations = 852
+INFO:EX-KG:[363] time = 16s, violations = 907
+INFO:EX-KG:[364] time = 16s, violations = 807
+INFO:EX-KG:[365] time = 16s, violations = 889
+INFO:EX-KG:[366] time = 16s, violations = 810
+INFO:EX-KG:[367] time = 16s, violations = 777
+INFO:EX-KG:[368] time = 16s, violations = 815
+INFO:EX-KG:[369] time = 16s, violations = 862
+INFO:EX-KG:[370] time = 16s, violations = 832
+INFO:EX-KG:[371] time = 17s, violations = 820
+INFO:EX-KG:[372] time = 16s, violations = 827
+INFO:EX-KG:[373] time = 17s, violations = 805
+INFO:EX-KG:[374] time = 18s, violations = 795
+INFO:EX-KG:[375] time = 17s, violations = 817
+INFO:EX-KG:[376] time = 17s, violations = 837
+INFO:EX-KG:[377] time = 17s, violations = 904
+INFO:EX-KG:[378] time = 17s, violations = 792
+INFO:EX-KG:[379] time = 17s, violations = 831
+INFO:EX-KG:[380] time = 17s, violations = 839
+INFO:EX-KG:[381] time = 17s, violations = 824
+INFO:EX-KG:[382] time = 17s, violations = 800
+INFO:EX-KG:[383] time = 17s, violations = 831
+INFO:EX-KG:[384] time = 17s, violations = 804
+INFO:EX-KG:[385] time = 17s, violations = 809
+INFO:EX-KG:[386] time = 17s, violations = 740
+INFO:EX-KG:[387] time = 17s, violations = 801
+INFO:EX-KG:[388] time = 17s, violations = 820
+INFO:EX-KG:[389] time = 17s, violations = 815
+INFO:EX-KG:[390] time = 17s, violations = 736
+INFO:EX-KG:[391] time = 17s, violations = 790
+INFO:EX-KG:[392] time = 17s, violations = 804
+INFO:EX-KG:[393] time = 17s, violations = 806
+INFO:EX-KG:[394] time = 17s, violations = 811
+INFO:EX-KG:[395] time = 17s, violations = 861
+INFO:EX-KG:[396] time = 17s, violations = 727
+INFO:EX-KG:[397] time = 17s, violations = 740
+INFO:EX-KG:[398] time = 17s, violations = 795
+INFO:EX-KG:[399] time = 17s, violations = 747
+INFO:EX-KG:[400] time = 17s, violations = 736
+INFO:EX-KG:[400] VALID: MRR = 0.62/0.93, Mean Rank = 841.38/829.11, Hits@10 = 81.75/94.26
+DEBUG:EX-KG:FMRR valid = 0.933243, best = 0.933148
+INFO:EX-KG:[400] TEST: MRR = 0.62/0.94, Mean Rank = 700.61/688.42, Hits@10 = 82.37/94.29
+INFO:EX-KG:[401] time = 17s, violations = 825
+INFO:EX-KG:[402] time = 17s, violations = 825
+INFO:EX-KG:[403] time = 17s, violations = 743
+INFO:EX-KG:[404] time = 17s, violations = 756
+INFO:EX-KG:[405] time = 17s, violations = 761
+INFO:EX-KG:[406] time = 17s, violations = 785
+INFO:EX-KG:[407] time = 17s, violations = 735
+INFO:EX-KG:[408] time = 17s, violations = 727
+INFO:EX-KG:[409] time = 17s, violations = 767
+INFO:EX-KG:[410] time = 17s, violations = 737
+INFO:EX-KG:[411] time = 18s, violations = 782
+INFO:EX-KG:[412] time = 17s, violations = 752
+INFO:EX-KG:[413] time = 17s, violations = 768
+INFO:EX-KG:[414] time = 17s, violations = 806
+INFO:EX-KG:[415] time = 17s, violations = 826
+INFO:EX-KG:[416] time = 17s, violations = 729
+INFO:EX-KG:[417] time = 17s, violations = 742
+INFO:EX-KG:[418] time = 17s, violations = 708
+INFO:EX-KG:[419] time = 17s, violations = 787
+INFO:EX-KG:[420] time = 17s, violations = 797
+INFO:EX-KG:[421] time = 17s, violations = 710
+INFO:EX-KG:[422] time = 18s, violations = 760
+INFO:EX-KG:[423] time = 17s, violations = 734
+INFO:EX-KG:[424] time = 17s, violations = 755
+INFO:EX-KG:[425] time = 17s, violations = 780
+INFO:EX-KG:[426] time = 17s, violations = 764
+INFO:EX-KG:[427] time = 17s, violations = 788
+INFO:EX-KG:[428] time = 17s, violations = 760
+INFO:EX-KG:[429] time = 17s, violations = 776
+INFO:EX-KG:[430] time = 17s, violations = 746
+INFO:EX-KG:[431] time = 17s, violations = 756
+INFO:EX-KG:[432] time = 17s, violations = 741
+INFO:EX-KG:[433] time = 18s, violations = 773
+INFO:EX-KG:[434] time = 17s, violations = 711
+INFO:EX-KG:[435] time = 16s, violations = 741
+INFO:EX-KG:[436] time = 17s, violations = 750
+INFO:EX-KG:[437] time = 16s, violations = 697
+INFO:EX-KG:[438] time = 16s, violations = 782
+INFO:EX-KG:[439] time = 16s, violations = 719
+INFO:EX-KG:[440] time = 16s, violations = 733
+INFO:EX-KG:[441] time = 16s, violations = 773
+INFO:EX-KG:[442] time = 16s, violations = 719
+INFO:EX-KG:[443] time = 16s, violations = 774
+INFO:EX-KG:[444] time = 16s, violations = 737
+INFO:EX-KG:[445] time = 16s, violations = 717
+INFO:EX-KG:[446] time = 16s, violations = 757
+INFO:EX-KG:[447] time = 16s, violations = 720
+INFO:EX-KG:[448] time = 16s, violations = 735
+INFO:EX-KG:[449] time = 16s, violations = 728
+INFO:EX-KG:[450] time = 16s, violations = 727
+INFO:EX-KG:[450] VALID: MRR = 0.62/0.94, Mean Rank = 835.64/823.41, Hits@10 = 82.00/94.38
+DEBUG:EX-KG:FMRR valid = 0.935370, best = 0.933243
+INFO:EX-KG:[450] TEST: MRR = 0.62/0.94, Mean Rank = 694.38/681.87, Hits@10 = 82.38/94.38
+INFO:EX-KG:[451] time = 17s, violations = 746
+INFO:EX-KG:[452] time = 17s, violations = 698
+INFO:EX-KG:[453] time = 17s, violations = 698
+INFO:EX-KG:[454] time = 17s, violations = 746
+INFO:EX-KG:[455] time = 17s, violations = 769
+INFO:EX-KG:[456] time = 17s, violations = 715
+INFO:EX-KG:[457] time = 17s, violations = 665
+INFO:EX-KG:[458] time = 17s, violations = 714
+INFO:EX-KG:[459] time = 17s, violations = 698
+INFO:EX-KG:[460] time = 17s, violations = 709
+INFO:EX-KG:[461] time = 17s, violations = 736
+INFO:EX-KG:[462] time = 17s, violations = 680
+INFO:EX-KG:[463] time = 17s, violations = 700
+INFO:EX-KG:[464] time = 17s, violations = 668
+INFO:EX-KG:[465] time = 17s, violations = 707
+INFO:EX-KG:[466] time = 17s, violations = 707
+INFO:EX-KG:[467] time = 17s, violations = 698
+INFO:EX-KG:[468] time = 17s, violations = 657
+INFO:EX-KG:[469] time = 17s, violations = 678
+INFO:EX-KG:[470] time = 17s, violations = 725
+INFO:EX-KG:[471] time = 17s, violations = 727
+INFO:EX-KG:[472] time = 18s, violations = 688
+INFO:EX-KG:[473] time = 18s, violations = 736
+INFO:EX-KG:[474] time = 17s, violations = 704
+INFO:EX-KG:[475] time = 17s, violations = 696
+INFO:EX-KG:[476] time = 17s, violations = 725
+INFO:EX-KG:[477] time = 17s, violations = 729
+INFO:EX-KG:[478] time = 17s, violations = 705
+INFO:EX-KG:[479] time = 17s, violations = 692
+INFO:EX-KG:[480] time = 17s, violations = 663
+  FO:EX-KG:[481] time = 17s, violations = 694
+INFO:EX-KG:[482] time = 17s, violations = 696
+INFO:EX-KG:[483] time = 17s, violations = 711
+INFO:EX-KG:[484] time = 17s, violations = 685
+INFO:EX-KG:[485] time = 17s, violations = 720
+INFO:EX-KG:[486] time = 16s, violations = 687
+INFO:EX-KG:[487] time = 17s, violations = 697
+INFO:EX-KG:[488] time = 15s, violations = 680
+INFO:EX-KG:[489] time = 16s, violations = 688
+INFO:EX-KG:[490] time = 16s, violations = 671
+INFO:EX-KG:[491] time = 16s, violations = 741
+INFO:EX-KG:[492] time = 17s, violations = 739
+INFO:EX-KG:[493] time = 16s, violations = 693
+INFO:EX-KG:[494] time = 16s, violations = 680
+INFO:EX-KG:[495] time = 17s, violations = 669
+INFO:EX-KG:[496] time = 17s, violations = 725
+INFO:EX-KG:[497] time = 16s, violations = 619
+INFO:EX-KG:[498] time = 16s, violations = 659
+INFO:EX-KG:[499] time = 17s, violations = 680
+INFO:EX-KG:[500] time = 16s, violations = 674
+INFO:EX-KG:[500] VALID: MRR = 0.62/0.93, Mean Rank = 836.18/823.74, Hits@10 = 81.89/94.33
+DEBUG:EX-KG:FMRR valid = 0.934498, best = 0.935370
+INFO:EX-KG:[500] time = 304s, violations = 674
+INFO:EX-KG:[500] VALID: MRR = 0.62/0.93, Mean Rank = 836.18/823.74, Hits@10 = 81.89/94.33
+DEBUG:EX-KG:FMRR valid = 0.934498, best = 0.935370
