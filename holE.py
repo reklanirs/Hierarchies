@@ -1,72 +1,32 @@
 #!/usr/bin/python2.7
-# -*- coding: utf-8 -*- import requests
+# -*- coding: utf-8 -*-
 
 from dependent import *
-import numpy as np
-from numpy.fft import fft, ifft
-
-
-def cconv(a, b):
-	"""
-	Circular convolution of vectors
-	Computes the circular convolution of two vectors a and b via their
-	fast fourier transforms
-	a \ast b = \mathcal{F}^{-1}(\mathcal{F}(a) \odot \mathcal{F}(b))
-	Parameter
-	---------
-	a: real valued array (shape N)
-	b: real valued array (shape N)
-	Returns
-	-------
-	c: real valued array (shape N), representing the circular
-	   convolution of a and b
-	"""
-	return ifft(fft(a) * fft(b)).real
-
-
-def ccorr(a, b):
-	"""
-	Circular correlation of vectors
-	Computes the circular correlation of two vectors a and b via their
-	fast fourier transforms
-	a \ast b = \mathcal{F}^{-1}(\overline{\mathcal{F}(a)} \odot \mathcal{F}(b))
-	Parameter
-	---------
-	a: real valued array (shape N)
-	b: real valued array (shape N)
-	Returns
-	-------
-	c: real valued array (shape N), representing the circular
-	   correlation of a and b
-	"""
-	return ifft(np.conj(fft(a)) * fft(b)).real
-
+import graph
 
 class HolE(object):
 	"""docstring for HolE"""
-	def __init__(self, _trainData = [], _testData = []):
-		self.trainData = _trainData
-		self.testData = _testData
+	def __init__(self, _train_pos = [], _train_neg = [], _test_pos = [], _test_neg = [], _u = 0.01, _lmd = 0.000001):
+		self.trainData_pos,self.trainData_neg = _train_pos,_train_neg
+		self.testData_pos,self.testData_neg = _test_pos,_test_neg
+
+		self.u = _u
+		self.lmd = _lmd
+
 		self.w2v = {}
 		self.elist,self.plist = set(),set()
-		self.extractData(self.trainData)
-		self.training(self.trainData)
+		self.extractData()
+
+		self.training()	
 		writeln('HolE Training End')
 
-		# for p in self.plist:
-		# 	print('p:%s\nrp:')
-		# 	print self.w2v[p]
-
-		# for d in self.trainData:
-		# 	writeln('s:%s o:%s P:%f'%(d.s,d.o,self.calcP(d.es,d.eo,d.rp)))
-		# self.testing(self.testData)
-
-		# self.testTopK(self.testData)
-		self.testing(self.testData)
+		self.testing()
 		writeln('HolE Testing End')
 
-	def extractData(self, D):
-		for d in self.trainData:
+	def extractData(self, D = ''):
+		if D == '':
+			D = self.trainData_pos+self.trainData_neg
+		for d in D:
 			for i,j in ((d.s,d.es),(d.o,d.eo),(d.p,d.rp)):
 				self.w2v[i] = j
 			self.elist.add(d.s)
@@ -75,51 +35,80 @@ class HolE(object):
 		pass
 
 	"""存疑: a-b b-c, 同时含有b, 如何更新b? 暂时使用map方法"""
-	def training(self, D):
-		steps = 500
+	def training(self):
+		steps = 150
+		# one = random.choice(self.trainData_pos)
+		# print '\nChoice s:%s o:%s'%(one.s,one.o)
 		for step in xrange(steps):
-			for i in xrange(len(D)):
-				curData = D[i]
-				if curData.y == 1:
-					D[i] = self.minimCostFunction1(curData)
-			if step%50 == 0 or step == steps - 1:
+			# print 's:%s o:%s Cosine:%f'%(one.s,one.o,Cosine(one.es, one.eo))
+			for i in xrange(len(self.trainData_pos)):
+				curData = self.trainData_pos[i]
+				self.trainData_pos[i] = self.minimCostFunction1(curData)
+
+			tmp = [(d,self.sigma(d)) for d in self.trainData_pos]
+			tmp.sort(key = lambda x:x[1])
+
+			for i in xrange(len(self.trainData_neg)):
+				self.trainData_neg[i] = self.minimCostFunction2(tmp[0][0],self.trainData_neg[i])
+
+			if step%20 == 0 or step == steps - 1:
 				writeln('Current Costfunction Value:%f'%self.costFunction1Value())
+
+			self.u*=0.98
+			self.lmd *= 0.98
 		pass
-	def minimCostFunction1(self, d, u = 0.1):
+
+
+	def minimCostFunction1(self, d):
 		d.es,d.eo,d.rp = self.w2v[d.s],self.w2v[d.o],self.w2v[d.p]
-		eta = np.dot(d.rp, ccorr(d.es, d.eo))
-		if eta>500 or eta<-500:
-			print 'eta:',eta
-			print '\nrp:',d.rp
-			print '\nes:',d.es
-			print '\neo:',d.eo
-		denominator = 1 + math.exp(eta)
-		# if eta > 100:
-		# 	return d
-		# elif eta < -100:
-		# 	denominator = 1
-		# else:
-		# 	denominator = 1 + math.exp(eta)
-		es = d.es + u * ccorr(d.rp, d.eo) / denominator
-		eo = d.eo + u * cconv(d.rp, d.es) / denominator
-		rp = d.rp + u * ccorr(d.es, d.eo) / denominator
+		c = ccorr(d.es, d.eo)
+		eta = np.dot(d.rp, c)
+		try:
+			denominator = 1 + math.exp(eta)
+			pass
+		except Exception, e:
+			print '\neta:',eta
+			print '\nlmd:',self.lmd
+			print '\nccorr:',c
+			print '\nd.rp:',d.rp
+			raise e
+
+		es = d.es + self.u * ccorr(d.rp, d.eo) / denominator - self.lmd*d.es
+		eo = d.eo + self.u * cconv(d.rp, d.es) / denominator - self.lmd*d.eo
+		rp = d.rp + self.u * ccorr(d.es, d.eo) / denominator - self.lmd*d.rp
+
 		d.es,d.eo,d.rp = es,eo,rp
 		self.w2v[d.s],self.w2v[d.o],self.w2v[d.p] = es,eo,rp
 		return d
 
+	def sigma(self, d):
+		return 1.0/(1.0 + math.exp(-1.0*(np.dot(d.rp,ccorr(d.es, d.eo)))))
+	def minimCostFunction2(self, dplus, dminus, gama = 0.1):
+		if gama + self.sigma(dminus) <= self.sigma(dplus):
+			return dminus
+		d = dminus
+		eta = np.dot(d.rp,ccorr(d.es, d.eo))
+		es = d.es - self.lmd * ccorr(d.rp, d.eo) / ( 2.0 + math.exp(eta) + math.exp(-eta))
+		eo = d.eo - self.lmd * cconv(d.rp, d.es) / ( 2.0 + math.exp(eta) + math.exp(-eta))
+		rp = d.rp - self.lmd * ccorr(d.es, d.eo) / ( 2.0 + math.exp(eta) + math.exp(-eta))
+		d.es,d.eo,d.rp = es,eo,rp
+		return d
+
 	def costFunction1Value(self):
 		ret = 0.0
-		for d in self.trainData:
+		for d in self.trainData_pos:
 			ret += math.log(1.0 + math.exp( - np.dot(d.rp, ccorr(d.es, d.eo)) ))
 		return ret
 
 	def calcP(self, es,eo,rp):
 		return 1.0/(1.0 + math.exp( -(np.dot(rp, ccorr(es, eo))) ) )
 
-	def testing(self, D):
+	def testing(self, D = ''):
+		if D == '':
+			D = self.testData_pos + self.testData_neg
 		for d in D:
 			d.ans = self.calcP(self.w2v[d.s], self.w2v[d.o], self.w2v[d.p])
-			writeln('s:%s o:%s Pro:%f\n'%(d.s,d.o,d.ans))
+			# writeln('s:%s o:%s Pro:%f\n'%(d.s,d.o,d.ans))
 		pass
 
 	def testTopK(self, D):
@@ -158,64 +147,68 @@ class HolE(object):
 				return i
 		return len(l) - 1
 
-	def output(self, r = 0.99):
-		l = [0.5,0.6,0.7,0.8,0.85,0.9,0.95,0.99,1.0]
+	def output(self, r = 0.99, prob = False):
+		l = [0.5,0.6,0.7,0.8,0.85,0.9,0.95,0.96,0.97,0.98,0.99,1.0]
 		num = [0 for x in xrange(len(l))]
 
 		A,B,C,D = 0,0,0,0
 		Al,Bl,Cl,Dl = [],[],[],[]
-		for d in self.testData:
-			if d.y == 1:
-				num[self.rank(d.ans,l)] += 1
-				if d.ans > r:
-					A += 1
-					Al.append(d)
-				else:
-					C += 1
-					Cl.append(d)
-			elif d.y == 0:
-				if d.ans >= r:
-					B += 1
-					Bl.append(d)
-				else :
-					D += 1
-					Dl.append(d)
-		writeln('\nr:%f'%r)
-		writeln(' sum rsum usum     A    C    B    D  Accuracy  Precision Recall')
-		writeln('%4d %4d %4d  %4d %4d %4d %4d %8.4f   %9.4f %6.4f'%(
-			(A+C+B+D),(A+C),(B+D),
-			A,C,B,D,
-			(A + D)*1.0/(A + C + B + D + 1),
+		for d in self.testData_pos:
+			num[self.rank(d.ans,l)] += 1
+			if d.ans > r:
+				A += 1
+				Al.append(d)
+			else:
+				C += 1
+				Cl.append(d)
+		for d in self.testData_neg:			
+			if d.ans >= r:
+				B += 1
+				Bl.append(d)
+			else :
+				D += 1
+				Dl.append(d)
+		writeln('r:%f Accuracy:%.4f  Precision:%.3f  Recall:%.3f'%(r,(A + D)*1.0/(A + C + B + D + 1),
 			A*1.0/(A + B + 1),
-			A*1.0/(A + C + 1)
-			)
-		)
+			A*1.0/(A + C + 1)))
+		# writeln('\nr:%f'%r)
+		# writeln(' sum rsum usum     A    C    B    D  Accuracy  Precision Recall')
+		# writeln('%4d %4d %4d  %4d %4d %4d %4d %8.4f   %9.4f %6.4f'%(
+		# 	(A+C+B+D),(A+C),(B+D),
+		# 	A,C,B,D,
+		# 	(A + D)*1.0/(A + C + B + D + 1),
+		# 	A*1.0/(A + B + 1),
+		# 	A*1.0/(A + C + 1)
+		# 	)
+		# )
 
-		for s in 'Al','Bl','Cl','Dl':
-			writeln('\n%s Sample:'%s)
-			for d in random.sample(eval(s),min(30,len(eval(s)))):
-				writeln('\ts:%s o:%s'%(d.s,d.o))
+		# for s in 'Al','Bl','Cl','Dl':
+		# 	writeln('\n%s Sample:'%s)
+		# 	for d in random.sample(eval(s),min(30,len(eval(s)))):
+		# 		writeln('\ts:%s o:%s'%(d.s,d.o))
 
-		writeln('Probility:')
-		s = sum(num)
-		prob = [x for x in num]
-		for i in xrange(1,len(l)):
-			for j in xrange(i-1,-1,-1):
-				prob[j] += prob[i]
-		for i in xrange(len(l)):
-			prob[i] = prob[i]*1.0/s
-		write('   ')
-		for i in l:
-			write('%5.2f'%i)
-		writeln('')
-		for i in num:
-			write('%5d'%i)
-		writeln('\n')
-		for i in l[:-1]:
-			write(' >%4.2f'%i)
-		writeln('')
-		for i in prob[:-1]:
-			write('%6.3f'%i)
+		if prob:
+			writeln('Probility:')
+			s = sum(num)
+			prob = [x for x in num]
+			for i in xrange(1,len(l)):
+				for j in xrange(i-1,-1,-1):
+					prob[j] += prob[i]
+			for i in xrange(len(l)):
+				prob[i] = prob[i]*1.0/s
+			write('   ')
+			for i in l:
+				write('%5.2f'%i)
+			writeln('')
+			for i in num:
+				write('%5d'%i)
+				
+			writeln('\n')
+			for i in l[:-1]:
+				write(' >%4.2f'%i)
+			writeln('')
+			for i in prob[:-1]:
+				write('%6.3f'%i)
 		# writeln('Detail test end')
 		pass
 
@@ -288,3 +281,42 @@ class HolE(object):
 		writeln('')
 		pass
 
+	def makeClusterData(self):
+		tmp = {}
+		for d in self.trainData:
+			if d.y == 0:
+				continue
+			if d.p not in tmp:
+				tmp[d.p] = set()
+			tmp[d.p].add(d)
+		l = []
+		for p,s in tmp.items():
+			l.append(random.sample(s,100))
+		return l
+
+	# def tmp2(self):
+	# 	triples = []
+	# 	indx = 0
+	# 	for d in self.trainData:
+	# 		print 's:%s e:%s  '%(d.s, d.o),
+	# 		tmp = [indx]
+	# 		for p in self.plist:
+	# 			prob = self.calcP(d.es,d.eo,self.w2v[p])
+	# 			tmp.append(prob)
+	# 			print 'p%s:%f  '%(p, prob ),
+	# 		print ' \t\tDifference: %f'%(tmp[1]-tmp[2])
+	# 		triples.append(tmp)
+	# 	return triples	
+	# 	pass
+
+	# def tmp3(self):
+	# 	triples = []
+	# 	indx = 0
+	# 	for d in self.trainData:
+	# 		tmp = [indx]
+	# 		indx+=1
+	# 		tmp.append(d.es)
+	# 		tmp.append(d.eo)
+	# 		triples.append(tmp)
+	# 	return triples	
+	# 	pass

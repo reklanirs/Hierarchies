@@ -7,19 +7,19 @@ from dependent import *
 class Linear(object):
 	"""docstring for Linear"""
 	def __init__(self):
-		kcluster = 5
-		kms = cluster.KMeans(n_clusters = kcluster)
-		cluster_centers_ = []
-		labels_ = []
-		phis = []
-		finalcosts = []
-		wrongdict = {}
-		rightdict = {}
-		rpos = {}
-		uneg = {}
-		upos = {}
-		rneg = {}
-		sumnum = {}		
+		self.kcluster = 5
+		self.kms = cluster.KMeans(n_clusters = self.kcluster)
+		self.cluster_centers_ = []
+		self.labels_ = []
+		self.phis = []
+		self.finalcosts = []
+		self.wrongdict = {}
+		self.rightdict = {}
+		self.rpos = {}
+		self.uneg = {}
+		self.upos = {}
+		self.rneg = {}
+		self.sumnum = {}
 
 
 	def cost(self,phi,x,y):
@@ -37,14 +37,14 @@ class Linear(object):
 		difference = vector_y - vector_x
 		mindis = 1e10
 		mink = -1
-		for i in xrange(kcluster):
-			center = cluster_centers_[i]
+		for i in xrange(self.kcluster):
+			center = self.cluster_centers_[i]
 			tmpdis = dis(difference, center)
 			if tmpdis < mindis:
 				mindis = tmpdis
 				mink = i
 
-		return cost(phis[mink], vector_x, vector_y),mink
+		return self.cost(self.phis[mink], vector_x, vector_y),mink
 
 
 	def calcPhiSGD(self,X,Y):
@@ -56,7 +56,7 @@ class Linear(object):
 		loopnum = 5000
 		for step in xrange(loopnum):
 			if step%10 == 0:
-				writeln('\tStep %d %f'%(step,costAll(phi, X, Y)))
+				writeln('\tStep %d %f'%(step,self.costAll(phi, X, Y)))
 
 			tmp = random.choice(xrange(len(X)))
 			x = X[tmp]
@@ -75,7 +75,7 @@ class Linear(object):
 
 			r *= rt
 			pass
-		cost = costAll(phi, X, Y)
+		cost = self.costAll(phi, X, Y)
 		writeln('\tStep %d %f'%(loopnum,cost))
 		return phi,cost
 
@@ -92,50 +92,50 @@ class Linear(object):
 
 		rmin = 1e8
 		rmax = 0
-		for i in xrange(kcluster):
-			wrongdict[i] = 0
-			rightdict[i] = 0
-			rpos[i] = 0
-			uneg[i] = 0
-			upos[i] = 0
-			rneg[i] = 0
+		for i in xrange(self.kcluster):
+			self.wrongdict[i] = 0
+			self.rightdict[i] = 0
+			self.rpos[i] = 0
+			self.uneg[i] = 0
+			self.upos[i] = 0
+			self.rneg[i] = 0
 			rpl.append([])
 			rnl.append([])
 			upl.append([])
 			unl.append([])
 
 		for x,y in related:
-			d,clusternum = calcEulerDisInClusters(x,y)
+			d,clusternum = self.calcEulerDisInClusters(x,y)
 			rmin = min(rmin, d)
 			rmax = max(rmax, d)
 
-			if d < thresholdrate * finalcosts[clusternum]:
+			if d < thresholdrate * self.finalcosts[clusternum]:
 				relatedpos += 1
-				rightdict[clusternum] += 1
-				rpos[clusternum]+=1
+				self.rightdict[clusternum] += 1
+				self.rpos[clusternum]+=1
 				rpl[clusternum].append((x,y))
 			else:
 				relatedneg += 1
-				wrongdict[clusternum] += 1
-				rneg[clusternum] += 1
+				self.wrongdict[clusternum] += 1
+				self.rneg[clusternum] += 1
 				rnl[clusternum].append((x,y))
 
 		umin = 1e8
 		umax = 0
 		for x,y in unrelated:
-			d,clusternum = calcEulerDisInClusters(x,y)
+			d,clusternum = self.calcEulerDisInClusters(x,y)
 			umin = min(umin, d)
 			umax = max(umax, d)
 
-			if d < thresholdrate * finalcosts[clusternum]:
+			if d < thresholdrate * self.finalcosts[clusternum]:
 				unrelatedpos += 1
-				wrongdict[clusternum] += 1
-				upos[clusternum] += 1
+				self.wrongdict[clusternum] += 1
+				self.upos[clusternum] += 1
 				upl[clusternum].append((x,y))
 			else:
 				unrelatedneg += 1
-				rightdict[clusternum] += 1
-				uneg[clusternum] += 1
+				self.rightdict[clusternum] += 1
+				self.uneg[clusternum] += 1
 				unl[clusternum].append((x,y))
 
 		tmin = 1e8
@@ -143,32 +143,32 @@ class Linear(object):
 		tpos = 0
 		tneg = 0
 		for x,y in train:
-			d,clusternum = calcEulerDisInClusters(x,y)
+			d,clusternum = self.calcEulerDisInClusters(x,y)
 			tmin = min(tmin, d)
 			tmax = max(tmax, d)
 
-			if d < thresholdrate * finalcosts[clusternum]:
+			if d < thresholdrate * self.finalcosts[clusternum]:
 				tpos += 1
 			else:
 				tneg += 1
 
 
 		if output:
-			for i in xrange(kcluster):
+			for i in xrange(self.kcluster):
 				writeln('Cluster %d'%(i))
 				writeln('\trelatedpos %d'%(len(rpl[i])))
 				for x,y in rpl[i]:
-					writeln('\t\trpos %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+					writeln('\t\tself.rpos %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
 
 				writeln('\n\trelatedneg %d'%len(rnl[i]))
 				for x,y in rnl[i]:
-					writeln('\t\trneg %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+					writeln('\t\tself.rneg %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
 				writeln('\n\tunrelatedpos %d'%len(upl[i]))
 				for x,y in upl[i]:
-					writeln('\t\tupos %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+					writeln('\t\tself.upos %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
 				writeln('\n\tunrelatedneg %d'%len(unl[i]))
 				for x,y in unl[i]:
-					writeln('\t\tuneg %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
+					writeln('\t\tself.uneg %s %s'%(y.encode('utf-8'),x.encode('utf-8')))
 				writeln('\n')
 
 		writeln('\nThresholdrate: %.2f'%(thresholdrate))
@@ -178,20 +178,16 @@ class Linear(object):
 
 
 	def kmeans_clusters(self,train):
-		global kcluster
-		global kms
-		global labels_
-		global cluster_centers_
-		writeln('kmeans, k = %d'%(kcluster))
-		labels_ = kms.fit_predict([ model[x[1].encode('utf-8')]-model[x[2].encode('utf-8')] for x in train])
-		cluster_centers_ = [x for x in kms.cluster_centers_]
+		writeln('kmeans, k = %d'%(self.kcluster))
+		self.labels_ = self.kms.fit_predict([ model[x[1].encode('utf-8')]-model[x[2].encode('utf-8')] for x in train])
+		self.cluster_centers_ = [x for x in self.kms.cluster_centers_]
 
 		while True:
-			tmpdict = [0 for i in range(kcluster)]
-			for i in labels_:
+			tmpdict = [0 for i in range(self.kcluster)]
+			for i in self.labels_:
 				tmpdict[i] += 1
 			writeln('\nTraining Data:\ncluster\tnum')
-			for i in xrange(kcluster):
+			for i in xrange(self.kcluster):
 				writeln('%d\t%d'%(i,tmpdict[i]))
 
 			writeln('Need split a cluster? Input the index or anything else to continue:')
@@ -199,7 +195,7 @@ class Linear(object):
 			if not s.isdigit():
 				break
 			k = int(s)
-			if k < 0 or k >= kcluster:
+			if k < 0 or k >= self.kcluster:
 				writeln('The index is not right, try again?')
 				continue
 			tonum = 5
@@ -209,8 +205,8 @@ class Linear(object):
 				tonum = int(s)
 
 			tmptrain = []
-			for i in xrange(len(labels_)):
-				if labels_[i] == k:
+			for i in xrange(len(self.labels_)):
+				if self.labels_[i] == k:
 					tmptrain.append( model[train[i][1].encode('utf-8')]-model[train[i][2].encode('utf-8')] )
 				pass
 
@@ -219,30 +215,30 @@ class Linear(object):
 			tmpcenters = tmpkms.cluster_centers_
 
 			indx = 0
-			for i in xrange(len(labels_)):
-				if labels_[i] == k:
-					labels_[i] = kcluster - 1 + tmplabel[indx]
+			for i in xrange(len(self.labels_)):
+				if self.labels_[i] == k:
+					self.labels_[i] = self.kcluster - 1 + tmplabel[indx]
 					indx += 1
-				elif labels_[i] > k:
-					labels_[i] -= 1
-			kcluster = kcluster - 1 + tonum
+				elif self.labels_[i] > k:
+					self.labels_[i] -= 1
+			self.kcluster = self.kcluster - 1 + tonum
 
-			del cluster_centers_[k]
+			del self.cluster_centers_[k]
 			for i in tmpcenters:
-				cluster_centers_.append(i)
+				self.cluster_centers_.append(i)
 			pass
 		return
 
 
 	def printclusterdetail(self):
 		writeln('cluster    sum rsum usum  rpos rneg upos uneg  Precision Accuracy Recall')
-		for i in xrange(kcluster):
+		for i in xrange(self.kcluster):
 			writeln('Cluster%2d:%4d %4d %4d  %4d %4d %4d %4d  %9.4f %8.4f %6.4f'%(
-				i,(rpos[i]+rneg[i]+upos[i]+uneg[i]),(rpos[i]+rneg[i]),(upos[i]+uneg[i]),
-				rpos[i],rneg[i],upos[i],uneg[i],
-				rpos[i]*1.0/(rpos[i] + upos[i] + 1),
-				(rpos[i] + uneg[i])*1.0/(rpos[i] + rneg[i] + upos[i] + uneg[i] + 1),
-				rpos[i]*1.0/(rpos[i] + rneg[i] + 1)
+				i,(self.rpos[i]+self.rneg[i]+self.upos[i]+self.uneg[i]),(self.rpos[i]+self.rneg[i]),(self.upos[i]+self.uneg[i]),
+				self.rpos[i],self.rneg[i],self.upos[i],self.uneg[i],
+				self.rpos[i]*1.0/(self.rpos[i] + self.upos[i] + 1),
+				(self.rpos[i] + self.uneg[i])*1.0/(self.rpos[i] + self.rneg[i] + self.upos[i] + self.uneg[i] + 1),
+				self.rpos[i]*1.0/(self.rpos[i] + self.rneg[i] + 1)
 				)
 			)
 		writeln('Detail test end')
